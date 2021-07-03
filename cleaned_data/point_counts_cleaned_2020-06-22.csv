@@ -1,0 +1,1513 @@
+ObserverID,Year,Month,Day,SurveyID,StartTime,Point,Minute,SpeciesCode,Species,Distance,How,Visual,Sex,Migrating,ClusterSize,ClusterCode,Notes,SpeciesName,SpeciesGroup
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,1.0,DICK,Dickcissel,30.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,1.0,AMCR,American Crow,700.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,1.0,BHCO,Brown-headed Cowbird,175.0,Visual,1,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,1.0,AMRO,American Robin,90.0,Song,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,1.0,AMRO,American Robin,250.0,Call,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,1.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,1.0,RNEP,Ring-necked Pheasant,250.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,2.0,RNEP,Ring-necked Pheasant,300.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,2.0,RNEP,Ring-necked Pheasant,400.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,2.0,EAME,Eastern Meadowlark,225.0,Song,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,3.0,DICK,Dickcissel,200.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,3.0,DICK,Dickcissel,300.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,3.0,BHCO,Brown-headed Cowbird,175.0,Visual,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,3.0,BHCO,Brown-headed Cowbird,175.0,Visual,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,3.0,VESP,Vesper Sparrow,300.0,Call,0,Unknown,0,1.0,,,Vesper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,3.0,DICK,Dickcissel,225.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,3.0,DICK,Dickcissel,225.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,4.0,RWBL,Red-winged Blackbird,200.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,4.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,4.0,EAME,Eastern Meadowlark,150.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,5.0,MODO,Mourning Dove,600.0,Song,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,5.0,RNEP,Ring-necked Pheasant,300.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,6.0,KILL,Killdeer,100.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,6.0,SOSP,Song Sparrow,125.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.1,1,6.0,COGR,Common Grackle,125.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,1.0,DICK,Dickcissel,50.0,Call,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,1.0,DICK,Dickcissel,80.0,Song,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,1.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,1.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,1.0,RWBL,Red-winged Blackbird,50.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,1.0,RWBL,Red-winged Blackbird,60.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,2.0,EAME,Eastern Meadowlark,100.0,Call,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,2.0,EAME,Eastern Meadowlark,125.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,2.0,BHCO,Brown-headed Cowbird,125.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,2.0,RWBL,Red-winged Blackbird,100.0,Call,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,2.0,RWBL,Red-winged Blackbird,200.0,Call,0,Unknown,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,2.0,ROPI,Rock Pigeon,275.0,Visual,1,Unknown,0,3.0,A,,Rock,Pigeon
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,2.0,ROPI,Rock Pigeon,275.0,Visual,1,Unknown,0,2.0,A,,Rock,Pigeon
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,2.0,BARS,Barn Swallow,75.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,3.0,MALL,Mallard,125.0,Visual,1,Male,0,2.0,B,,Mallard,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,3.0,MALL,Mallard,125.0,Visual,1,Female,0,1.0,B,,Mallard,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,5.0,RWBL,Red-winged Blackbird,50.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,6.0,AMCR,American Crow,700.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.37,2,6.0,AMCR,American Crow,300.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,0.0,88,88.0,AMGO,American Goldfinch,133.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,0.0,88,88.0,WITU,Wild Turkey,133.0,Call,0,Unknown,0,1.0,,,Wild,Turkey
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,1.0,SOSP,Song Sparrow,75.0,Visual,1,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,1.0,HOWR,House Wren,250.0,Song,0,Unknown,0,1.0,,,House,Wren
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,1.0,NOCA,Northern Cardinal,350.0,Call,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,1.0,SOSP,Song Sparrow,100.0,Song,1,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,1.0,EAME,Eastern Meadowlark,200.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,1.0,DICK,Dickcissel,50.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,1.0,DICK,Dickcissel,100.0,Song,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,2.0,EAME,Eastern Meadowlark,150.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,2.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,2.0,RWBL,Red-winged Blackbird,200.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,2.0,EUCD,Eurasian Collared-Dove,1000.0,Call,0,Unknown,0,1.0,,,Eurasian,Collared-Dove
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,3.0,EAKI,Eastern Kingbird,150.0,Visual,1,Unknown,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,3.0,BARS,Barn Swallow,75.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,3.0,BARS,Barn Swallow,75.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,3.0,CLSW,Cliff Swallow,75.0,Visual,1,Unknown,0,1.0,,,Cliff,Swallow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,3.0,CLSW,Cliff Swallow,75.0,Visual,1,Unknown,0,1.0,,,Cliff,Swallow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,4.0,CLSW,Cliff Swallow,40.0,Visual,1,Unknown,0,1.0,,,Cliff,Swallow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,4.0,CLSW,Cliff Swallow,100.0,Visual,1,Unknown,0,1.0,,,Cliff,Swallow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,5.0,BHCO,Brown-headed Cowbird,100.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,5.0,DICK,Dickcissel,150.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,5.0,GRSP,Grasshopper Sparrow,200.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,6.62,3,6.0,RNEP,Ring-necked Pheasant,250.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,1.0,EAME,Eastern Meadowlark,100.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,1.0,EAME,Eastern Meadowlark,200.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,1.0,GRSP,Grasshopper Sparrow,150.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,1.0,RWBL,Red-winged Blackbird,30.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,1.0,RWBL,Red-winged Blackbird,80.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,1.0,RWBL,Red-winged Blackbird,50.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,1.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,1.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,1.0,BHCO,Brown-headed Cowbird,150.0,Visual,1,Male,0,2.0,C,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,1.0,BHCO,Brown-headed Cowbird,150.0,Visual,1,Female,0,4.0,C,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,1.0,DICK,Dickcissel,40.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,1.0,DICK,Dickcissel,75.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,1.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,1.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,2.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,3.0,SOSP,Song Sparrow,75.0,Visual,1,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,3.0,SOSP,Song Sparrow,25.0,Visual,1,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,5.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.0,4,6.0,BARS,Barn Swallow,100.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,1.0,AMGO,American Goldfinch,50.0,Call,1,Male,0,2.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,1.0,BHCO,Brown-headed Cowbird,125.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,1.0,AMRO,American Robin,300.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,1.0,SOSP,Song Sparrow,75.0,Visual,1,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,1.0,BARS,Barn Swallow,50.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,1.0,COGR,Common Grackle,100.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,2.0,DICK,Dickcissel,50.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,3.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,3.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,3.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,3.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,3.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,3.0,SOSP,Song Sparrow,125.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,3.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,3.0,RWBL,Red-winged Blackbird,200.0,Call,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,3.0,RWBL,Red-winged Blackbird,200.0,Call,0,Unknown,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,4.0,EAME,Eastern Meadowlark,50.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,4.0,EAME,Eastern Meadowlark,100.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,4.0,EAME,Eastern Meadowlark,100.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,5.0,NOCA,Northern Cardinal,400.0,Call,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,5.0,CHSP,Chipping Sparrow,400.0,Call,0,Unknown,0,1.0,,,Chipping,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,6.0,RNEP,Ring-necked Pheasant,300.0,Visual,1,Male,0,1.0,D,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,6.0,RNEP,Ring-necked Pheasant,300.0,Visual,1,Female,0,1.0,D,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.23,5,6.0,KILL,Killdeer,350.0,Visual,1,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,1.0,NOMO,Northern Mockingbird,175.0,Song,0,Unknown,0,1.0,,,Northern,Mockingbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,1.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,1.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,1.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,2.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,2.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,2.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,2.0,SOSP,Song Sparrow,125.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,2.0,SOSP,Song Sparrow,175.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,2.0,EAME,Eastern Meadowlark,100.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,2.0,EAME,Eastern Meadowlark,200.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,3.0,AMGO,American Goldfinch,100.0,Song,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,3.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,3.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,3.0,KILL,Killdeer,100.0,Visual,1,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,7.47,6,5.0,COGR,Common Grackle,125.0,Visual,1,Unknown,0,3.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,1.0,HOFI,House Finch,50.0,Song,0,Unknown,0,1.0,,,House,Finch
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,1.0,AMRO,American Robin,30.0,Visual,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,1.0,AMRO,American Robin,50.0,Visual,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,1.0,EUST,European Starling,75.0,Visual,1,Unknown,0,1.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,1.0,COYE,Common Yellowthroat,150.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,1.0,RWBL,Red-winged Blackbird,50.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,1.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,1.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,1.0,RWBL,Red-winged Blackbird,50.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,2.0,BARS,Barn Swallow,50.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,2.0,INBU,Indigo Bunting,50.0,Call,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,2.0,DICK,Dickcissel,100.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,2.0,DICK,Dickcissel,125.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,2.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,2.0,SOSP,Song Sparrow,50.0,Visual,1,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,2.0,SOSP,Song Sparrow,50.0,Visual,1,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,3.0,AMRO,American Robin,60.0,Visual,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,3.0,AMRO,American Robin,60.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,3.0,RNEP,Ring-necked Pheasant,300.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,4.0,HOSP,House Sparrow,60.0,Call,0,Unknown,0,1.0,,,House,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,4.0,EAME,Eastern Meadowlark,125.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,4.0,MODO,Mourning Dove,50.0,Visual,1,Unknown,0,2.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.13,7,5.0,COGR,Common Grackle,40.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,1.0,AMGO,American Goldfinch,45.0,Visual,1,Male,0,1.0,E,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,1.0,AMGO,American Goldfinch,45.0,Visual,1,Female,0,1.0,E,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,1.0,HOWR,House Wren,250.0,Song,0,Unknown,0,1.0,,,House,Wren
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,1.0,DICK,Dickcissel,75.0,Visual,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,1.0,DICK,Dickcissel,100.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,1.0,MODO,Mourning Dove,225.0,Call,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,1.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,2.0,SAVS,Savannah Sparrow,60.0,Visual,1,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,2.0,SAVS,Savannah Sparrow,60.0,Visual,1,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,3.0,MODO,Mourning Dove,125.0,Visual,1,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,3.0,MODO,Mourning Dove,125.0,Visual,1,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,3.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,3.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,3.0,RWBL,Red-winged Blackbird,225.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,3.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,3.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,4.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,4.0,EAME,Eastern Meadowlark,100.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,4.0,EAME,Eastern Meadowlark,175.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,5.0,BHCO,Brown-headed Cowbird,50.0,Visual,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,5.0,BHCO,Brown-headed Cowbird,100.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,5.0,CLSW,Cliff Swallow,75.0,Visual,1,Unknown,0,1.0,,,Cliff,Swallow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,6.0,NOCA,Northern Cardinal,250.0,Call,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,6.0,COGR,Common Grackle,125.0,Call,0,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.47,8,6.0,RWBL,Red-winged Blackbird,90.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,1.0,SAVS,Savannah Sparrow,50.0,Song,0,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,1.0,EAME,Eastern Meadowlark,100.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,1.0,DICK,Dickcissel,40.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,1.0,DICK,Dickcissel,120.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,1.0,DICK,Dickcissel,120.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,1.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,1.0,GRSP,Grasshopper Sparrow,125.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,1.0,EAME,Eastern Meadowlark,100.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,2.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,2.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,2.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,2.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,2.0,RWBL,Red-winged Blackbird,80.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,2.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,3.0,KILL,Killdeer,150.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,3.0,GRSP,Grasshopper Sparrow,130.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,4.0,AMRO,American Robin,100.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,4.0,BHCO,Brown-headed Cowbird,125.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,5.0,EAME,Eastern Meadowlark,100.0,Visual,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,5.0,MODO,Mourning Dove,250.0,Song,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,6.0,AMGO,American Goldfinch,100.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,6.0,DICK,Dickcissel,150.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,6.0,DICK,Dickcissel,150.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,6.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,27.0,J&W,8.62,9,6.0,SAVS,Savannah Sparrow,150.0,Song,0,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,1.0,DICK,Dickcissel,100.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,1.0,AMRO,American Robin,250.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,1.0,DICK,Dickcissel,125.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,1.0,DICK,Dickcissel,125.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,1.0,DICK,Dickcissel,125.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,1.0,EAME,Eastern Meadowlark,125.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,1.0,RNEP,Ring-necked Pheasant,150.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,1.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,1.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,1.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,1.0,SAVS,Savannah Sparrow,80.0,Song,0,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,1.0,GRSP,Grasshopper Sparrow,75.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,1.0,DICK,Dickcissel,45.0,Visual,1,Unknown,0,2.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,2.0,MALL,Mallard,175.0,Visual,1,Male,0,1.0,,,Mallard,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,2.0,RNEP,Ring-necked Pheasant,200.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,2.0,COGR,Common Grackle,75.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,2.0,DICK,Dickcissel,50.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,3.0,DICK,Dickcissel,50.0,Visual,1,Unknown,0,2.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,3.0,AMCO,American Coot,150.0,Call,0,Unknown,0,1.0,,,American,Coot
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,3.0,BHCO,Brown-headed Cowbird,125.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,4.0,BHCO,Brown-headed Cowbird,100.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,4.0,AMCR,American Crow,200.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,4.0,NOCA,Northern Cardinal,250.0,Call,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,5.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,5.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,5.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,5.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,5.0,EAME,Eastern Meadowlark,125.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,6.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,6.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.67,1,6.0,MODO,Mourning Dove,250.0,Call,1,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,1.0,DICK,Dickcissel,75.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,1.0,AMGO,American Goldfinch,100.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,1.0,KILL,Killdeer,125.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,1.0,GBHE,Great Blue Heron,300.0,Visual,1,Unknown,0,1.0,,,Great Blue,Heron
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,1.0,EAME,Eastern Meadowlark,100.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,1.0,RWBL,Red-winged Blackbird,50.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,1.0,HOLA,Horned Lark,125.0,Call,0,Unknown,0,1.0,,,Horned,Lark
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,1.0,RNEP,Ring-necked Pheasant,150.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,1.0,BHCO,Brown-headed Cowbird,75.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,2.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,2.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,2.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,2.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,2.0,RWBL,Red-winged Blackbird,50.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,2.0,RWBL,Red-winged Blackbird,60.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,2.0,EAME,Eastern Meadowlark,80.0,Visual,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,3.0,DICK,Dickcissel,50.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,3.0,DICK,Dickcissel,100.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,3.0,DICK,Dickcissel,75.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,3.0,DICK,Dickcissel,75.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,3.0,RWBL,Red-winged Blackbird,125.0,Visual,0,Unknown,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,3.0,GRSP,Grasshopper Sparrow,100.0,Call,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,4.0,PUMA,Purple Martin,125.0,Call,0,Unknown,0,1.0,,,Purple,Martin
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,5.0,AMGO,American Goldfinch,50.0,Visual,1,Male,0,1.0,A,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,5.0,AMGO,American Goldfinch,50.0,Visual,1,Female,0,1.0,A,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,6.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,5.9,2,6.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,0.0,88,88.0,BARS,Barn Swallow,133.0,Visual,0,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,1.0,GRSP,Grasshopper Sparrow,60.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,1.0,GRSP,Grasshopper Sparrow,80.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,1.0,HOLA,Horned Lark,100.0,Call,0,Unknown,0,1.0,,,Horned,Lark
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,1.0,DICK,Dickcissel,100.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,1.0,DICK,Dickcissel,50.0,Visual,1,Unknown,0,2.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,1.0,RWBL,Red-winged Blackbird,50.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,1.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Male,0,3.0,B,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,1.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Female,0,2.0,B,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,2.0,GRSP,Grasshopper Sparrow,90.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,2.0,SAVS,Savannah Sparrow,30.0,Visual,1,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,2.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,2.0,RWBL,Red-winged Blackbird,80.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,2.0,RWBL,Red-winged Blackbird,80.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,2.0,RWBL,Red-winged Blackbird,70.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,2.0,SAVS,Savannah Sparrow,80.0,Song,0,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,2.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,3.0,DICK,Dickcissel,50.0,Visual,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,3.0,DICK,Dickcissel,50.0,Visual,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,3.0,DICK,Dickcissel,80.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,3.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,3.0,DICK,Dickcissel,50.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,3.0,BHCO,Brown-headed Cowbird,50.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,3.0,KILL,Killdeer,200.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,3.0,RNEP,Ring-necked Pheasant,300.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,4.0,ROPI,Rock Pigeon,400.0,Visual,1,Unknown,0,3.0,,,Rock,Pigeon
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,5.0,RWBL,Red-winged Blackbird,80.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,6.0,NOCA,Northern Cardinal,500.0,Song,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,6.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.12,3,6.0,RWBL,Red-winged Blackbird,110.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,1.0,DICK,Dickcissel,50.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,1.0,DICK,Dickcissel,50.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,1.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,1.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,1.0,RWBL,Red-winged Blackbird,60.0,Visual,1,Female,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,1.0,RWBL,Red-winged Blackbird,60.0,Visual,1,Female,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,1.0,RWBL,Red-winged Blackbird,80.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,1.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,1.0,AMRO,American Robin,40.0,Visual,1,Unknown,0,2.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,2.0,GRSP,Grasshopper Sparrow,55.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,2.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,2.0,EAME,Eastern Meadowlark,75.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,2.0,AMGO,American Goldfinch,100.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,2.0,KILL,Killdeer,100.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,3.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,3.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,4.0,EUST,European Starling,150.0,Visual,1,Unknown,0,1.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,5.0,KILL,Killdeer,125.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,5.0,BHCO,Brown-headed Cowbird,125.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,6.0,BARS,Barn Swallow,50.0,Visual,1,Unknown,0,2.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.33,4,6.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,1.0,GRSP,Grasshopper Sparrow,30.0,Visual,1,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,1.0,DICK,Dickcissel,50.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,1.0,EAME,Eastern Meadowlark,150.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,1.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,1.0,HOLA,Horned Lark,125.0,Call,0,Unknown,0,1.0,,,Horned,Lark
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,2.0,BHCO,Brown-headed Cowbird,100.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,2.0,DICK,Dickcissel,175.0,Visual,1,Unknown,0,2.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,2.0,GRSP,Grasshopper Sparrow,40.0,Visual,1,Unknown,0,2.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,2.0,MODO,Mourning Dove,100.0,Call,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,3.0,KILL,Killdeer,60.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,3.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,3.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,4.0,BHCO,Brown-headed Cowbird,100.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,4.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,5.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,6.0,KILL,Killdeer,50.0,Visual,1,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.53,5,6.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,1.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,1.0,GRSP,Grasshopper Sparrow,75.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,1.0,DICK,Dickcissel,110.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,1.0,DICK,Dickcissel,120.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,1.0,DICK,Dickcissel,120.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,1.0,DICK,Dickcissel,60.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,1.0,KILL,Killdeer,75.0,Visual,1,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,1.0,EAME,Eastern Meadowlark,90.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,1.0,BARS,Barn Swallow,75.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,1.0,MODO,Mourning Dove,125.0,Call,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,1.0,GRSP,Grasshopper Sparrow,30.0,Visual,1,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,2.0,DICK,Dickcissel,50.0,Call,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,2.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,3.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,3.0,EAME,Eastern Meadowlark,45.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,4.0,HOLA,Horned Lark,125.0,Call,0,Unknown,0,1.0,,,Horned,Lark
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,4.0,RWBL,Red-winged Blackbird,80.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,5.0,AMCR,American Crow,200.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,5.0,SAVS,Savannah Sparrow,75.0,Visual,1,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,28.0,DQ-80,6.78,6,6.0,COGR,Common Grackle,125.0,Visual,1,Unknown,0,2.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,1.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,1.0,KILL,Killdeer,150.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,1.0,MODO,Mourning Dove,150.0,Visual,1,Unknown,0,2.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,1.0,DICK,Dickcissel,100.0,Song,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,1.0,COGR,Common Grackle,125.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,1.0,BARS,Barn Swallow,150.0,Visual,1,Unknown,0,3.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,1.0,AMCR,American Crow,200.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,1.0,RWBL,Red-winged Blackbird,90.0,Visual,1,Male,0,4.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,1.0,RWBL,Red-winged Blackbird,130.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,1.0,CHSP,Chipping Sparrow,150.0,Song,0,Unknown,0,1.0,,,Chipping,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,2.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,2.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,3.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,4.0,BLJA,Blue Jay,150.0,Visual,1,Unknown,0,1.0,,,Blue,Jay
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,5.0,COGR,Common Grackle,175.0,Visual,1,Unknown,0,2.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,5.0,SOSP,Song Sparrow,125.0,Song,1,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,6.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,6.0,CHSP,Chipping Sparrow,80.0,Visual,1,Unknown,0,1.0,,,Chipping,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.75,1,6.0,DICK,Dickcissel,100.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,1.0,BARS,Barn Swallow,50.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,1.0,COYE,Common Yellowthroat,90.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,1.0,DICK,Dickcissel,80.0,Song,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,1.0,DICK,Dickcissel,110.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,1.0,DICK,Dickcissel,120.0,Song,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,1.0,DICK,Dickcissel,120.0,Song,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,1.0,DICK,Dickcissel,150.0,Song,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,1.0,SOSP,Song Sparrow,90.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,1.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,1.0,COGR,Common Grackle,200.0,Visual,1,Unknown,0,2.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,4.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,2.0,AMCR,American Crow,250.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,2.0,MODO,Mourning Dove,225.0,Visual,1,Unknown,0,3.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,2.0,BHCO,Brown-headed Cowbird,100.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,2.0,AMRO,American Robin,300.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,2.0,DICK,Dickcissel,100.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,3.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,3.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,3.0,COGR,Common Grackle,175.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,3.0,HOLA,Horned Lark,125.0,Call,0,Unknown,0,1.0,,,Horned,Lark
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,4.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,2.0,A,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,4.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Female,0,1.0,A,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,4.0,NOCA,Northern Cardinal,200.0,Song,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,5.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,6.0,BHCO,Brown-headed Cowbird,100.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.52,2,6.0,BARS,Barn Swallow,125.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,1.0,DICK,Dickcissel,75.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,1.0,BHCO,Brown-headed Cowbird,100.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,1.0,AMRO,American Robin,250.0,Call,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,1.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,1.0,COGR,Common Grackle,300.0,Visual,1,Unknown,0,3.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,1.0,AMGO,American Goldfinch,65.0,Visual,1,Male,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,2.0,AMGO,American Goldfinch,80.0,Visual,1,Male,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,3.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,3.0,COYE,Common Yellowthroat,80.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,3.0,DICK,Dickcissel,75.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,3.0,DICK,Dickcissel,75.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,3.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,3.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,3.0,DICK,Dickcissel,200.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,3.0,RNEP,Ring-necked Pheasant,100.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,3.0,EAME,Eastern Meadowlark,150.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,4.0,DICK,Dickcissel,175.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,4.0,COGR,Common Grackle,150.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,4.0,BARS,Barn Swallow,100.0,Call,0,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,5.0,WIFL,Willow Flycatcher,300.0,Song,0,Unknown,0,1.0,,,Willow,Flycatcher
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,5.0,RNEP,Ring-necked Pheasant,400.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,5.0,BOBO,Bobolink,100.0,Visual,1,Female,0,2.0,,,Bobolink,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,5.0,AMGO,American Goldfinch,80.0,Visual,1,Male,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.32,3,6.0,VESP,Vesper Sparrow,150.0,Song,0,Unknown,0,1.0,,,Vesper,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,1.0,DICK,Dickcissel,150.0,Song,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,1.0,OROR,Orchard Oriole,90.0,Song,0,Unknown,0,1.0,,,Orchard,Oriole
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,1.0,RWBL,Red-winged Blackbird,50.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,1.0,SOSP,Song Sparrow,75.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,1.0,AMCR,American Crow,200.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,1.0,BRTH,Brown Thrasher,125.0,Song,0,Unknown,0,1.0,,,Brown,Thrasher
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,1.0,BRTH,Brown Thrasher,150.0,Song,0,Unknown,0,1.0,,,Brown,Thrasher
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,1.0,COYE,Common Yellowthroat,100.0,Song,1,Male,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,1.0,CHSP,Chipping Sparrow,150.0,Song,0,Unknown,0,1.0,,,Chipping,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,1.0,COGR,Common Grackle,75.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,1.0,RWBL,Red-winged Blackbird,80.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,1.0,RWBL,Red-winged Blackbird,130.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,1.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Female,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,1.0,RWBL,Red-winged Blackbird,175.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,2.0,DICK,Dickcissel,70.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,2.0,DICK,Dickcissel,175.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,2.0,DICK,Dickcissel,120.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,2.0,DICK,Dickcissel,120.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,3.0,RWBL,Red-winged Blackbird,225.0,Visual,1,Male,0,3.0,B,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,3.0,RWBL,Red-winged Blackbird,225.0,Visual,1,Female,0,3.0,B,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,3.0,DICK,Dickcissel,40.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,3.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,4.0,BOBO,Bobolink,175.0,Visual,1,Male,0,1.0,C,,Bobolink,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,4.0,BOBO,Bobolink,175.0,Visual,1,Female,0,1.0,C,,Bobolink,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,5.0,CANG,Canada Goose,90.0,Visual,1,Unknown,0,12.0,,,Canada,Goose
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,6.0,BARS,Barn Swallow,50.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,6.0,COYE,Common Yellowthroat,125.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,6.0,COGR,Common Grackle,50.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,6.0,SOSP,Song Sparrow,125.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,6.0,AMGO,American Goldfinch,60.0,Visual,1,Male,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,6.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,6.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,4.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,7.0,4,6.0,COGR,Common Grackle,75.0,Visual,1,Unknown,0,2.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,1.0,OROR,Orchard Oriole,40.0,Song,1,Unknown,0,1.0,,,Orchard,Oriole
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,1.0,DICK,Dickcissel,110.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,1.0,RWBL,Red-winged Blackbird,30.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,1.0,HOWR,House Wren,50.0,Song,1,Unknown,0,1.0,,,House,Wren
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,1.0,MODO,Mourning Dove,75.0,Call,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,1.0,CHSP,Chipping Sparrow,75.0,Song,0,Unknown,0,1.0,,,Chipping,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,1.0,CANG,Canada Goose,60.0,Visual,1,Unknown,0,1.0,,,Canada,Goose
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,1.0,RNEP,Ring-necked Pheasant,200.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,1.0,COYE,Common Yellowthroat,150.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,1.0,INBU,Indigo Bunting,100.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,1.0,WIFL,Willow Flycatcher,60.0,Song,0,Unknown,0,1.0,,,Willow,Flycatcher
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,1.0,COGR,Common Grackle,200.0,Visual,1,Unknown,0,4.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,1.0,EAME,Eastern Meadowlark,100.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,1.0,COGR,Common Grackle,50.0,Visual,1,Unknown,0,2.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,2.0,AMRO,American Robin,40.0,Visual,1,Unknown,0,2.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,2.0,EAKI,Eastern Kingbird,100.0,Call,0,Unknown,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,2.0,TRES,Tree Swallow,50.0,Visual,1,Unknown,0,1.0,,,Tree,Swallow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,2.0,SOSP,Song Sparrow,30.0,Visual,1,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,2.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,2.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,2.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,2.0,BHCO,Brown-headed Cowbird,30.0,Visual,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,2.0,EUST,European Starling,50.0,Visual,1,Unknown,0,1.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,2.0,AMGO,American Goldfinch,75.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,2.0,AMCR,American Crow,300.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,3.0,COGR,Common Grackle,100.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,3.0,RWBL,Red-winged Blackbird,25.0,Visual,1,Male,0,4.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,3.0,RWBL,Red-winged Blackbird,30.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,3.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,3.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,3.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,3.0,RWBL,Red-winged Blackbird,125.0,Call,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,3.0,RWBL,Red-winged Blackbird,140.0,Call,0,Unknown,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,3.0,RNEP,Ring-necked Pheasant,300.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,3.0,RNEP,Ring-necked Pheasant,300.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,3.0,NOCA,Northern Cardinal,200.0,Song,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,3.0,CANG,Canada Goose,75.0,Visual,1,Unknown,0,2.0,,,Canada,Goose
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,3.0,CANG,Canada Goose,75.0,Visual,1,Unknown,0,20.0,,,Canada,Goose
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,3.0,MODO,Mourning Dove,125.0,Call,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,3.0,INBU,Indigo Bunting,125.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,4.0,RNEP,Ring-necked Pheasant,275.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,4.0,AMCR,American Crow,300.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,4.0,AMCR,American Crow,300.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,4.0,SOSP,Song Sparrow,100.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,4.0,COGR,Common Grackle,200.0,Visual,1,Unknown,0,6.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,5.0,GRHE,Green Heron,100.0,Call,0,Unknown,0,1.0,,,Green,Heron
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,5.0,TRES,Tree Swallow,30.0,Visual,1,Unknown,0,1.0,,,Tree,Swallow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,5.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Unknown,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,5.0,WODU,Wood Duck,75.0,Call,1,Female,0,1.0,,,Wood,Duck
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,5.0,WAVI,Warbling Vireo,125.0,Song,0,Unknown,0,1.0,,,Warbling,Vireo
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,6.0,FISP,Field Sparrow,75.0,Song,0,Unknown,0,1.0,,,Field,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,6.0,CEDW,Cedar Waxwing,75.0,Call,0,Unknown,0,1.0,,,Cedar,Waxwing
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.47,5,6.0,HOWR,House Wren,100.0,Call,0,Unknown,0,1.0,,,House,Wren
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,0.0,88,88.0,CHSW,Chimney Swift,133.0,Call,0,Unknown,0,1.0,,,Chimney,Swift
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,0.0,88,88.0,BLGR,Blue Grosbeak,133.0,Call,0,Unknown,0,1.0,,,Blue,Grosbeak
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,1.0,CEDW,Cedar Waxwing,75.0,Call,1,Unknown,0,3.0,,,Cedar,Waxwing
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,1.0,YEWA,Yellow Warbler,100.0,Song,0,Unknown,0,1.0,,,Yellow,Warbler
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,1.0,DICK,Dickcissel,85.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,1.0,EAME,Eastern Meadowlark,125.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,1.0,SOSP,Song Sparrow,100.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,1.0,COYE,Common Yellowthroat,80.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,1.0,AMRO,American Robin,100.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,1.0,AMGO,American Goldfinch,100.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,1.0,AMCR,American Crow,275.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,1.0,RNEP,Ring-necked Pheasant,95.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,1.0,CHSP,Chipping Sparrow,115.0,Song,0,Unknown,0,1.0,,,Chipping,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,1.0,EAKI,Eastern Kingbird,140.0,Call,0,Unknown,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,1.0,BHCO,Brown-headed Cowbird,75.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,2.0,INBU,Indigo Bunting,50.0,Visual,1,Male,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,2.0,DICK,Dickcissel,100.0,Song,1,Unknown,0,2.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,3.0,MODO,Mourning Dove,175.0,Call,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,3.0,MODO,Mourning Dove,150.0,Call,1,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,3.0,EAME,Eastern Meadowlark,150.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,3.0,AMGO,American Goldfinch,100.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,3.0,GRCA,Gray Catbird,175.0,Song,0,Unknown,0,1.0,,,Gray,Catbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,3.0,RNEP,Ring-necked Pheasant,200.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,4.0,EAKI,Eastern Kingbird,90.0,Call,0,Unknown,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,4.0,SOSP,Song Sparrow,100.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,4.0,INBU,Indigo Bunting,70.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,4.0,INBU,Indigo Bunting,90.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,4.0,RWBL,Red-winged Blackbird,110.0,Call,0,Unknown,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,4.0,DICK,Dickcissel,100.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,4.0,DICK,Dickcissel,100.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,4.0,DICK,Dickcissel,130.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,4.0,RWBL,Red-winged Blackbird,80.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,4.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,4.0,RWBL,Red-winged Blackbird,110.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,5.0,COGR,Common Grackle,30.0,Visual,1,Unknown,0,4.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,5.0,COYE,Common Yellowthroat,150.0,Call,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,5.0,COGR,Common Grackle,50.0,Visual,1,Unknown,0,2.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,5.0,INBU,Indigo Bunting,125.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,5.0,AMRO,American Robin,150.0,Call,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,5.0,KILL,Killdeer,250.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,5.0,GRCA,Gray Catbird,40.0,Call,1,Unknown,0,1.0,,,Gray,Catbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,6.0,COGR,Common Grackle,60.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,6.0,AMGO,American Goldfinch,150.0,Visual,1,Male,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,6.0,COGR,Common Grackle,100.0,Visual,1,Unknown,0,4.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,5.9,6,6.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Male,0,3.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,1.0,RWBL,Red-winged Blackbird,120.0,Visual,1,Male,0,4.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,1.0,EAME,Eastern Meadowlark,150.0,Visual,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,1.0,RNEP,Ring-necked Pheasant,250.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,1.0,FISP,Field Sparrow,40.0,Visual,1,Unknown,0,1.0,,,Field,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,1.0,DICK,Dickcissel,80.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,1.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,1.0,AMCR,American Crow,175.0,Call,1,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,2.0,MODO,Mourning Dove,110.0,Visual,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,2.0,DICK,Dickcissel,110.0,Visual,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,2.0,DICK,Dickcissel,130.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,2.0,DICK,Dickcissel,130.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,2.0,FISP,Field Sparrow,120.0,Song,0,Unknown,0,1.0,,,Field,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,2.0,SOSP,Song Sparrow,75.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,2.0,BHCO,Brown-headed Cowbird,100.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,2.0,BHCO,Brown-headed Cowbird,75.0,Visual,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,3.0,WIFL,Willow Flycatcher,175.0,Call,0,Unknown,0,1.0,,,Willow,Flycatcher
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,3.0,RWBL,Red-winged Blackbird,200.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,4.0,RNEP,Ring-necked Pheasant,500.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,5.0,BARS,Barn Swallow,30.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,5.0,COGR,Common Grackle,35.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,5.0,RWBL,Red-winged Blackbird,20.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,6.0,COYE,Common Yellowthroat,75.0,Visual,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,6.0,DICK,Dickcissel,140.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.18,7,6.0,EAME,Eastern Meadowlark,120.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,1.0,BARS,Barn Swallow,100.0,Visual,1,Unknown,0,6.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,1.0,RWBL,Red-winged Blackbird,50.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,1.0,RWBL,Red-winged Blackbird,50.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,1.0,COGR,Common Grackle,100.0,Visual,1,Unknown,0,3.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,1.0,COYE,Common Yellowthroat,75.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,1.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,1.0,BHCO,Brown-headed Cowbird,75.0,Visual,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,1.0,SOSP,Song Sparrow,60.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,1.0,DICK,Dickcissel,100.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,1.0,INBU,Indigo Bunting,90.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,1.0,AMRO,American Robin,80.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,2.0,RWBL,Red-winged Blackbird,120.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,2.0,DICK,Dickcissel,90.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,3.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,3.0,D,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,3.0,RWBL,Red-winged Blackbird,110.0,Visual,1,Female,0,1.0,D,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,3.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,4.0,GRCA,Gray Catbird,125.0,Call,0,Unknown,0,1.0,,,Gray,Catbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,5.0,NOBI,N o   B i r d,133.0,Song,0,Unknown,0,1.0,,,Error,Error
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.43,8,6.0,COGR,Common Grackle,150.0,Visual,1,Unknown,0,2.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,1.0,SOSP,Song Sparrow,80.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,1.0,EAKI,Eastern Kingbird,90.0,Call,0,Unknown,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,1.0,COGR,Common Grackle,150.0,Visual,1,Unknown,0,2.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,1.0,AMRO,American Robin,50.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,1.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,1.0,NOCA,Northern Cardinal,150.0,Call,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,1.0,KILL,Killdeer,175.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,1.0,EAME,Eastern Meadowlark,125.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,2.0,COGR,Common Grackle,75.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,2.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,2.0,AMGO,American Goldfinch,100.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,2.0,DICK,Dickcissel,100.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,2.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,2.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,2.0,BHCO,Brown-headed Cowbird,100.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,2.0,AMCR,American Crow,300.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,2.0,AMRO,American Robin,75.0,Song,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,3.0,FISP,Field Sparrow,100.0,Song,0,Unknown,0,1.0,,,Field,Sparrow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,4.0,AMRO,American Robin,125.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,4.0,BRTH,Brown Thrasher,75.0,Song,0,Unknown,0,1.0,,,Brown,Thrasher
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,5.0,BARS,Barn Swallow,100.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,5.0,29.0,R Wildlife Farm and Fields LLC,6.73,9,6.0,NOBI,N o   B i r d,133.0,Song,0,Unknown,0,1.0,,,Error,Error
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,DICK,Dickcissel,60.0,Visual,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,EAME,Eastern Meadowlark,100.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,HOWR,House Wren,300.0,Song,0,Unknown,0,1.0,,,House,Wren
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,SOSP,Song Sparrow,100.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,BLJA,Blue Jay,300.0,Call,0,Unknown,0,1.0,,,Blue,Jay
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,MODO,Mourning Dove,300.0,Call,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,NOCA,Northern Cardinal,300.0,Song,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,DICK,Dickcissel,75.0,Visual,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,DICK,Dickcissel,100.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,DICK,Dickcissel,130.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,DICK,Dickcissel,170.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,DICK,Dickcissel,150.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,RWBL,Red-winged Blackbird,140.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,1.0,RNEP,Ring-necked Pheasant,400.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,2.0,WITU,Wild Turkey,400.0,Call,0,Unknown,0,1.0,,,Wild,Turkey
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,2.0,RWBL,Red-winged Blackbird,200.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,2.0,RWBL,Red-winged Blackbird,250.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,3.0,WITU,Wild Turkey,300.0,Call,0,Unknown,0,1.0,,,Wild,Turkey
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,4.0,RNEP,Ring-necked Pheasant,300.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,4.0,EAME,Eastern Meadowlark,100.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,4.0,EAME,Eastern Meadowlark,125.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,4.0,RWBL,Red-winged Blackbird,140.0,Visual,1,Male,0,3.0,A,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,4.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Female,0,1.0,A,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,4.0,EABL,Eastern Bluebird,150.0,Call,0,Unknown,1,1.0,,,Eastern,Bluebird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,4.0,EAME,Eastern Meadowlark,150.0,Visual,1,Unknown,0,3.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,4.0,RTHA,Red-tailed Hawk,450.0,Visual,1,Unknown,0,1.0,,,Red-tailed,Hawk
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,5.0,COGR,Common Grackle,150.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,6.0,COGR,Common Grackle,250.0,Call,0,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,5.8,1,6.0,SAVS,Savannah Sparrow,80.0,Song,0,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,1.0,MODO,Mourning Dove,250.0,Call,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,1.0,RWBL,Red-winged Blackbird,80.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,1.0,DICK,Dickcissel,60.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,1.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,1.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,1.0,DICK,Dickcissel,130.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,1.0,DICK,Dickcissel,150.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,1.0,DICK,Dickcissel,150.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,2.0,PUMA,Purple Martin,60.0,Call,0,Unknown,0,1.0,,,Purple,Martin
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,2.0,COGR,Common Grackle,125.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,2.0,NOCA,Northern Cardinal,300.0,Call,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,2.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,2.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,3.0,AMRO,American Robin,300.0,Call,0,Unknown,0,2.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,3.0,BHCO,Brown-headed Cowbird,100.0,Call,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,3.0,AMGO,American Goldfinch,125.0,Call,1,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,4.0,NOBI,N o   B i r d,133.0,Song,0,Unknown,0,1.0,,,Error,Error
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,5.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,5.0,RNEP,Ring-necked Pheasant,400.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.02,2,6.0,EAME,Eastern Meadowlark,125.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,1.0,DICK,Dickcissel,75.0,Visual,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,1.0,RWBL,Red-winged Blackbird,60.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,1.0,EAME,Eastern Meadowlark,100.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,1.0,DICK,Dickcissel,75.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,1.0,DICK,Dickcissel,100.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,1.0,DICK,Dickcissel,110.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,1.0,DICK,Dickcissel,130.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,1.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,1.0,BHCO,Brown-headed Cowbird,125.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,2.0,BARS,Barn Swallow,130.0,Visual,0,Unknown,0,2.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,2.0,BRTH,Brown Thrasher,300.0,Song,0,Unknown,0,1.0,,,Brown,Thrasher
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,2.0,AMRO,American Robin,200.0,Visual,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,2.0,AMRO,American Robin,275.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,3.0,GCFL,Great Crested Flycatcher,300.0,Call,0,Unknown,0,1.0,,,Great Crested,Flycatcher
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,3.0,COYE,Common Yellowthroat,175.0,Call,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,3.0,SOSP,Song Sparrow,125.0,Call,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,4.0,SAVS,Savannah Sparrow,60.0,Visual,0,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,4.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,4.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,4.0,RWBL,Red-winged Blackbird,200.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,5.0,CARW,Carolina Wren,350.0,Song,0,Unknown,0,1.0,,,Carolina,Wren
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,5.0,INBU,Indigo Bunting,200.0,Call,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,6.0,BHCO,Brown-headed Cowbird,150.0,Visual,1,Male,0,2.0,C,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.2,3,6.0,BHCO,Brown-headed Cowbird,150.0,Visual,1,Female,0,3.0,C,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,0.0,88,88.0,GBHE,Great Blue Heron,133.0,Song,0,Unknown,0,1.0,,,Great Blue,Heron
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,1.0,DICK,Dickcissel,65.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,1.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Unknown,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,1.0,SOSP,Song Sparrow,125.0,Call,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,1.0,HOWR,House Wren,175.0,Song,0,Unknown,0,1.0,,,House,Wren
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,1.0,AMGO,American Goldfinch,100.0,Visual,1,Male,0,1.0,D,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,1.0,BHCO,Brown-headed Cowbird,125.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,1.0,AMGO,American Goldfinch,100.0,Visual,1,Female,0,2.0,D,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,1.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Female,0,1.0,F,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,2.0,F,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,1.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,2.0,CANG,Canada Goose,75.0,Visual,1,Unknown,1,25.0,,,Canada,Goose
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,2.0,CANG,Canada Goose,125.0,Visual,1,Unknown,1,28.0,,,Canada,Goose
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,2.0,BHCO,Brown-headed Cowbird,400.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,3.0,AMGO,American Goldfinch,350.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,3.0,MODO,Mourning Dove,100.0,Call,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,3.0,COYE,Common Yellowthroat,125.0,Call,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,3.0,DICK,Dickcissel,150.0,Song,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,3.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,3.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,3.0,DICK,Dickcissel,100.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,3.0,DICK,Dickcissel,125.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,3.0,AMRO,American Robin,140.0,Call,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,4.0,DICK,Dickcissel,175.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,4.0,DICK,Dickcissel,175.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,5.0,COGR,Common Grackle,130.0,Call,0,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,5.0,BHCO,Brown-headed Cowbird,100.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,5.0,INBU,Indigo Bunting,100.0,Call,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,6.0,RBWO,Red-bellied Woodpecker,200.0,Call,0,Unknown,0,1.0,,,Red-bellied,Woodpecker
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,6.0,BLJA,Blue Jay,200.0,Call,0,Unknown,0,1.0,,,Blue,Jay
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.4,4,6.0,EAWP,Eastern Wood-Pewee,250.0,Call,0,Unknown,0,1.0,,,Eastern,Wood-Pewee
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,1.0,EUST,European Starling,80.0,Visual,0,Unknown,0,1.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,1.0,HOWR,House Wren,50.0,Song,0,Unknown,0,1.0,,,House,Wren
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,1.0,HOWR,House Wren,90.0,Song,0,Unknown,0,1.0,,,House,Wren
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,1.0,CHSP,Chipping Sparrow,60.0,Song,0,Unknown,0,1.0,,,Chipping,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,1.0,NOCA,Northern Cardinal,100.0,Song,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,1.0,WBNU,White-breasted Nuthatch,100.0,Call,0,Unknown,0,1.0,,,White-breasted,Nuthatch
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,1.0,INBU,Indigo Bunting,90.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,1.0,COGR,Common Grackle,50.0,Visual,0,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,1.0,AMRO,American Robin,75.0,Visual,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,1.0,RBWO,Red-bellied Woodpecker,100.0,Call,0,Unknown,0,1.0,,,Red-bellied,Woodpecker
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,1.0,HOWR,House Wren,125.0,Call,0,Unknown,0,1.0,,,House,Wren
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,1.0,RWBL,Red-winged Blackbird,80.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,2.0,COGR,Common Grackle,100.0,Visual,0,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,2.0,EUST,European Starling,100.0,Visual,0,Unknown,0,2.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,2.0,DICK,Dickcissel,75.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,2.0,EAWP,Eastern Wood-Pewee,125.0,Song,0,Unknown,0,1.0,,,Eastern,Wood-Pewee
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,2.0,RHWO,Red-headed Woodpecker,80.0,Visual,0,Unknown,0,1.0,,,Red-headed,Woodpecker
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,2.0,AMGO,American Goldfinch,130.0,Visual,0,Unknown,0,2.0,F,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,2.0,AMGO,American Goldfinch,130.0,Visual,0,Unknown,0,2.0,F,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,2.0,BAOR,Baltimore Oriole,70.0,Visual,0,Unknown,0,1.0,,,Baltimore,Oriole
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,3.0,AMGO,American Goldfinch,170.0,Visual,1,Male,0,1.0,G,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,3.0,AMGO,American Goldfinch,170.0,Visual,1,Female,0,1.0,G,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,3.0,EUST,European Starling,75.0,Visual,1,Male,0,1.0,H,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,3.0,EUST,European Starling,75.0,Visual,1,Male,0,1.0,H,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,3.0,HOFI,House Finch,100.0,Call,1,Female,0,4.0,,,House,Finch
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,3.0,EAKI,Eastern Kingbird,100.0,Call,1,Juvenile,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,3.0,CEDW,Cedar Waxwing,125.0,Call,0,Unknown,0,1.0,,,Cedar,Waxwing
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,4.0,AMRO,American Robin,70.0,Visual,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,4.0,SOSP,Song Sparrow,100.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,5.0,PUMA,Purple Martin,150.0,Call,0,Unknown,0,1.0,,,Purple,Martin
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,5.0,EUST,European Starling,125.0,Visual,0,Unknown,0,1.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,5.0,AMGO,American Goldfinch,100.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,5.0,COGR,Common Grackle,125.0,Visual,0,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,5.0,AMRO,American Robin,100.0,Visual,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,6.0,GCFL,Great Crested Flycatcher,100.0,Call,0,Unknown,0,1.0,,,Great Crested,Flycatcher
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,6.0,AMRO,American Robin,125.0,Call,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,6.0,AMRO,American Robin,125.0,Call,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,6.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Female,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,6.0,COGR,Common Grackle,125.0,Visual,0,Unknown,0,2.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,6.0,BRTH,Brown Thrasher,100.0,Visual,0,Unknown,0,1.0,,,Brown,Thrasher
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,6.0,OROR,Orchard Oriole,120.0,Visual,1,Male,0,1.0,,,Orchard,Oriole
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,6.95,5,6.0,BLJA,Blue Jay,125.0,Visual,0,Unknown,0,1.0,,,Blue,Jay
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,0.0,88,88.0,RTHU,Ruby-throated Hummingbird,133.0,Song,0,Unknown,0,1.0,,,Ruby-throated,Hummingbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,0.0,88,88.0,YBFL,Yellow-bellied Flycatcher,133.0,Song,0,Unknown,0,1.0,,,Yellow-bellied,Flycatcher
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,1.0,ALFL,Alder Flycatcher,50.0,Song,0,Unknown,0,1.0,,,Alder,Flycatcher
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,1.0,SOSP,Song Sparrow,100.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,1.0,MODO,Mourning Dove,100.0,Call,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,1.0,BHCO,Brown-headed Cowbird,125.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,1.0,AMRO,American Robin,100.0,Call,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,1.0,BHCO,Brown-headed Cowbird,80.0,Visual,1,Unknown,0,10.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,1.0,EAKI,Eastern Kingbird,100.0,Call,0,Unknown,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,1.0,RWBL,Red-winged Blackbird,80.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,1.0,RWBL,Red-winged Blackbird,90.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,1.0,DICK,Dickcissel,100.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,1.0,DICK,Dickcissel,130.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,1.0,COYE,Common Yellowthroat,100.0,Call,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,1.0,BAOR,Baltimore Oriole,80.0,Visual,1,Unknown,0,1.0,,,Baltimore,Oriole
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,2.0,OROR,Orchard Oriole,125.0,Call,0,Unknown,0,1.0,,,Orchard,Oriole
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,2.0,NOFL,Northern Flicker,300.0,Call,0,Unknown,0,1.0,,,Northern,Flicker
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,3.0,EAWP,Eastern Wood-Pewee,110.0,Call,0,Unknown,0,1.0,,,Eastern,Wood-Pewee
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,3.0,BGGN,Blue-gray Gnatcatcher,80.0,Call,0,Unknown,0,1.0,,,Blue-gray,Gnatcatcher
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,3.0,KILL,Killdeer,100.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,3.0,MAWA,Magnolia Warbler,110.0,Song,0,Unknown,0,1.0,,,Magnolia,Warbler
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,4.0,HOWR,House Wren,100.0,Song,0,Unknown,0,1.0,,,House,Wren
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,4.0,BARS,Barn Swallow,40.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,4.0,NOCA,Northern Cardinal,100.0,Song,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,4.0,EUST,European Starling,150.0,Visual,1,Unknown,0,1.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,4.0,RWBL,Red-winged Blackbird,200.0,Visual,1,Male,0,5.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,5.0,WAVI,Warbling Vireo,150.0,Call,0,Unknown,0,1.0,,,Warbling,Vireo
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,5.0,CEDW,Cedar Waxwing,125.0,Call,0,Unknown,0,1.0,,,Cedar,Waxwing
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,6.0,AMGO,American Goldfinch,100.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,6.0,INBU,Indigo Bunting,80.0,Call,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.13,6,6.0,INBU,Indigo Bunting,130.0,Call,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,0.0,88,88.0,WODU,Wood Duck,133.0,Visual,0,Unknown,0,1.0,,,Wood,Duck
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,1.0,EAME,Eastern Meadowlark,250.0,Visual,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,1.0,DICK,Dickcissel,50.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,1.0,DICK,Dickcissel,120.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,1.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,1.0,RWBL,Red-winged Blackbird,50.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,1.0,GCFL,Great Crested Flycatcher,150.0,Call,0,Unknown,0,1.0,,,Great Crested,Flycatcher
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,2.0,CLSW,Cliff Swallow,200.0,Visual,1,Unknown,0,1.0,,,Cliff,Swallow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,2.0,COGR,Common Grackle,40.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,2.0,AMRO,American Robin,60.0,Visual,1,Unknown,0,2.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,2.0,BHCO,Brown-headed Cowbird,60.0,Visual,1,Male,0,3.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,2.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,3.0,SOSP,Song Sparrow,100.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,3.0,BHCO,Brown-headed Cowbird,100.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,3.0,WAVI,Warbling Vireo,150.0,Song,0,Unknown,0,1.0,,,Warbling,Vireo
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,4.0,AMGO,American Goldfinch,100.0,Call,1,Male,0,1.0,I,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,4.0,AMGO,American Goldfinch,90.0,Visual,1,Female,0,1.0,I,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,4.0,MODO,Mourning Dove,150.0,Visual,1,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,5.0,CLSW,Cliff Swallow,225.0,Visual,1,Unknown,0,8.0,,,Cliff,Swallow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,5.0,MALL,Mallard,700.0,Visual,1,Male,0,2.0,,,Mallard,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,5.0,RWBL,Red-winged Blackbird,300.0,Visual,1,Male,0,4.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.48,7,6.0,DICK,Dickcissel,150.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,0.0,88,88.0,UPSA,Upland Sandpiper,133.0,Visual,1,Unknown,0,1.0,,,Upland,Sandpiper
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,0.0,88,88.0,CHSW,Chimney Swift,133.0,Visual,1,Unknown,0,1.0,,,Chimney,Swift
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,1.0,SAVS,Savannah Sparrow,100.0,Visual,1,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,1.0,DICK,Dickcissel,75.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,1.0,EAME,Eastern Meadowlark,100.0,Visual,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,1.0,EAME,Eastern Meadowlark,125.0,Visual,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,1.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,1.0,J,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,1.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Female,0,1.0,J,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,1.0,RWBL,Red-winged Blackbird,175.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,2.0,RWBL,Red-winged Blackbird,175.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,2.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,6.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,2.0,DICK,Dickcissel,100.0,Visual,1,Unknown,0,2.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,2.0,DICK,Dickcissel,50.0,Visual,1,Unknown,0,2.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,2.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,2.0,DICK,Dickcissel,120.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,2.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,3.0,BHCO,Brown-headed Cowbird,100.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,4.0,EAKI,Eastern Kingbird,150.0,Visual,1,Unknown,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,4.0,EUST,European Starling,150.0,Call,0,Unknown,0,1.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,5.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Female,0,2.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,5.0,EAME,Eastern Meadowlark,125.0,Call,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,5.0,AMCR,American Crow,400.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,5.0,RWBL,Red-winged Blackbird,200.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,6.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,7.67,8,6.0,CARW,Carolina Wren,125.0,Song,0,Unknown,0,1.0,,,Carolina,Wren
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,1.0,COGR,Common Grackle,100.0,Visual,1,Unknown,0,2.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,1.0,RWBL,Red-winged Blackbird,80.0,Visual,1,Male,0,6.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,1.0,EAME,Eastern Meadowlark,125.0,Song,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,1.0,DICK,Dickcissel,50.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,1.0,DICK,Dickcissel,140.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,1.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Female,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,1.0,RWBL,Red-winged Blackbird,200.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,2.0,EABL,Eastern Bluebird,180.0,Visual,1,Unknown,0,1.0,,,Eastern,Bluebird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,2.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,2.0,TUVU,Turkey Vulture,250.0,Visual,1,Unknown,0,3.0,,,Turkey,Vulture
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,2.0,CANG,Canada Goose,200.0,Visual,1,Unknown,0,43.0,,,Canada,Goose
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,3.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,4.0,BHCO,Brown-headed Cowbird,125.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,5.0,BHCO,Brown-headed Cowbird,300.0,Visual,1,Female,0,3.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,6.0,BHCO,Brown-headed Cowbird,300.0,Visual,1,Male,0,4.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.0,9,6.0,TUVU,Turkey Vulture,550.0,Visual,1,Unknown,0,1.0,,,Turkey,Vulture
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,1.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,1.0,CLSW,Cliff Swallow,40.0,Visual,1,Unknown,0,1.0,,,Cliff,Swallow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,1.0,CLSW,Cliff Swallow,75.0,Visual,1,Unknown,0,2.0,,,Cliff,Swallow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,1.0,DICK,Dickcissel,100.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,1.0,GRSP,Grasshopper Sparrow,150.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,1.0,DICK,Dickcissel,60.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,1.0,DICK,Dickcissel,100.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,1.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,1.0,DICK,Dickcissel,140.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,1.0,EAME,Eastern Meadowlark,100.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,2.0,RWBL,Red-winged Blackbird,130.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,2.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,2.0,RWBL,Red-winged Blackbird,50.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,3.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,3.0,AMGO,American Goldfinch,125.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,4.0,BHCO,Brown-headed Cowbird,220.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,5.0,DICK,Dickcissel,40.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,6.0,MODO,Mourning Dove,175.0,Visual,1,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,6.0,RWBL,Red-winged Blackbird,200.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.18,10,6.0,CEDW,Cedar Waxwing,100.0,Call,0,Unknown,0,1.0,,,Cedar,Waxwing
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,1.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,1.0,DICK,Dickcissel,70.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,1.0,BARS,Barn Swallow,50.0,Visual,1,Unknown,0,2.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,1.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,1.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,1.0,DICK,Dickcissel,140.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,1.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,1.0,COYE,Common Yellowthroat,200.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,2.0,INBU,Indigo Bunting,250.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,3.0,SOSP,Song Sparrow,250.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,3.0,TUTI,Tufted Titmouse,250.0,Call,0,Unknown,0,1.0,,,Tufted,Titmouse
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,4.0,BAOR,Baltimore Oriole,300.0,Call,0,Unknown,0,1.0,,,Baltimore,Oriole
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,4.0,RWBL,Red-winged Blackbird,80.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,4.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,5.0,CANG,Canada Goose,500.0,Visual,1,Unknown,0,26.0,,,Canada,Goose
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,5.0,RTHA,Red-tailed Hawk,250.0,Visual,1,Unknown,0,1.0,,,Red-tailed,Hawk
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,5.0,AMGO,American Goldfinch,250.0,Visual,1,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,1.0,Craver Trust,8.38,11,6.0,VESP,Vesper Sparrow,200.0,Song,0,Unknown,0,1.0,,,Vesper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,1.0,BRTH,Brown Thrasher,50.0,Song,0,Unknown,0,1.0,,,Brown,Thrasher
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,1.0,EABL,Eastern Bluebird,75.0,Call,0,Unknown,0,1.0,,,Eastern,Bluebird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,1.0,HOSP,House Sparrow,100.0,Visual,1,Unknown,0,1.0,,,House,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,1.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,1.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,1.0,EUST,European Starling,50.0,Visual,1,Unknown,0,1.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,1.0,GBHE,Great Blue Heron,350.0,Visual,1,Unknown,0,1.0,,,Great Blue,Heron
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,1.0,CHSP,Chipping Sparrow,125.0,Song,0,Unknown,0,1.0,,,Chipping,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,1.0,BARS,Barn Swallow,100.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,1.0,SOSP,Song Sparrow,110.0,Visual,1,Unknown,0,2.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,1.0,AMGO,American Goldfinch,80.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,2.0,EAKI,Eastern Kingbird,150.0,Visual,1,Unknown,0,2.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,2.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,2.0,AMRO,American Robin,50.0,Visual,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,2.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,2.0,A,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,2.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Female,0,1.0,A,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,2.0,CHSP,Chipping Sparrow,100.0,Song,0,Unknown,0,1.0,,,Chipping,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,2.0,CHSP,Chipping Sparrow,75.0,Song,0,Unknown,0,1.0,,,Chipping,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,2.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,2.0,DICK,Dickcissel,110.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,2.0,RWBL,Red-winged Blackbird,170.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,3.0,AMRO,American Robin,130.0,Visual,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,3.0,CHSW,Chimney Swift,60.0,Visual,1,Unknown,0,1.0,,,Chimney,Swift
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,3.0,CHSW,Chimney Swift,100.0,Visual,1,Unknown,0,1.0,,,Chimney,Swift
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,3.0,EUST,European Starling,60.0,Visual,1,Unknown,0,2.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,4.0,BAOR,Baltimore Oriole,200.0,Song,0,Unknown,0,1.0,,,Baltimore,Oriole
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,4.0,COGR,Common Grackle,230.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,4.0,AMCR,American Crow,250.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,5.0,KILL,Killdeer,150.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,5.0,BARS,Barn Swallow,120.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.68,1,6.0,HOFI,House Finch,100.0,Call,0,Unknown,0,1.0,,,House,Finch
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,1.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,1.0,DICK,Dickcissel,70.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,1.0,EAME,Eastern Meadowlark,100.0,Song,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,1.0,AMCR,American Crow,300.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,1.0,EAKI,Eastern Kingbird,100.0,Call,0,Unknown,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Unknown,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,1.0,KILL,Killdeer,150.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,1.0,SOSP,Song Sparrow,100.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,1.0,COGR,Common Grackle,130.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,1.0,AMRO,American Robin,140.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,1.0,EUST,European Starling,110.0,Visual,1,Unknown,0,1.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,2.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,2.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,2.0,DICK,Dickcissel,140.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,2.0,COGR,Common Grackle,80.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,2.0,EUST,European Starling,100.0,Visual,1,Unknown,0,1.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,2.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,2.0,COGR,Common Grackle,140.0,Visual,1,Unknown,0,4.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,2.0,BHCO,Brown-headed Cowbird,170.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,3.0,NOFL,Northern Flicker,200.0,Call,0,Unknown,0,1.0,,,Northern,Flicker
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,3.0,EUST,European Starling,50.0,Visual,1,Unknown,0,4.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,3.0,EUST,European Starling,170.0,Visual,1,Unknown,0,40.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,4.0,RWBL,Red-winged Blackbird,170.0,Visual,1,Unknown,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,4.0,EUST,European Starling,90.0,Visual,1,Unknown,0,5.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,4.0,AMRO,American Robin,250.0,Call,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,4.0,EAME,Eastern Meadowlark,70.0,Visual,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,4.0,GRSP,Grasshopper Sparrow,120.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,4.0,EAME,Eastern Meadowlark,150.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,5.0,EUST,European Starling,80.0,Visual,1,Unknown,0,5.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,5.0,BARS,Barn Swallow,130.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,5.0,AMCR,American Crow,300.0,Call,0,Unknown,0,2.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,6.0,FISP,Field Sparrow,150.0,Song,0,Unknown,0,1.0,,,Field,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,6.0,NOCA,Northern Cardinal,200.0,Song,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,6.0,MODO,Mourning Dove,150.0,Call,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,5.93,2,6.0,KILL,Killdeer,150.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,0.0,88,88.0,WIFL,Willow Flycatcher,133.0,Song,0,Unknown,0,1.0,,,Willow,Flycatcher
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,0.0,88,88.0,BLJA,Blue Jay,133.0,Visual,0,Unknown,0,1.0,,,Blue,Jay
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,1.0,YBCU,Yellow-billed Cuckoo,200.0,Song,0,Unknown,0,1.0,,,Yellow-billed,Cuckoo
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,1.0,HOWR,House Wren,120.0,Song,0,Unknown,0,1.0,,,House,Wren
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,1.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,1.0,KILL,Killdeer,200.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,1.0,EAME,Eastern Meadowlark,100.0,Song,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,1.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,1.0,KILL,Killdeer,100.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,1.0,SAVS,Savannah Sparrow,130.0,Song,0,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,1.0,MODO,Mourning Dove,220.0,Visual,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,2.0,KILL,Killdeer,60.0,Visual,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,2.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,2.0,DICK,Dickcissel,120.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,2.0,DICK,Dickcissel,130.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,2.0,HOLA,Horned Lark,130.0,Call,0,Unknown,0,1.0,,,Horned,Lark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,3.0,AMRO,American Robin,40.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,3.0,AMRO,American Robin,120.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,3.0,SOSP,Song Sparrow,100.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,3.0,FISP,Field Sparrow,100.0,Song,0,Unknown,0,1.0,,,Field,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,4.0,COGR,Common Grackle,250.0,Visual,1,Unknown,0,3.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,5.0,RWBL,Red-winged Blackbird,120.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,5.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,6.0,COGR,Common Grackle,180.0,Visual,1,Unknown,0,3.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.12,3,6.0,BAOR,Baltimore Oriole,150.0,Song,0,Unknown,0,1.0,,,Baltimore,Oriole
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,1.0,HOWR,House Wren,170.0,Song,0,Unknown,0,1.0,,,House,Wren
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,1.0,NOCA,Northern Cardinal,170.0,Song,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,1.0,AMRO,American Robin,150.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,1.0,DICK,Dickcissel,110.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,1.0,KILL,Killdeer,125.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,1.0,INBU,Indigo Bunting,150.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,1.0,DICK,Dickcissel,70.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,1.0,DICK,Dickcissel,140.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,1.0,RWBL,Red-winged Blackbird,75.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,2.0,BHCO,Brown-headed Cowbird,100.0,Call,1,Unknown,0,2.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,2.0,COYE,Common Yellowthroat,150.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,3.0,COGR,Common Grackle,150.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,3.0,INBU,Indigo Bunting,170.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,3.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,3.0,RWBL,Red-winged Blackbird,70.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,3.0,SOSP,Song Sparrow,100.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,4.0,EUST,European Starling,130.0,Visual,1,Unknown,0,2.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,4.0,RWBL,Red-winged Blackbird,140.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,4.0,RWBL,Red-winged Blackbird,120.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,5.0,NOBI,N o   B i r d,133.0,Song,0,Unknown,0,1.0,,,Error,Error
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.5,4,6.0,BRTH,Brown Thrasher,175.0,Call,0,Unknown,0,1.0,,,Brown,Thrasher
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,1.0,DICK,Dickcissel,100.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,1.0,SAVS,Savannah Sparrow,120.0,Song,0,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,1.0,EAME,Eastern Meadowlark,125.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,1.0,GRSP,Grasshopper Sparrow,90.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,1.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,1.0,DICK,Dickcissel,130.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,1.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,1.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,1.0,BHCO,Brown-headed Cowbird,180.0,Visual,1,Female,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,1.0,AMRO,American Robin,100.0,Visual,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,1.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,2.0,RWBL,Red-winged Blackbird,200.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,3.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,4.0,HOLA,Horned Lark,100.0,Call,0,Unknown,0,1.0,,,Horned,Lark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,4.0,AMGO,American Goldfinch,100.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,4.0,KILL,Killdeer,150.0,Visual,1,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,5.0,BHCO,Brown-headed Cowbird,50.0,Visual,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,6.0,BHCO,Brown-headed Cowbird,50.0,Visual,1,Male,0,3.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.68,5,6.0,BHCO,Brown-headed Cowbird,50.0,Visual,1,Female,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,1.0,DICK,Dickcissel,50.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,1.0,SOSP,Song Sparrow,150.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,1.0,COYE,Common Yellowthroat,200.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,1.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,1.0,DICK,Dickcissel,140.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,1.0,DICK,Dickcissel,200.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,1.0,CHSW,Chimney Swift,250.0,Visual,1,Unknown,0,2.0,,,Chimney,Swift
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,2.0,CHSW,Chimney Swift,250.0,Song,0,Unknown,0,1.0,,,Chimney,Swift
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,2.0,AMGO,American Goldfinch,120.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,2.0,COGR,Common Grackle,150.0,Call,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,2.0,RWBL,Red-winged Blackbird,130.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,3.0,GRSP,Grasshopper Sparrow,120.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,4.0,RWBL,Red-winged Blackbird,170.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,4.0,AMGO,American Goldfinch,150.0,Visual,1,Male,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,4.0,COGR,Common Grackle,100.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,4.0,OROR,Orchard Oriole,350.0,Song,0,Unknown,0,1.0,,,Orchard,Oriole
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,5.0,BARS,Barn Swallow,120.0,Visual,1,Unknown,0,2.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,5.0,INBU,Indigo Bunting,350.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,6.9,6,6.0,BARS,Barn Swallow,100.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,1.0,DICK,Dickcissel,50.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,1.0,GRSP,Grasshopper Sparrow,70.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,1.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,1.0,GRSP,Grasshopper Sparrow,120.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,1.0,DICK,Dickcissel,100.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,1.0,DICK,Dickcissel,130.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,1.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,1.0,EAME,Eastern Meadowlark,150.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,2.0,RWBL,Red-winged Blackbird,110.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,2.0,KILL,Killdeer,300.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,3.0,FISP,Field Sparrow,250.0,Song,0,Unknown,0,1.0,,,Field,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,3.0,COGR,Common Grackle,150.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,3.0,EAME,Eastern Meadowlark,300.0,Visual,1,Unknown,0,2.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,4.0,BHCO,Brown-headed Cowbird,150.0,Call,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,4.0,GRSP,Grasshopper Sparrow,200.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,5.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,B,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,5.0,EUST,European Starling,80.0,Visual,1,Unknown,0,5.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,5.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Female,0,2.0,B,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,6.0,AMRO,American Robin,100.0,Call,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,6.0,MODO,Mourning Dove,90.0,Visual,1,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.1,7,6.0,TUVU,Turkey Vulture,400.0,Visual,1,Unknown,0,1.0,,,Turkey,Vulture
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,1.0,DICK,Dickcissel,60.0,Visual,1,Unknown,0,3.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,1.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,3.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,1.0,DICK,Dickcissel,100.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,1.0,DICK,Dickcissel,110.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,1.0,DICK,Dickcissel,120.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,1.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,1.0,RWBL,Red-winged Blackbird,80.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,1.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,1.0,RWBL,Red-winged Blackbird,90.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,1.0,EAME,Eastern Meadowlark,90.0,Visual,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,2.0,RWBL,Red-winged Blackbird,240.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,2.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,3.0,COGR,Common Grackle,150.0,Visual,1,Unknown,0,3.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,3.0,AMRO,American Robin,140.0,Visual,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,3.0,BHCO,Brown-headed Cowbird,100.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,4.0,GRSP,Grasshopper Sparrow,125.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,4.0,RWBL,Red-winged Blackbird,140.0,Visual,1,Male,0,1.0,C,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,4.0,RWBL,Red-winged Blackbird,140.0,Visual,1,Female,0,1.0,C,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,4.0,EUST,European Starling,150.0,Visual,1,Unknown,0,1.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,5.0,GRSP,Grasshopper Sparrow,130.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,5.0,EAKI,Eastern Kingbird,250.0,Visual,1,Unknown,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,5.0,MODO,Mourning Dove,200.0,Visual,1,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,5.0,COGR,Common Grackle,250.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.33,8,6.0,RWBL,Red-winged Blackbird,120.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,AMRO,American Robin,150.0,Call,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,DICK,Dickcissel,100.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,HOWR,House Wren,250.0,Song,0,Unknown,0,1.0,,,House,Wren
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,FISP,Field Sparrow,250.0,Song,0,Unknown,0,1.0,,,Field,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,COYE,Common Yellowthroat,200.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,EAME,Eastern Meadowlark,120.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,DICK,Dickcissel,100.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,AMRO,American Robin,200.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,AMRO,American Robin,150.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,BHCO,Brown-headed Cowbird,120.0,Visual,1,Male,0,1.0,D,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,BHCO,Brown-headed Cowbird,120.0,Visual,1,Female,0,1.0,D,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,DICK,Dickcissel,140.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,RWBL,Red-winged Blackbird,120.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,1.0,DICK,Dickcissel,70.0,Visual,1,Unknown,0,2.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,2.0,COGR,Common Grackle,125.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,2.0,BHCO,Brown-headed Cowbird,150.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,3.0,AMGO,American Goldfinch,100.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,3.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,4.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,1.0,E,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,4.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Female,0,1.0,E,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,4.0,GRSP,Grasshopper Sparrow,60.0,Visual,1,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,4.0,EAKI,Eastern Kingbird,250.0,Call,0,Unknown,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,4.0,INBU,Indigo Bunting,200.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,4.0,DICK,Dickcissel,50.0,Visual,1,Unknown,0,2.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,5.0,KILL,Killdeer,200.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,5.0,HOWR,House Wren,220.0,Song,0,Unknown,0,1.0,,,House,Wren
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.5,9,6.0,SAVS,Savannah Sparrow,150.0,Song,0,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,1.0,EAME,Eastern Meadowlark,150.0,Visual,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,1.0,DICK,Dickcissel,120.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,1.0,DICK,Dickcissel,100.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,1.0,GBHE,Great Blue Heron,999.0,Visual,1,Unknown,0,1.0,,,Great Blue,Heron
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,2.0,DICK,Dickcissel,140.0,Visual,1,Unknown,0,3.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,2.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,2.0,EAME,Eastern Meadowlark,150.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,3.0,RWBL,Red-winged Blackbird,120.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,3.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,4.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,3.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,3.0,RWBL,Red-winged Blackbird,140.0,Visual,1,Male,0,5.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,3.0,GRSP,Grasshopper Sparrow,120.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,3.0,AMRO,American Robin,70.0,Visual,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,4.0,SOSP,Song Sparrow,175.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,4.0,EAME,Eastern Meadowlark,180.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,4.0,DICK,Dickcissel,100.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,4.0,DICK,Dickcissel,130.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,5.0,BHCO,Brown-headed Cowbird,150.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,5.0,COGR,Common Grackle,125.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,5.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.72,10,6.0,HOLA,Horned Lark,280.0,Call,0,Unknown,0,1.0,,,Horned,Lark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,1.0,RWBL,Red-winged Blackbird,180.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,1.0,EAME,Eastern Meadowlark,100.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,1.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,1.0,DICK,Dickcissel,50.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,1.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,4.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,1.0,DICK,Dickcissel,20.0,Visual,1,Unknown,0,2.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,1.0,DICK,Dickcissel,20.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,1.0,DICK,Dickcissel,90.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,1.0,DICK,Dickcissel,120.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,2.0,GRSP,Grasshopper Sparrow,30.0,Visual,1,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,3.0,GRSP,Grasshopper Sparrow,125.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,3.0,SAVS,Savannah Sparrow,125.0,Song,0,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,3.0,EAME,Eastern Meadowlark,150.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,3.0,TUVU,Turkey Vulture,500.0,Visual,1,Unknown,0,1.0,,,Turkey,Vulture
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,3.0,TUVU,Turkey Vulture,999.0,Visual,1,Unknown,0,1.0,,,Turkey,Vulture
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,4.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Male,0,3.0,F,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,4.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Female,0,1.0,F,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,5.0,COGR,Common Grackle,60.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,7.92,11,6.0,RWBL,Red-winged Blackbird,120.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,1.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,1.0,RWBL,Red-winged Blackbird,50.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,1.0,DICK,Dickcissel,120.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,1.0,DICK,Dickcissel,120.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,1.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,1.0,AMRO,American Robin,120.0,Visual,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,1.0,GRSP,Grasshopper Sparrow,110.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,1.0,EAME,Eastern Meadowlark,100.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,2.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,2.0,EAME,Eastern Meadowlark,80.0,Visual,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,3.0,BHCO,Brown-headed Cowbird,125.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,3.0,KILL,Killdeer,150.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,4.0,FISP,Field Sparrow,250.0,Song,0,Unknown,0,1.0,,,Field,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,4.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,5.0,EUST,European Starling,300.0,Visual,1,Unknown,0,1.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,5.0,AMKE,American Kestrel,300.0,Visual,1,Unknown,0,1.0,,,American,Kestrel
+Colin Kenneth Dobson,2020.0,6.0,2.0,Cow Creek Farm,8.12,12,6.0,BHCO,Brown-headed Cowbird,150.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,1.0,SOSP,Song Sparrow,30.0,Visual,1,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,1.0,EUST,European Starling,50.0,Visual,1,Unknown,0,4.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,1.0,HOSP,House Sparrow,50.0,Visual,1,Unknown,0,3.0,,,House,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,1.0,KILL,Killdeer,110.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,1.0,HOFI,House Finch,100.0,Call,1,Unknown,0,1.0,,,House,Finch
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,1.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,2.0,COGR,Common Grackle,50.0,Visual,1,Unknown,0,4.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,2.0,CEDW,Cedar Waxwing,50.0,Visual,1,Unknown,0,4.0,,,Cedar,Waxwing
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,2.0,BARS,Barn Swallow,225.0,Visual,1,Unknown,0,3.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,2.0,EAME,Eastern Meadowlark,170.0,Visual,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,3.0,BHCO,Brown-headed Cowbird,140.0,Visual,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,3.0,MODO,Mourning Dove,100.0,Visual,1,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,3.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,4.0,AMRO,American Robin,120.0,Visual,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,5.0,TUVU,Turkey Vulture,200.0,Call,0,Unknown,0,1.0,,,Turkey,Vulture
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,5.0,INBU,Indigo Bunting,60.0,Visual,1,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,6.0,GBHE,Great Blue Heron,400.0,Visual,1,Unknown,0,1.0,,,Great Blue,Heron
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,6.0,HOSP,House Sparrow,30.0,Visual,1,Male,0,1.0,F,,House,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,13,6.0,HOSP,House Sparrow,30.0,Visual,1,Female,0,1.0,F,,House,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,14,1.0,KILL,Killdeer,100.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,14,1.0,HOSP,House Sparrow,60.0,Visual,1,Unknown,0,1.0,,,House,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,14,1.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,14,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,14,1.0,DICK,Dickcissel,70.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,14,1.0,BHCO,Brown-headed Cowbird,100.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,14,1.0,DICK,Dickcissel,120.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,14,1.0,DICK,Dickcissel,140.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,14,2.0,MODO,Mourning Dove,100.0,Visual,1,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,14,3.0,GBHE,Great Blue Heron,800.0,Visual,1,Unknown,0,1.0,,,Great Blue,Heron
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,14,3.0,AMCR,American Crow,300.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,14,4.0,SAVS,Savannah Sparrow,200.0,Song,0,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,14,5.0,NOBI,N o   B i r d,133.0,Song,0,Unknown,0,1.0,,,Error,Error
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,14,6.0,COGR,Common Grackle,125.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,8.15,14,6.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,1.0,GRSP,Grasshopper Sparrow,50.0,Visual,1,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,1.0,DICK,Dickcissel,40.0,Visual,1,Male,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,1.0,DICK,Dickcissel,50.0,Visual,1,Male,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,1.0,DICK,Dickcissel,80.0,Visual,1,Male,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,1.0,COGR,Common Grackle,100.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,1.0,COYE,Common Yellowthroat,200.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,1.0,SOSP,Song Sparrow,125.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,2.0,AMCR,American Crow,300.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,2.0,EAME,Eastern Meadowlark,40.0,Visual,1,Unknown,0,2.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,3.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,3.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,3.0,BHCO,Brown-headed Cowbird,80.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,4.0,CEDW,Cedar Waxwing,100.0,Visual,1,Unknown,0,2.0,,,Cedar,Waxwing
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,4.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,4.0,DICK,Dickcissel,130.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,4.0,DICK,Dickcissel,130.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,4.0,RWBL,Red-winged Blackbird,30.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,4.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,4.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,5.0,MODO,Mourning Dove,110.0,Visual,1,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.77,15,6.0,KILL,Killdeer,100.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,1.0,WAVI,Warbling Vireo,100.0,Song,0,Unknown,0,1.0,,,Warbling,Vireo
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,1.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,1.0,DICK,Dickcissel,70.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,1.0,EAME,Eastern Meadowlark,125.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,1.0,SOSP,Song Sparrow,100.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,1.0,COYE,Common Yellowthroat,110.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,1.0,BRTH,Brown Thrasher,130.0,Call,0,Unknown,0,1.0,,,Brown,Thrasher
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Unknown,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,1.0,SOSP,Song Sparrow,100.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,1.0,GRSP,Grasshopper Sparrow,120.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,1.0,GRSP,Grasshopper Sparrow,130.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,1.0,DICK,Dickcissel,140.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,2.0,RWBL,Red-winged Blackbird,30.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,2.0,AMRO,American Robin,150.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,2.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,2.0,COGR,Common Grackle,210.0,Visual,1,Unknown,0,3.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,3.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Male,0,2.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,4.0,CEDW,Cedar Waxwing,100.0,Call,1,Unknown,0,2.0,,,Cedar,Waxwing
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,4.0,RWBL,Red-winged Blackbird,80.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,5.0,RWBL,Red-winged Blackbird,60.0,Visual,1,Female,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,5.0,WAVI,Warbling Vireo,80.0,Song,0,Unknown,0,1.0,,,Warbling,Vireo
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,5.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.52,16,6.0,NOBI,N o   B i r d,133.0,Song,0,Unknown,0,1.0,,,Error,Error
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,1.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,1.0,EAME,Eastern Meadowlark,100.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,1.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,1.0,PUMA,Purple Martin,60.0,Visual,1,Unknown,0,1.0,,,Purple,Martin
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,1.0,RWBL,Red-winged Blackbird,50.0,Visual,1,Male,0,2.0,D,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,1.0,RWBL,Red-winged Blackbird,50.0,Visual,1,Female,0,1.0,D,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,1.0,AMRO,American Robin,150.0,Song,0,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,1.0,EAKI,Eastern Kingbird,150.0,Song,0,Unknown,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,1.0,COYE,Common Yellowthroat,130.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,1.0,CHSW,Chimney Swift,400.0,Visual,1,Unknown,0,4.0,,,Chimney,Swift
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,2.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,2.0,SAVS,Savannah Sparrow,150.0,Song,0,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,2.0,SOSP,Song Sparrow,150.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,2.0,NOCA,Northern Cardinal,140.0,Song,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,2.0,HOWR,House Wren,170.0,Song,0,Unknown,0,1.0,,,House,Wren
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,2.0,INBU,Indigo Bunting,160.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,2.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Female,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,2.0,RWBL,Red-winged Blackbird,130.0,Visual,1,Male,0,4.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,3.0,FISP,Field Sparrow,100.0,Song,0,Unknown,0,1.0,,,Field,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,3.0,EAME,Eastern Meadowlark,125.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,3.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,2.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,3.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,3.0,DICK,Dickcissel,130.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,3.0,DICK,Dickcissel,160.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,4.0,FISP,Field Sparrow,180.0,Song,0,Unknown,0,1.0,,,Field,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,4.0,WAVI,Warbling Vireo,150.0,Song,0,Unknown,0,1.0,,,Warbling,Vireo
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,4.0,MODO,Mourning Dove,150.0,Call,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,5.0,RNEP,Ring-necked Pheasant,500.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,5.0,RBWO,Red-bellied Woodpecker,200.0,Call,0,Unknown,0,1.0,,,Red-bellied,Woodpecker
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,5.0,AMGO,American Goldfinch,150.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,5.0,EAME,Eastern Meadowlark,120.0,Visual,1,Unknown,0,2.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,5.0,EUST,European Starling,90.0,Visual,1,Unknown,0,1.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.3,17,6.0,AMCR,American Crow,300.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,1.0,BRTH,Brown Thrasher,120.0,Call,0,Unknown,0,1.0,,,Brown,Thrasher
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,1.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,1.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,1.0,EAME,Eastern Meadowlark,60.0,Visual,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,1.0,GRSP,Grasshopper Sparrow,90.0,Call,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,1.0,GRSP,Grasshopper Sparrow,100.0,Call,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,2.0,COYE,Common Yellowthroat,100.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,2.0,AMRO,American Robin,175.0,Visual,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,2.0,OROR,Orchard Oriole,200.0,Song,0,Unknown,0,1.0,,,Orchard,Oriole
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,2.0,NRWS,Northern Rough-winged Swallow,20.0,Visual,1,Unknown,0,1.0,,,Northern Rough-winged,Swallow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,3.0,AMGO,American Goldfinch,80.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,3.0,SAVS,Savannah Sparrow,100.0,Song,0,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,4.0,COGR,Common Grackle,200.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,5.0,BARS,Barn Swallow,100.0,Visual,1,Unknown,0,1.0,,,Barn,Swallow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,5.0,GRSP,Grasshopper Sparrow,80.0,Visual,1,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,5.0,COGR,Common Grackle,100.0,Visual,1,Unknown,0,2.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,5.0,BHCO,Brown-headed Cowbird,80.0,Visual,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,5.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,7.08,18,6.0,DICK,Dickcissel,50.0,Visual,1,Unknown,0,3.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,1.0,WAVI,Warbling Vireo,70.0,Song,0,Unknown,0,1.0,,,Warbling,Vireo
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,1.0,NOCA,Northern Cardinal,50.0,Call,1,Male,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,1.0,EATO,Eastern Towhee,100.0,Song,0,Unknown,0,1.0,,,Eastern,Towhee
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,1.0,FISP,Field Sparrow,110.0,Song,0,Unknown,0,1.0,,,Field,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,1.0,BAOR,Baltimore Oriole,150.0,Song,0,Unknown,0,1.0,,,Baltimore,Oriole
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,1.0,EAKI,Eastern Kingbird,100.0,Visual,1,Unknown,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,1.0,MODO,Mourning Dove,200.0,Call,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,1.0,EAKI,Eastern Kingbird,40.0,Call,0,Unknown,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,1.0,OROR,Orchard Oriole,80.0,Song,1,Unknown,0,1.0,,,Orchard,Oriole
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,1.0,EAME,Eastern Meadowlark,30.0,Visual,1,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,1.0,EAME,Eastern Meadowlark,100.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,1.0,GCFL,Great Crested Flycatcher,170.0,Song,0,Unknown,0,1.0,,,Great Crested,Flycatcher
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,2.0,RBGR,Rose-breasted Grosbeak,110.0,Song,0,Unknown,0,1.0,,,Rose-breasted,Grosbeak
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,2.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,2.0,COYE,Common Yellowthroat,70.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,2.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Male,0,2.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,2.0,EUST,European Starling,200.0,Visual,1,Unknown,0,1.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,2.0,GRSP,Grasshopper Sparrow,110.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,2.0,SOSP,Song Sparrow,100.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,2.0,WAVI,Warbling Vireo,130.0,Song,0,Unknown,0,1.0,,,Warbling,Vireo
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,2.0,SAVS,Savannah Sparrow,120.0,Song,0,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,2.0,BHCO,Brown-headed Cowbird,140.0,Visual,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,3.0,NOFL,Northern Flicker,350.0,Call,0,Unknown,0,1.0,,,Northern,Flicker
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,3.0,EAWP,Eastern Wood-Pewee,170.0,Call,0,Unknown,0,1.0,,,Eastern,Wood-Pewee
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,3.0,KILL,Killdeer,100.0,Call,0,Unknown,0,1.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,4.0,INBU,Indigo Bunting,90.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,4.0,AMGO,American Goldfinch,140.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,4.0,YBCU,Yellow-billed Cuckoo,180.0,Call,0,Unknown,0,1.0,,,Yellow-billed,Cuckoo
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,4.0,MODO,Mourning Dove,300.0,Call,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,4.0,COYE,Common Yellowthroat,140.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,4.0,INBU,Indigo Bunting,160.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,5.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,5.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,6.0,WOTH,Wood Thrush,160.0,Call,0,Unknown,0,1.0,,,Wood,Thrush
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,6.0,SOSP,Song Sparrow,40.0,Visual,1,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.85,19,6.0,RBWO,Red-bellied Woodpecker,260.0,Call,0,Unknown,0,1.0,,,Red-bellied,Woodpecker
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,1.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,1.0,AMCR,American Crow,300.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,1.0,COGR,Common Grackle,200.0,Visual,1,Unknown,0,1.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,1.0,EAME,Eastern Meadowlark,150.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,1.0,FISP,Field Sparrow,300.0,Song,0,Unknown,0,1.0,,,Field,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,1.0,GRSP,Grasshopper Sparrow,120.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,1.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Male,0,2.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,1.0,COGR,Common Grackle,150.0,Visual,1,Unknown,0,3.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,1.0,RNEP,Ring-necked Pheasant,350.0,Call,0,Unknown,0,1.0,,,Ring-necked,Pheasant
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,1.0,EAKI,Eastern Kingbird,100.0,Visual,1,Unknown,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,1.0,BLGR,Blue Grosbeak,200.0,Song,0,Unknown,0,1.0,,,Blue,Grosbeak
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,1.0,AMRO,American Robin,150.0,Visual,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,1.0,COYE,Common Yellowthroat,300.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,1.0,SOSP,Song Sparrow,175.0,Song,0,Unknown,0,1.0,,,Song,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,2.0,PUMA,Purple Martin,130.0,Visual,1,Unknown,0,1.0,,,Purple,Martin
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,2.0,CHSW,Chimney Swift,120.0,Visual,1,Unknown,0,1.0,,,Chimney,Swift
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,2.0,EAPH,Eastern Phoebe,100.0,Visual,1,Unknown,0,1.0,,,Eastern,Phoebe
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,2.0,HOWR,House Wren,150.0,Song,0,Unknown,0,1.0,,,House,Wren
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,2.0,COHA,Cooper's Hawk,150.0,Visual,1,Unknown,0,1.0,,,Cooper's,Hawk
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,2.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,2.0,EUST,European Starling,110.0,Visual,1,Unknown,0,20.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,3.0,AMCR,American Crow,250.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,3.0,OROR,Orchard Oriole,150.0,Song,0,Unknown,0,1.0,,,Orchard,Oriole
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,3.0,BLJA,Blue Jay,125.0,Call,0,Unknown,0,1.0,,,Blue,Jay
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,3.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Male,0,1.0,A,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,3.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Female,0,1.0,A,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,4.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,3.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,4.0,BLGR,Blue Grosbeak,150.0,Song,0,Unknown,0,1.0,,,Blue,Grosbeak
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,4.0,SAVS,Savannah Sparrow,130.0,Song,0,Unknown,0,1.0,,,Savannah,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,4.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,4.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,4.0,COGR,Common Grackle,50.0,Visual,1,Unknown,0,2.0,,,Common,Grackle
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,4.0,DICK,Dickcissel,120.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,4.0,DICK,Dickcissel,130.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,4.0,CHSP,Chipping Sparrow,150.0,Song,0,Unknown,0,1.0,,,Chipping,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,4.0,NOCA,Northern Cardinal,170.0,Song,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,4.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,4.0,DICK,Dickcissel,150.0,Call,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,4.0,DICK,Dickcissel,150.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,4.0,NOFL,Northern Flicker,150.0,Visual,0,Unknown,0,1.0,,,Northern,Flicker
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,4.0,NOFL,Northern Flicker,190.0,Visual,0,Unknown,0,1.0,,,Northern,Flicker
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,4.0,AMCR,American Crow,300.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,5.0,MODO,Mourning Dove,100.0,Call,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,5.0,NOCA,Northern Cardinal,125.0,Song,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,5.0,YBCU,Yellow-billed Cuckoo,300.0,Song,0,Unknown,0,1.0,,,Yellow-billed,Cuckoo
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,5.0,RWBL,Red-winged Blackbird,130.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,5.0,RWBL,Red-winged Blackbird,150.0,Visual,1,Female,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,6.0,AMRO,American Robin,130.0,Visual,1,Unknown,0,3.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,6.0,DICK,Dickcissel,30.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,6.0,DICK,Dickcissel,10.0,Visual,1,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,6.0,HOSP,House Sparrow,100.0,Call,0,Unknown,0,1.0,,,House,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,6.0,BGGN,Blue-gray Gnatcatcher,150.0,Call,0,Unknown,0,1.0,,,Blue-gray,Gnatcatcher
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,6.0,MODO,Mourning Dove,200.0,Visual,1,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,6.0,BRTH,Brown Thrasher,150.0,Call,0,Unknown,0,1.0,,,Brown,Thrasher
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,5.87,20,6.0,RBGR,Rose-breasted Grosbeak,400.0,Song,0,Unknown,0,1.0,,,Rose-breasted,Grosbeak
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,1.0,INBU,Indigo Bunting,100.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,1.0,BLJA,Blue Jay,80.0,Visual,1,Unknown,0,1.0,,,Blue,Jay
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,1.0,COYE,Common Yellowthroat,90.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,1.0,REVI,Red-eyed Vireo,100.0,Song,0,Unknown,0,1.0,,,Red-eyed,Vireo
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,1.0,EAWP,Eastern Wood-Pewee,125.0,Song,0,Unknown,0,1.0,,,Eastern,Wood-Pewee
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,1.0,AMCR,American Crow,150.0,Call,0,Unknown,0,1.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,1.0,AMRO,American Robin,125.0,Visual,1,Unknown,0,2.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,1.0,EAKI,Eastern Kingbird,100.0,Call,0,Unknown,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,1.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,1.0,NOCA,Northern Cardinal,100.0,Song,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,2.0,EUST,European Starling,75.0,Visual,1,Unknown,0,1.0,,,European,Starling
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,2.0,BAOR,Baltimore Oriole,100.0,Song,0,Unknown,0,1.0,,,Baltimore,Oriole
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,2.0,AMGO,American Goldfinch,180.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,2.0,REVI,Red-eyed Vireo,90.0,Song,0,Unknown,0,1.0,,,Red-eyed,Vireo
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,3.0,TUTI,Tufted Titmouse,100.0,Call,0,Unknown,0,1.0,,,Tufted,Titmouse
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,3.0,INBU,Indigo Bunting,120.0,Visual,1,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,3.0,GRSP,Grasshopper Sparrow,80.0,Call,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,4.0,GRCA,Gray Catbird,125.0,Song,0,Unknown,0,1.0,,,Gray,Catbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,5.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Male,0,5.0,B,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,5.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Female,0,2.0,B,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,5.0,FISP,Field Sparrow,100.0,Song,0,Unknown,0,1.0,,,Field,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,5.0,WITU,Wild Turkey,200.0,Call,0,Unknown,0,1.0,,,Wild,Turkey
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,5.0,CHSP,Chipping Sparrow,100.0,Song,0,Unknown,0,1.0,,,Chipping,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.15,21,6.0,WOTH,Wood Thrush,120.0,Call,0,Unknown,0,1.0,,,Wood,Thrush
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,0.0,88,88.0,DOWO,Downy Woodpecker,133.0,Call,0,Unknown,0,1.0,,,Downy,Woodpecker
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,1.0,OROR,Orchard Oriole,90.0,Song,0,Unknown,0,1.0,,,Orchard,Oriole
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,1.0,DICK,Dickcissel,110.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,1.0,COYE,Common Yellowthroat,100.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,1.0,MODO,Mourning Dove,90.0,Visual,1,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,1.0,BHCO,Brown-headed Cowbird,70.0,Visual,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,1.0,NOFL,Northern Flicker,400.0,Call,0,Unknown,0,1.0,,,Northern,Flicker
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,1.0,OROR,Orchard Oriole,150.0,Song,0,Unknown,0,1.0,,,Orchard,Oriole
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,1.0,AMRO,American Robin,130.0,Visual,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,2.0,NOCA,Northern Cardinal,130.0,Song,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,2.0,INBU,Indigo Bunting,95.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,2.0,INBU,Indigo Bunting,100.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,2.0,MODO,Mourning Dove,95.0,Visual,1,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,2.0,RWBL,Red-winged Blackbird,90.0,Visual,1,Female,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,2.0,RWBL,Red-winged Blackbird,100.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,2.0,EAKI,Eastern Kingbird,100.0,Call,0,Unknown,0,1.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,3.0,DICK,Dickcissel,90.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,3.0,DICK,Dickcissel,110.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,3.0,DICK,Dickcissel,110.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,3.0,DICK,Dickcissel,140.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,3.0,WITU,Wild Turkey,300.0,Call,0,Unknown,0,1.0,,,Wild,Turkey
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,3.0,CHSW,Chimney Swift,100.0,Visual,1,Unknown,0,2.0,,,Chimney,Swift
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,3.0,GRSP,Grasshopper Sparrow,100.0,Song,0,Unknown,0,1.0,,,Grasshopper,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,3.0,BHCO,Brown-headed Cowbird,170.0,Visual,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,4.0,RWBL,Red-winged Blackbird,70.0,Visual,1,Male,0,1.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,4.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Male,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,4.0,COYE,Common Yellowthroat,120.0,Song,0,Unknown,0,1.0,,,Common,Yellowthroat
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,4.0,EAME,Eastern Meadowlark,140.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,5.0,KILL,Killdeer,120.0,Call,1,Unknown,0,2.0,,,Killdeer,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.35,22,6.0,AMCR,American Crow,800.0,Call,0,Unknown,0,2.0,,,American,Crow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,1.0,MODO,Mourning Dove,100.0,Call,0,Unknown,0,1.0,,,Mourning,Dove
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,1.0,DICK,Dickcissel,80.0,Visual,1,Unknown,0,2.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,1.0,DICK,Dickcissel,100.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,1.0,DICK,Dickcissel,125.0,Song,0,Unknown,0,1.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,1.0,RWBL,Red-winged Blackbird,125.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,1.0,GBHE,Great Blue Heron,300.0,Visual,1,Unknown,0,1.0,,,Great Blue,Heron
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,1.0,EAKI,Eastern Kingbird,100.0,Visual,1,Unknown,0,2.0,,,Eastern,Kingbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,1.0,CEDW,Cedar Waxwing,75.0,Call,0,Unknown,0,1.0,,,Cedar,Waxwing
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,2.0,NOCA,Northern Cardinal,125.0,Call,0,Unknown,0,1.0,,,Northern,Cardinal
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,2.0,BHCO,Brown-headed Cowbird,100.0,Call,0,Unknown,0,1.0,,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,2.0,INBU,Indigo Bunting,90.0,Song,0,Unknown,0,1.0,,,Indigo,Bunting
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,3.0,AMRO,American Robin,170.0,Visual,1,Unknown,0,1.0,,,American,Robin
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,3.0,FISP,Field Sparrow,120.0,Song,0,Unknown,0,1.0,,,Field,Sparrow
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,3.0,EAME,Eastern Meadowlark,130.0,Song,0,Unknown,0,1.0,,,Eastern,Meadowlark
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,3.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Female,0,1.0,C,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,3.0,BHCO,Brown-headed Cowbird,100.0,Visual,1,Male,0,1.0,C,,Brown-headed,Cowbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,4.0,DICK,Dickcissel,120.0,Visual,1,Unknown,0,6.0,,,Dickcissel,None
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,4.0,AMGO,American Goldfinch,100.0,Call,0,Unknown,0,1.0,,,American,Goldfinch
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,5.0,RWBL,Red-winged Blackbird,90.0,Visual,1,Male,0,2.0,,,Red-winged,Blackbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,6.0,RTHU,Ruby-throated Hummingbird,60.0,Visual,1,Unknown,0,1.0,,,Ruby-throated,Hummingbird
+Colin Kenneth Dobson,2020.0,6.0,3.0,Cow Creek Farm,6.55,23,6.0,EAKI,Eastern Kingbird,70.0,Visual,1,Unknown,0,1.0,,,Eastern,Kingbird
