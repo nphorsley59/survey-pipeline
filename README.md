@@ -1,7 +1,24 @@
 # Monitoring of Beneficial Birds in Agricultural Ecosystems
 
 ## Project Overview
-In 2019, a colleague and I launched the Monitoring of Beneficial Birds in Agricultural Ecosystems initiative. The purpose of this project is to connect sustainable land use practices with changes in native bird communities. We are particularly interested in species that provide ecosystem services or are of conservation concern. To date, we have completed four survey seasons (Fall 2019, Spring 2020, Spring 2021, and Summer 2021) at five organic farms in Ford County, Illinois. For additional information, please contact a team member (below) or visit our website at (website link). <br />
+The Monitoring of Beneficial Birds in Agricultural Ecosystems initiative was launched in 2019 with the purpose of connecting sustainable land use practices with changes in native bird communities. Our team is particularly interested in species that provide ecosystem services or are of conservation concern. To date, we have completed four survey seasons (Fall 2019, Spring 2020, Spring 2021, and Summer 2021) at five organic farms in Ford County, Illinois. 
+
+## Enrolled Farms
+
+Cow Creek (400 acres) <br />
+Craver Trust (200 acres) <br />
+D & Q (80 acres) <br />
+J & W (160 acres) <br />
+R Wildflower & Fields (160 acres) <br />
+
+## Analysis
+
+## Results 
+
+## Resources
+https://www.birdpop.org/docs/misc/Alpha_codes_eng.pdf
+
+## Contacts
 
 **Dallas Glazik - dglazik@gmail.com** <br />
 Land Manager, Outreach Coordinator, Founder <br />
@@ -11,17 +28,3 @@ Data Scientist, Point Count Surveyor, Founder <br />
 
 **Colin Dobson - cdobson2@illinois.edu** <br />
 Avian Ecologist, Point Count Lead <br />
-
-## Enrolled Farms
-Cow Creek (400 acres) <br />
-Craver Trust (200 acres) <br />
-D & Q (80 acres) <br />
-J & W (160 acres) <br />
-R Wildflower & Fields (160 acres) <br />
-
-### Analysis
-
-### Results 
-
-### Resources
-https://www.birdpop.org/docs/misc/Alpha_codes_eng.pdf
