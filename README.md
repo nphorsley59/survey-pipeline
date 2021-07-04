@@ -5,8 +5,10 @@ In 2019, a colleague and I launched the Monitoring of Beneficial Birds in Agricu
 
 **Dallas Glazik - dglazik@gmail.com** <br />
 Land Manager, Outreach Coordinator, Founder <br />
+
 **Noah Horsley - nphorsley59@gmail.com** <br />
 Data Scientist, Point Count Surveyor, Founder <br />
+
 **Colin Dobson - cdobson2@illinois.edu** <br />
 Avian Ecologist, Point Count Lead
 
