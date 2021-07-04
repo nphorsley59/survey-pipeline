@@ -6,26 +6,18 @@ In 2019, a colleague and I launched the Monitoring of Beneficial Birds in Agricu
 **Dallas Glazik - dglazik@gmail.com** <br />
 Land Manager, Outreach Coordinator, Founder <br />
 
-(picture) <br />
-
 **Noah Horsley - nphorsley59@gmail.com** <br />
 Data Scientist, Point Count Surveyor, Founder <br />
 
-(picture) <br />
-
 **Colin Dobson - cdobson2@illinois.edu** <br />
-Avian Ecologist, Point Count Lead
-
-(picture) <br />
+Avian Ecologist, Point Count Lead <br />
 
 ## Enrolled Farms
 Cow Creek (400 acres) <br />
 Craver Trust (200 acres) <br />
 D & Q (80 acres) <br />
 J & W (160 acres) <br />
-R Wildflower & Fields (160 acres)
-
-
+R Wildflower & Fields (160 acres) <br />
 
 ### Analysis
 
