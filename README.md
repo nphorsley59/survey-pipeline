@@ -1,4 +1,4 @@
-# Monitoring of Beneficial Birds in Agricultural Ecosystems
+# <div align="center"> Monitoring of Beneficial Birds in Agricultural Ecosystems <div>
 
 ## Project Overview
 The Monitoring of Beneficial Birds in Agricultural Ecosystems initiative was launched in 2019 with the purpose of connecting sustainable land use practices with changes in native bird communities. Our team is particularly interested in species that provide ecosystem services or are of conservation concern. To date, we have completed four survey seasons at five organic farms in Ford County, Illinois. 
