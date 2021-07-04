@@ -17,7 +17,8 @@ R Wildflower & Fields (160 acres) <br />
 ## Results 
 
 ## Resources
-https://www.birdpop.org/docs/misc/Alpha_codes_eng.pdf
+https://www.birdpop.org/docs/misc/Alpha_codes_eng.pdf <br />
+Banner by Marya Kutuzova, https://www.art.com/gallery/id--a18396/marya-kutuzova-posters.htm
 
 ## Contacts
 **Dallas Glazik - dglazik@gmail.com** <br />
