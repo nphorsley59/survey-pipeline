@@ -1,17 +1,22 @@
 # Monitoring of Beneficial Birds in Agricultural Ecosystems
 
 ## Project Overview
-In 2019, a colleague and I launched the Monitoring of Beneficial Birds in Agricultural Ecosystems initiative. The purpose of this project is to connect sustainable land use practices with changes in native bird communities. We are particularly interested in species that provide ecosystem services or are of conservation concern. To date, we have completed four survey seasons (Fall 2019, Spring 2020, Spring 2021, and Summer 2021) at five organic farms in Ford County, Illinois. For additional information, please contact a team member (below) or visit our website at (website link).
+In 2019, a colleague and I launched the Monitoring of Beneficial Birds in Agricultural Ecosystems initiative. The purpose of this project is to connect sustainable land use practices with changes in native bird communities. We are particularly interested in species that provide ecosystem services or are of conservation concern. To date, we have completed four survey seasons (Fall 2019, Spring 2020, Spring 2021, and Summer 2021) at five organic farms in Ford County, Illinois. For additional information, please contact a team member (below) or visit our website at (website link). <br />
 
-## Contacts
 **Dallas Glazik - dglazik@gmail.com** <br />
 Land Manager, Outreach Coordinator, Founder <br />
+
+(picture) <br />
 
 **Noah Horsley - nphorsley59@gmail.com** <br />
 Data Scientist, Point Count Surveyor, Founder <br />
 
+(picture) <br />
+
 **Colin Dobson - cdobson2@illinois.edu** <br />
 Avian Ecologist, Point Count Lead
+
+(picture) <br />
 
 ## Enrolled Farms
 Cow Creek (400 acres) <br />
