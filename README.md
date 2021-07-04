@@ -1,25 +1,31 @@
-# Monitoring of Beneficial Birds in Agricultural Ecosystems
+# <div align="center"> Monitoring of Beneficial Birds in Agricultural Ecosystems <div>
 
-### Project Overview
-In the Fall of 2019, a colleague and I launched the Monitoring of Beneficial Birds in Agricultural Ecosystems initiative. The purpose of this project is to connect sustainable land use practices with changes in native bird communities. We are particularly interested in species that provide ecosystem services or are of conservation concern. To date, we have completed two survey seasons (Fall 2019 and Spring 2020) at five organic farms in Ford County, Illinois. Our current goal is to secure an additional 5 years of funding ($10,000) to support seasonal surveys and an undergraduate researcher at the University of Illinois.
+![alt_text](https://github.com/nphorsley59/avian_monitoring/blob/main/docs/images/birds-liner-wildlife-banner-marya-kutuzova.jpg "banner")  
+  
+## Project Overview
+The Monitoring of Beneficial Birds in Agricultural Ecosystems initiative was launched in 2019 with the purpose of connecting sustainable land use practices with changes in native bird communities. Our team is particularly interested in species that provide ecosystem services or are of conservation concern. To date, we have completed four survey seasons at five organic farms in Ford County, Illinois. 
 
-**Dallas Glazik - dglazik@gmail.com**<br />
-Outreach, communication, grants coordinator<br />
-**Noah Horsley - nphorsley59@gmail.com**<br />
-Surveyor, analysist, project coordinator<br />
-**Colin Dobson - cdobson2@illinois.edu**<br />
-Surveyor, undergraduate researcher
+## Enrolled Farms
+- Cow Creek (400 acres) <br />
+- Craver Trust (200 acres) <br />
+- D & Q (80 acres) <br />
+- J & W (160 acres) <br />
+- R Wildflower & Fields (160 acres) <br />
 
-### Enrolled Farms
-Cow Creek (400 acres)<br />
-Craver Trust (200 acres)<br />
-D & Q (80 acres)<br />
-J & W (160 acres)<br />
-R Wildflower & Fields (160 acres)
+## Analysis
 
-### Analysis
+## Results 
 
-### Results 
+## Resources
+https://www.birdpop.org/docs/misc/Alpha_codes_eng.pdf <br />
+Banner by Marya Kutuzova, https://www.art.com/gallery/id--a18396/marya-kutuzova-posters.htm
 
-### Resources
-https://www.birdpop.org/docs/misc/Alpha_codes_eng.pdf
+## Contacts
+**Dallas Glazik - dglazik@gmail.com** <br />
+Land Manager, Outreach Coordinator, Founder <br />
+
+**Noah Horsley - nphorsley59@gmail.com** <br />
+Data Scientist, Point Count Surveyor, Founder <br />
+
+**Colin Dobson - cdobson2@illinois.edu** <br />
+Avian Ecologist, Point Count Lead <br />
