@@ -1,6 +1,16 @@
 # == Global Libraries == #
 import json
+import os
 import pandas as pd
+import sys
+
+
+# == Locate Root Dir == #
+flare = '\\flare.py'
+path = os.getcwd()
+while not os.path.isfile(path + flare):
+    path = os.path.dirname(path)
+sys.path.append(path)
 
 
 # == Local Modules == #
@@ -66,7 +76,8 @@ bird_codes_df = (
 
 
 # == Transform to JSON and Write == #
-bird_codes_json = bird_codes_df.to_json(orient='index')
+bird_codes_dict = bird_codes_df.T.to_dict()
+bird_codes_json = json.dumps(bird_codes_dict)
 path = 'C:/Users/Work/Documents/Repos/avian_monitoring/data/cleaned/species_codes.json'
 with open(path, 'w') as f:
     json.dump(bird_codes_json, f)

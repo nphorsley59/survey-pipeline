@@ -4,15 +4,7 @@ import os
 import sys
 
 
-# == Locate Root Dir == #
-flare = '\\flare.py'
-path = os.getcwd()
-while not os.path.isfile(path + flare):
-    path = os.path.dirname(path)
-sys.path.append(path)
-
-
-# == Local Modules == #
+# == Functions == #
 def replace_substring(df: pd.DataFrame, 
                       column: str, 
                       old: str, 
