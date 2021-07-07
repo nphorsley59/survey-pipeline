@@ -14,7 +14,7 @@ def replace_substring(df: pd.DataFrame,
     
     Args:
         df (pd.DataFrame)
-        column (str): Name of column in df with dtype str.
+        column (str): Name of target column in df with dtype str.
         old (str): Substring to be replaced.
         new (str): Substring to replace old with.
     
@@ -33,7 +33,7 @@ def subset_by_substring(df: pd.DataFrame,
     
     Args:
         df (pd.DataFrame)
-        column (str): Name of column in df with dtype str.
+        column (str): Name of target column in df with dtype str.
         substring (str): Substring to subset rows on.
         contains (bool, default=True): Subset by presence or absence of 
             substring.
@@ -54,7 +54,7 @@ def split_string(df: pd.DataFrame,
     
     Args:
         df (pd.DataFrame)
-        column (str): Name of column in df with dtype str.
+        column (str): Name of target column in df with dtype str.
         separator (str): Substring to separate strings on.
     
     Returns:
