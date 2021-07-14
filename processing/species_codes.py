@@ -62,10 +62,10 @@ with open(path, 'r') as f:
 
 # process species data in dataframe
 bird_codes_df = (
-    df.pipe(replace_substring, 'species', '*', '')
-        .pipe(replace_substring, 'species', '\n', '')
+    df.pipe(replace_substrings, 'species', '*', '')
+        .pipe(replace_substrings, 'species', '\n', '')
         .pipe(subset_by_substring, 'species', '\+', False)
-        .pipe(split_string, 'species', ' ')
+        .pipe(split_strings, 'species', ' ')
         .pipe(classify_naming_convention)
         .pipe(extract_fourletter_code, 4)
         .pipe(extract_english_name, 4)

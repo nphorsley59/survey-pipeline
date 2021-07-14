@@ -1,11 +1,9 @@
 # == Global Libraries == #
 import pandas as pd
-import os
-import sys
 
 
 # == Functions == #
-def replace_substring(df: pd.DataFrame, 
+def replace_substrings(df: pd.DataFrame, 
                       column: str, 
                       old: str, 
                       new: str) -> pd.DataFrame:
@@ -47,7 +45,7 @@ def subset_by_substring(df: pd.DataFrame,
     else:
         return df[~df[column].str.contains(substring)].copy()    
 
-def split_string(df: pd.DataFrame, 
+def split_strings(df: pd.DataFrame, 
                  column: str, 
                  separator: str) -> pd.DataFrame:
     """Splits strings in column into list on separator.
@@ -62,4 +60,18 @@ def split_string(df: pd.DataFrame,
         
     """
     df[column] = df[column].apply(lambda x: x.split(separator))
+    return df
+
+def uppercase_strings(df: pd.DataFrame, cols: list) -> pd.DataFrame:
+    """"Converts strings in specified columns to uppercase.
+    
+    Args:
+        df (pd.DataFrame)
+        cols (list): Name of target column(s) in df as a list.
+        
+    Returns:
+        df (pd.DataFrame)
+    
+    """
+    df[cols] = df[cols].apply(lambda x: x.str.upper())
     return df
