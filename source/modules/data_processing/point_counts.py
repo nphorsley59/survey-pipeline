@@ -4,6 +4,8 @@ import os
 import pandas as pd
 import sys
 
+from pandas.io.formats.format import Datetime64TZFormatter
+
 # == Locate Root Dir == #
 flare = '\\flare.py'
 path = os.getcwd()
@@ -12,9 +14,9 @@ while not os.path.isfile(path + flare):
 sys.path.append(path)
 
 # == Import Local Functions == #
-from source.modules.data.dataframe import get_columns, load_csv, \
-    load_json
-from source.modules.data.math import number_in_range
+from source.modules.data_processing.dataframe import get_columns, load_csv, \
+    load_json, change_dtype
+from source.modules.data_processing.math import number_in_range
 
 
 # ============================================================================
@@ -44,12 +46,36 @@ class PointCountData():
     NUM_CONSTANTS = [POINTS_RANGE, MINUTES_RANGE, DISTANCE_RANGE, 
         CLUSTER_SIZE]
     NUM_COLS = ['point', 'minute', 'distance', 'cluster_size']
+    REQUIRED_COLS = ['year', 'month', 'day', 'site_id', 'point', 
+        'species_code']
 
 
     def __init__(self, path):
         self.path = path
         self.df = load_csv(self.path, column_names=self.COLUMN_NAMES)
         self.columns = get_columns(self.df)
+    
+    
+    # instance method
+    def fill_cluster_size(self):
+        self.df = self.df['cluster_size'].fillna(1, axis=0)
+    
+    
+    # instance method
+    def drop_nulls_by_subset(self):
+        row_count = len(self.df)
+        self.df = self.df.dropna(subset=[self.REQUIRED_COLS])
+        count_dropped = row_count - len(self.df)
+        if count_dropped > 0:
+            print(f"{count_dropped} rows contained a NULL value in at least"
+                f"one required column and were dropped.")
+    
+    
+    # instance method
+    def coerce_nulls_to_int(self):
+        int_columns = ['minute', 'distance', 'cluster_size']
+        for column in int_columns:
+            self.df = change_dtype(self.df, column, 'int64')
     
     
     @staticmethod
@@ -60,6 +86,7 @@ class PointCountData():
             exit()
 
 
+    # instance method
     def validate_categories(self, columns=CAT_COLS, constants=CAT_CONSTANTS):
         for i in range(len(constants)):
             df = self.df[~self.df[columns[i]].isin(constants[i])]
@@ -67,6 +94,7 @@ class PointCountData():
             self.validation_response(df, columns[i])
 
 
+    # instance method
     def validate_numbers(self, columns=NUM_COLS, constants=NUM_CONSTANTS):
         for i in range(len(constants)):
             min = constants[i]['min']
@@ -75,12 +103,12 @@ class PointCountData():
                 .apply(lambda x: not number_in_range(x, min, max))]
             df = df.dropna(subset=[columns[i]])
             self.validation_response(df, columns[i])
+
     
-    
-    def review_csv(self):
-        self.validate_categories()
-        self.validate_numbers()
-        print(f'File "{self.path}" has been reviewed.')
+    @classmethod
+    def review_csv(cls):
+        cls.validate_categories()
+        cls.validate_numbers()
 
 
 # ============================================================================
@@ -95,5 +123,7 @@ test1 = PointCountData(path1)
 # test2.validate_constants()
 
 
-# find way to universally handle NULLs
-# assign data types to columns where it matters
+# convert year, month, day to a single datetime column
+# convert start_time to numeric
+# visual to bool
+# replace codes with full names
