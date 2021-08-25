@@ -4,7 +4,7 @@ import os
 import pandas as pd
 import sys
 
-from pandas.io.formats.format import Datetime64TZFormatter
+from datetime import datetime as dt
 
 # == Locate Root Dir == #
 flare = '\\flare.py'
@@ -15,7 +15,8 @@ sys.path.append(path)
 
 # == Import Local Functions == #
 from source.modules.data_processing.dataframe import get_columns, load_csv, \
-    load_json, change_dtype
+    load_json
+from source.modules.data_processing.prompts import yes_no
 from source.modules.data_processing.math import number_in_range
 
 
@@ -23,6 +24,7 @@ from source.modules.data_processing.math import number_in_range
 # == Create Class DataPointCounts == #
 class PointCountData():
     
+    # class attributes
     COLUMN_NAMES = ['observer_id', 'year', 'month', 'day', 'site_id', 
         'start_time', 'point', 'minute', 'species_code', 'distance', 
         'how', 'visual', 'sex', 'migrating', 'cluster_size', 
@@ -50,32 +52,43 @@ class PointCountData():
         'species_code']
 
 
+    # initialization method
     def __init__(self, path):
+        print("--- == REVIEW INITIATED == ---\n")
         self.path = path
         self.df = load_csv(self.path, column_names=self.COLUMN_NAMES)
         self.columns = get_columns(self.df)
     
     
     # instance method
-    def fill_cluster_size(self):
-        self.df = self.df['cluster_size'].fillna(1, axis=0)
+    def manual_fill_na(self):
+        self.df['cluster_size'] = self.df['cluster_size'].fillna(1, axis=0)
+        self.df['start_time'] = self.df['start_time'].fillna('00:00', axis=0)
     
     
     # instance method
-    def drop_nulls_by_subset(self):
-        row_count = len(self.df)
-        self.df = self.df.dropna(subset=[self.REQUIRED_COLS])
-        count_dropped = row_count - len(self.df)
-        if count_dropped > 0:
-            print(f"{count_dropped} rows contained a NULL value in at least"
-                f"one required column and were dropped.")
+    def drop_incomplete_rows(self):
+        null_records = self.df[self.df[self.REQUIRED_COLS] \
+            .isnull() \
+            .any(axis='columns')]
+        if len(null_records) > 0:
+            print(f"A NULL value was found in a required column for each of "
+                f"the following records:\n\n{null_records}\n")
+            if yes_no("Remove records?"):
+                self.df = self.df.dropna(subset=self.REQUIRED_COLS)
+                print("(records removed)")
+            else:
+                print("Cannot proceed with NULL values in required columns.\n"
+                    "\n--- == REVIEW TERMINATED == ---")
+                exit()
+            
     
-    
-    # instance method
-    def coerce_nulls_to_int(self):
-        int_columns = ['minute', 'distance', 'cluster_size']
-        for column in int_columns:
-            self.df = change_dtype(self.df, column, 'int64')
+    # TASK METHOD []
+    def treat_null_values(self):
+        print("Treating null values...")
+        self.manual_fill_na()
+        self.drop_incomplete_rows()
+        print("Treating null values complete!")
     
     
     @staticmethod
@@ -105,25 +118,45 @@ class PointCountData():
             self.validation_response(df, columns[i])
 
     
-    @classmethod
-    def review_csv(cls):
-        cls.validate_categories()
-        cls.validate_numbers()
+    # TASK METHOD []
+    def validate_records(self):
+        print("\nValidating records...")
+        self.validate_categories()
+        self.validate_numbers()
+        print("Validating records complete!")
+    
+    
+    # instance method
+    def merge_date(self):
+        self.df['date'] = pd.to_datetime(self.df[['year', 'month', 'day']])
+    
+    
+    # instance method
+    def time_to_int(self):
+        date_obj = dt(1900, 1, 1)
+        self.df['seconds'] = self.df['start_time'] \
+            .apply(lambda x: (dt.strptime(x, "%H:%M") - date_obj) \
+                .total_seconds())
+    
+    
+    # TASK METHOD []
+    def convert_values(self):
+        print("\nConverting values...")
+        self.merge_date()
+        self.time_to_int()
+        print("Converting values complete!")
+        print("\n--- == REVIEW COMPLETE == ---\n")
 
 
 # ============================================================================
 # == Test Module == #
-path1 = r'./data/raw/point_counts_2020-06-21.csv'
+path1 = r'./data/raw/test_df.csv'
 test1 = PointCountData(path1)
-# test1.review_csv()
+test1.treat_null_values()
+test1.validate_records()
+test1.convert_values()
+print(test1.df.sample(20))
 
 
-# path2 = r'./data/raw/point_counts_2021-07-02.csv'
-# test2 = PointCountData(path2)
-# test2.validate_constants()
-
-
-# convert year, month, day to a single datetime column
-# convert start_time to numeric
 # visual to bool
 # replace codes with full names
