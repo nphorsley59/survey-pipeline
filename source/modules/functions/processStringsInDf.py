@@ -1,7 +1,9 @@
+# ============================================================================
 # == Global Libraries == #
 import pandas as pd
 
 
+# ============================================================================
 # == Functions == #
 def replace_substrings(df: pd.DataFrame, 
                       column: str, 
@@ -60,18 +62,4 @@ def split_strings(df: pd.DataFrame,
         
     """
     df[column] = df[column].apply(lambda x: x.split(separator))
-    return df
-
-def uppercase_strings(df: pd.DataFrame, cols: list) -> pd.DataFrame:
-    """"Converts strings in specified columns to uppercase.
-    
-    Args:
-        df (pd.DataFrame)
-        cols (list): Name of target column(s) in df as a list.
-        
-    Returns:
-        df (pd.DataFrame)
-    
-    """
-    df[cols] = df[cols].apply(lambda x: x.str.upper())
     return df
