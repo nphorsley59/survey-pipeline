@@ -71,21 +71,21 @@ def replace_substrings(df: pd.DataFrame,
 def subset_by_substring(df: pd.DataFrame,
                         column: str,
                         substring: str,
-                        contains: bool = True) -> pd.DataFrame:
+                        keep: bool = True) -> pd.DataFrame:
     """Subsets rows of a DataFrame on the presence/absence of a substring.
 
     Args:
         df (pd.DataFrame)
         column (str): Name of target column in df with dtype str.
         substring (str): Substring to subset rows on.
-        contains (bool, default=True): Subset by presence or absence of
+        keep (bool, default=True): Subset by presence or absence of
             substring.
 
     Returns:
         df (pd.DataFrame)
 
     """
-    if contains:
+    if keep:
         return df[df[column].str.contains(substring)].copy()
     else:
         return df[~df[column].str.contains(substring)].copy()
@@ -93,17 +93,17 @@ def subset_by_substring(df: pd.DataFrame,
 
 def split_strings(df: pd.DataFrame,
                   column: str,
-                  separator: str) -> pd.DataFrame:
+                  on: str) -> pd.DataFrame:
     """Splits strings in column into list on separator.
 
     Args:
         df (pd.DataFrame)
         column (str): Name of target column in df with dtype str.
-        separator (str): Substring to separate strings on.
+        on (str): Substring to separate strings on.
 
     Returns:
         df (pd.DataFrame)
 
     """
-    df[column] = df[column].apply(lambda x: x.split(separator))
+    df[column] = df[column].apply(lambda x: x.split(on))
     return df

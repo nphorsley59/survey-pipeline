@@ -1,27 +1,7 @@
 
 
 import json
-import os
-import pandas as pd
-import sys
 
-
-# == Locate Root Dir == #
-flare = '\\flare.py'
-path = os.getcwd()
-while not os.path.isfile(path + flare):
-    path = os.path.dirname(path)
-sys.path.append(path)
-
-
-# == Local Modules == #
-from functions.processStringsInDf import *
-
-
-# == Functions == #
-# transforms txt data to a pandas dataframe
-def text_to_dataframe(text, col_name):
-    return pd.DataFrame(text, columns=[col_name])
 
 # categorizes a species' naming convention
 # used to locate specific pieces of information in full species string
@@ -82,3 +62,4 @@ bird_codes_json = json.dumps(bird_codes_dict)
 path = '/data/cleaned/species_codes.json'
 with open(path, 'w') as f:
     json.dump(bird_codes_json, f)
+
