@@ -14,7 +14,7 @@ while not os.path.isfile(path + flare):
 sys.path.append(path)
 
 # == Import Local Functions == #
-from source.modules.data_processing.dataframe import get_columns, load_csv, \
+from _depricated.dataframe import get_columns, load_csv, \
     load_json
 from source.modules.data_processing.prompts import yes_no
 from source.modules.data_processing.math import number_in_range

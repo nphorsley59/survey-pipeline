@@ -56,7 +56,7 @@ def extract_scientific_name(df):
 
 # == Load and Process species_codes.txt == #
 # open, read, store as dataframe, and close a text file
-path = 'C:/Users/Work/Documents/Repos/avian_monitoring/data/raw/species_codes.txt'
+path = '/data/raw/species_codes.txt'
 with open(path, 'r') as f:
     text = f.readlines()
     df = text_to_dataframe(text, 'species')
@@ -79,6 +79,6 @@ bird_codes_df = (
 # == Transform to JSON and Write == #
 bird_codes_dict = bird_codes_df.T.to_dict()
 bird_codes_json = json.dumps(bird_codes_dict)
-path = 'C:/Users/Work/Documents/Repos/avian_monitoring/data/cleaned/species_codes.json'
+path = '/data/cleaned/species_codes.json'
 with open(path, 'w') as f:
     json.dump(bird_codes_json, f)
