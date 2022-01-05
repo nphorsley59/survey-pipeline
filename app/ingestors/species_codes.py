@@ -27,14 +27,14 @@ def get_code_position(in_df: pd.DataFrame) -> pd.DataFrame:
     return out_df
 
 
-def split_on_index(a_list: list, index: int, column: str) -> list[str]:
+def split_on_index(a_list: list, index: list, column: str) -> list[str]:
     """Split records on index; helper function for parse_name_code()."""
     if column == 'common_name':
-        return a_list[:index]
+        return a_list[:index[0]]
     elif column == '4_letter_code':
-        return a_list[index]
+        return a_list[index[0]]
     elif column == 'scientific_name':
-        return a_list[index+1:-1]
+        return a_list[index[0]+1:index[1]]
 
 
 def parse_name_code(in_df: pd.DataFrame) -> pd.DataFrame:

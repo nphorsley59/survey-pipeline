@@ -113,7 +113,7 @@ def split_strings(df: pd.DataFrame,
 def index_all_caps(a_list: list[str]) -> list[int]:
     """Get indexes for list elements in all caps."""
     is_all_caps = [ele.isupper() for ele in a_list]
-    return np.where(is_all_caps)[0][0]
+    return np.where(is_all_caps)[0]
 
 
 def get_columns(df: pd.DataFrame) -> list:
