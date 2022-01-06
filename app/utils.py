@@ -116,24 +116,6 @@ def index_all_caps(a_list: list[str]) -> list[int]:
     return np.where(is_all_caps)[0]
 
 
-def get_columns(df: pd.DataFrame) -> list:
-    """Extract columns from pandas df as list."""
-    return df.columns
-
-
-def load_csv(path: str, column_names: list) -> pd.DataFrame:
-    """Load .csv file as a pandas df.
-
-    Args:
-        path (str): Path to .csv file.
-        column_names (list): Column names to use.
-
-    Returns:
-        df (pd.DataFrame)
-    """
-    return pd.read_csv(path, header=0, names=column_names)
-
-
 def load_json(path: str) -> dict:
     """Load .json file as a dictionary.
 
