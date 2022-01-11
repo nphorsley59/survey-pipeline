@@ -8,7 +8,7 @@ def number_in_range(x, minimum, maximum):
     return minimum <= x <= maximum
 
 
-def yes_no(prompt):
+def yes_no_input(prompt):
     while True:
         user_input = input(f"{prompt} (Y/N) ")
         if user_input == "Y":

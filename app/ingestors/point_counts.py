@@ -5,20 +5,38 @@
 
 import os
 import pandas as pd
-from pydantic import BaseModel
+import pandera as pa
 from config import Config
+from app.utils import yes_no_input
+
+
 # from _depricated.dataframe import get_columns, load_csv, \
 #     load_json
 # from source.modules.data_processing.prompts import yes_no
 # from source.modules.data_processing.math import number_in_range
 
 
-class HeaderValidator(BaseModel):
-    """Docstring"""
-    header: list[str]
+point_counts_schema = pa.DataFrameSchema({
+    'observer_id': pa.Column(str, pa.Check.isin(Config.OBSERVERS)),
+    'year': pa.Column(int, pa.Check.in_range(2019, 2022)),
+    'month': pa.Column(int, pa.Check.in_range(1, 12)),
+    'day': pa.Column(int, pa.Check.in_range(1, 31)),
+    'site_id': pa.Column(str, pa.Check.isin(Config.SITES)),
+    'start_time': pa.Column(str),
+    'point': pa.Column(int, pa.Check.in_range(Config.POINTS_RANGE['min'], Config.POINTS_RANGE['max'])),
+    'minute': pa.Column(int, pa.Check.in_range(Config.MINUTES_RANGE['min'], Config.MINUTES_RANGE['max'])),
+    'distance': pa.Column(int, pa.Check.in_range(Config.DISTANCE_RANGE['min'], Config.DISTANCE_RANGE['max'])),
+    'how': pa.Column(str, pa.Check.isin(Config.HOW)),
+    'visual': pa.Column(bool),
+    'sex': pa.Column(str, pa.Check.isin(Config.SEX)),
+    'migrating': pa.Column(bool),
+    'cluster_size': pa.Column(int, pa.Check.in_range(Config.CLUSTER_SIZE['min'], Config.CLUSTER_SIZE['max'])),
+    'cluster_code': pa.Column(str),
+    'notes': pa.Column(str)
+})
 
 
-class PointCountData:
+class PointCounts:
     """Docstring"""
     # SPECIES_CODE_PATH = './data/cleaned/species_codes.json'
     # SPECIES_CODES = list(pd.DataFrame \
@@ -27,21 +45,44 @@ class PointCountData:
     # CAT_CONSTANTS = [OBSERVERS, SITES, SPECIES_CODES, HOW, BOOL, SEX, BOOL]
     # NUM_CONSTANTS = [POINTS_RANGE, MINUTES_RANGE, DISTANCE_RANGE,
     #                  CLUSTER_SIZE]
-    def __init__(self, point_count_df):
+    def __init__(self, path):
         """Docstring"""
-        self.point_counts = point_count_df
-        print(self.point_counts.head(5))
-        # self.path = path
-        # self.df = load_csv(self.path, column_names=self.COLUMN_NAMES)
-        # self.columns = get_columns(self.df)
+        self.path = path
+        print(f'File: {self.path}\n')
+        self.df = pd.read_csv(path)
+        self.columns = list(self.df.columns)
+        print('LOG:')
 
+    def fill_nulls(self, fill: dict = None):
+        """Docstring"""
+        for column, value in fill.items():
+            self.df[column] = self.df[column].fillna(value, axis=0)
+            print(f'Auto-filled nulls in column "{column}" with "{value}".')
 
+    def drop_incomplete_rows(self, required_columns: list[str] = None):
+        """Docstring"""
+        null_records = self.df[self.df[required_columns].isnull().any(axis='columns')]
+        null_records_count = len(null_records)
+        if null_records_count > 0:
+            print(f'>> WARNING: null values found in required columns for {null_records_count} records.')
+            if yes_no_input('Drop records and continue?'):
+                self.df = self.df.dropna(subset=required_columns)
+                print(f'({null_records_count} records removed)')
+            else:
+                print('Cannot proceed with NULL values in required columns.')
+                exit()
+
+    def clean(self):
+        print(f'Cleaning {self.path} ...')
+        self.fill_nulls(fill={'cluster_size': 1, 'start_time': '00:00'})
+        self.drop_incomplete_rows(required_columns=Config.REQUIRED_COLS)
+        return self.df
 
 
 def factory():
-    path = os.path.join(Config.PROJECT_DIR, './data/raw/test_df.csv')
-    point_counts = pd.read_csv(path)
-    PointCountData(point_counts)
+    path = os.path.join(Config.PROJECT_DIR, r'data\raw\test_df.csv')
+    pc = PointCounts(path).clean()
+    print(pc.head(5))
 
 
 if __name__ == '__main__':
@@ -138,7 +179,7 @@ if __name__ == '__main__':
 # # ============================================================================
 # # == Test Module == #
 # path1 = r'./data/raw/test_df.csv'
-# test1 = PointCountData(path1)
+# test1 = PointCounts(path1)
 # test1.treat_null_values()
 # test1.validate_records()
 # test1.convert_values()

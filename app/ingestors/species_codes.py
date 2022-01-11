@@ -51,7 +51,7 @@ def parse_name_code(in_df: pd.DataFrame) -> pd.DataFrame:
     return out_df[[code, name, sci]]
 
 
-def ingest_species_codes():
+def factory_ingest_species_codes():
     """Ingest text file of species information and return JSON dict to map 4-letter code to common name."""
     logger.info('ingest_species_codes() starting...')
     # read text file
@@ -76,4 +76,4 @@ def ingest_species_codes():
 
 
 if __name__ == '__main__':
-    ingest_species_codes()
+    factory_ingest_species_codes()
