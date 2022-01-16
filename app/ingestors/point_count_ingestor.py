@@ -19,7 +19,7 @@ from app.utils import local_path
 
 
 class PointCountIngestor:
-    """Docstring"""
+    """Ingest and standardize a point count dataframe."""
     def __init__(self, df: pd.DataFrame = None):
         """Initiate PointCountIngestor instance."""
         self.df = df
@@ -92,7 +92,7 @@ class PointCountIngestor:
         validator.validate()
 
     def ingest(self):
-        """Ingest a point count dataframe."""
+        """Ingest the dataframe."""
         self.auto_fill()
         self.drop_missing()
         self.engineer_features()
@@ -101,14 +101,15 @@ class PointCountIngestor:
 
 
 def ingest_point_counts():
-    """Docstring"""
+    """Factory to ingest and standardize a point count dataframe."""
     logger.info('[START ] ingest_point_counts()')
+    # read csv
     path = local_path(path=r'data\raw\test_df.csv')
     df = pd.read_csv(path)
+    # ingest
     ingestor = PointCountIngestor(df)
     ingestor.ingest()
     logger.info('[FINISH] ingest_point_counts()')
-    print(ingestor.df.sample(10))
 
 
 if __name__ == '__main__':
