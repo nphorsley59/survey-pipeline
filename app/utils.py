@@ -1,7 +1,12 @@
 
 
 import numpy as np
+import os
 import pandas as pd
+import time
+
+
+from config import Config
 
 
 def number_in_range(x, minimum, maximum):
@@ -9,6 +14,7 @@ def number_in_range(x, minimum, maximum):
 
 
 def yes_no_input(prompt):
+    time.sleep(1)
     while True:
         user_input = input(f"{prompt} (Y/N) ")
         if user_input == "Y":
@@ -114,6 +120,11 @@ def index_all_caps(a_list: list[str]) -> list[int]:
     """Get indexes for list elements in all caps."""
     is_all_caps = [ele.isupper() for ele in a_list]
     return np.where(is_all_caps)[0]
+
+
+def local_path(path: str) -> str:
+    """Convert relative path to absolute path based on project directory."""
+    return os.path.join(Config.PROJECT_DIR, path)
 
 
 def load_json(path: str) -> dict:

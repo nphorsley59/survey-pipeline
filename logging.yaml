@@ -1,0 +1,18 @@
+version: 1
+
+formatters:
+    formatter:
+        format: '%(asctime)s [%(name)s] [%(levelname)s] %(message)s'
+        datefmt: '%Y-%m-%d %H:%M:%S'
+
+handlers:
+    console_handler:
+        class: logging.StreamHandler
+        formatter: formatter
+        level: DEBUG
+
+loggers:
+    MAIN:
+        level: DEBUG
+        handlers: [console_handler]
+        propogate: False
