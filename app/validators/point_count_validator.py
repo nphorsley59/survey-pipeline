@@ -9,15 +9,20 @@ from config import Config
 
 
 class DataFrameValidator:
-    """Docstring"""
+    """Validate the contents of a dataframe based on a pre-defined schema."""
     def __init__(self, df: pd.DataFrame, schema: str):
-        """Docstring"""
+        """Initiate DataFrameValidator instance.
+
+        Args:
+            df (pd.DataFrame): Dataframe to validate
+            schema (str): Pre-defined schema to use; possible values: 'point count'
+        """
         self.df = df
         self.schema = schema
 
     @staticmethod
     def point_count_schema():
-        """Docstring"""
+        """Schema for ingested point count data."""
         schema = pa.DataFrameSchema({
             'site_id': pa.Column(str, pa.Check.isin(Config.SITES)),
             'date': pa.Column(DateTime),
@@ -41,7 +46,7 @@ class DataFrameValidator:
         return schema
 
     def validate(self):
-        """Docstring"""
+        """Validate the dataframe."""
         if self.schema == 'point count':
             point_count_schema = self.point_count_schema()
             point_count_schema(self.df)
@@ -49,10 +54,10 @@ class DataFrameValidator:
             raise KeyError(f'Invalid schema "{self.schema}"')
 
 
-def factory():
-    """Docstring"""
+def validate_dataframe():
+    """Factory to validate the contents of a dataframe based on a pre-defined schema."""
     pass
 
 
 if __name__ == '__main__':
-    factory()
+    validate_dataframe()
