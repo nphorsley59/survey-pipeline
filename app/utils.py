@@ -122,26 +122,6 @@ def index_all_caps(a_list: list[str]) -> list[int]:
     return np.where(is_all_caps)[0]
 
 
-def local_path(path: str) -> str:
-    """Convert relative path to absolute path based on project directory."""
-    return os.path.join(Config.PROJECT_DIR, path)
-
-
-def load_json(path: str) -> dict:
-    """Load .json file as a dictionary.
-
-    Args:
-        path (str): Path to .json file.
-
-    Returns:
-        json_dict (dict)
-    """
-    with open(path, 'r') as f:
-        json_string = json.load(f)
-        json_dict = json.loads(json_string)
-    return json_dict
-
-
 def string_case(df: pd.DataFrame, columns: list, case: str) -> pd.DataFrame:
     """Converts string columns to desired case.
 
