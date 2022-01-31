@@ -1,51 +1,79 @@
 
 
+from typing import Optional
+
+
 import pandas as pd
 import pandera as pa
-from pandera.typing import DateTime
 
 
-from config import Config
+from app.adapters import storage
+import config
 
 
 class DataFrameValidator:
-    """Validate the contents of a dataframe based on a pre-defined schema."""
+    """Validate contents of a dataframe based on a pre-defined schema."""
+    SPECIES_LETTER_CODES = storage.get_storage().read_file(
+        'data/reference/species_codes.json')['4_letter_code'].to_list()
+
     def __init__(self, df: pd.DataFrame, schema: str):
         """Initiate DataFrameValidator instance.
 
         Args:
             df (pd.DataFrame): Dataframe to validate
-            schema (str): Pre-defined schema to use; possible values: 'point count'
+            schema (str): Pre-defined schema to use; possible values:
+            'point count'
         """
         self.df = df
         self.schema = schema
 
-    @staticmethod
-    def point_count_schema():
+    def point_count_schema(self):
         """Schema for ingested point count data."""
         schema = pa.DataFrameSchema({
-            'observer_id': pa.Column(str, pa.Check.isin(Config.OBSERVERS)),
-            'year': pa.Column(float, pa.Check.in_range(Config.YEAR_RANGE['min'], Config.YEAR_RANGE['max'])),
-            'month': pa.Column(float, pa.Check.in_range(Config.MONTH_RANGE['min'], Config.MONTH_RANGE['max'])),
-            'day': pa.Column(float, pa.Check.in_range(Config.DAY_RANGE['min'], Config.DAY_RANGE['max'])),
-            'site_id': pa.Column(str, pa.Check.isin(Config.SITES)),
+            'observer_id': pa.Column(
+                str, pa.Check.isin(config.Config.OBSERVERS)),
+            'year': pa.Column(
+                float, pa.Check.in_range(
+                    config.Config.YEAR_RANGE['min'],
+                    config.Config.YEAR_RANGE['max'])),
+            'month': pa.Column(
+                float, pa.Check.in_range(
+                    config.Config.MONTH_RANGE['min'],
+                    config.Config.MONTH_RANGE['max'])),
+            'day': pa.Column(
+                float, pa.Check.in_range(
+                    config.Config.DAY_RANGE['min'],
+                    config.Config.DAY_RANGE['max'])),
+            'site_id': pa.Column(str, pa.Check.isin(config.Config.SITES)),
             'start_time': pa.Column(object, nullable=True),
-            'point': pa.Column(float, pa.Check.in_range(Config.POINTS_RANGE['min'], Config.POINTS_RANGE['max'])),
-            'minute': pa.Column(float,
-                                pa.Check.in_range(Config.MINUTES_RANGE['min'], Config.MINUTES_RANGE['max']),
-                                nullable=True),
-            'species_code': pa.Column(str),
-            'distance': pa.Column(float,
-                                  pa.Check.in_range(Config.DISTANCE_RANGE['min'], Config.DISTANCE_RANGE['max']),
-                                  nullable=True),
-            'how': pa.Column(str, pa.Check.isin(Config.HOW), nullable=True),
+            'point': pa.Column(
+                float, pa.Check.in_range(
+                    config.Config.POINTS_RANGE['min'],
+                    config.Config.POINTS_RANGE['max'])),
+            'minute': pa.Column(
+                float, pa.Check.in_range(
+                    config.Config.MINUTES_RANGE['min'],
+                    config.Config.MINUTES_RANGE['max']),
+                nullable=True),
+            'species_code': pa.Column(
+                str, pa.Check.isin(self.SPECIES_LETTER_CODES)),
+            'distance': pa.Column(
+                float, pa.Check.in_range(
+                    config.Config.DISTANCE_RANGE['min'],
+                    config.Config.DISTANCE_RANGE['max']),
+                nullable=True),
+            'how': pa.Column(
+                str, pa.Check.isin(config.Config.HOW),
+                nullable=True),
             'visual': pa.Column(str, nullable=True),
-            'sex': pa.Column(str, pa.Check.isin(Config.SEX)),
+            'sex': pa.Column(str, pa.Check.isin(config.Config.SEX)),
             'migrating': pa.Column(str, nullable=True),
-            'cluster_size': pa.Column(float, pa.Check.in_range(Config.CLUSTER_SIZE['min'], Config.CLUSTER_SIZE['max'])),
+            'cluster_size': pa.Column(
+                float, pa.Check.in_range(
+                    config.Config.CLUSTER_SIZE['min'],
+                    config.Config.CLUSTER_SIZE['max'])),
             'cluster_code': pa.Column(str, nullable=True),
             'notes': pa.Column(str, nullable=True),
-
         })
         return schema
 
@@ -53,24 +81,36 @@ class DataFrameValidator:
     def point_count_transformed_schema():
         """Schema for transformed point count data."""
         schema = pa.DataFrameSchema({
-            'site_id': pa.Column(str, pa.Check.isin(Config.SITES)),
-            'date': pa.Column(DateTime),
+            'site_id': pa.Column(str, pa.Check.isin(config.Config.SITES)),
+            'date': pa.Column(pa.typing.DateTime),
             'start_time': pa.Column(float, nullable=True),
-            'point': pa.Column(float, pa.Check.in_range(Config.POINTS_RANGE['min'], Config.POINTS_RANGE['max'])),
-            'minute': pa.Column(float,
-                                pa.Check.in_range(Config.MINUTES_RANGE['min'], Config.MINUTES_RANGE['max']),
-                                nullable=True),
-            'distance': pa.Column(float,
-                                  pa.Check.in_range(Config.DISTANCE_RANGE['min'], Config.DISTANCE_RANGE['max']),
-                                  nullable=True),
-            'how': pa.Column(str, pa.Check.isin(Config.HOW), nullable=True),
+            'point': pa.Column(
+                float, pa.Check.in_range(
+                    config.Config.POINTS_RANGE['min'],
+                    config.Config.POINTS_RANGE['max'])),
+            'minute': pa.Column(
+                float, pa.Check.in_range(
+                    config.Config.MINUTES_RANGE['min'],
+                    config.Config.MINUTES_RANGE['max']),
+                nullable=True),
+            'distance': pa.Column(
+                float, pa.Check.in_range(
+                    config.Config.DISTANCE_RANGE['min'],
+                    config.Config.DISTANCE_RANGE['max']),
+                nullable=True),
+            'how': pa.Column(
+                str, pa.Check.isin(config.Config.HOW), nullable=True),
             'visual': pa.Column(bool),
-            'sex': pa.Column(str, pa.Check.isin(Config.SEX)),
+            'sex': pa.Column(str, pa.Check.isin(config.Config.SEX)),
             'migrating': pa.Column(bool),
-            'cluster_size': pa.Column(float, pa.Check.in_range(Config.CLUSTER_SIZE['min'], Config.CLUSTER_SIZE['max'])),
+            'cluster_size': pa.Column(
+                float, pa.Check.in_range(
+                    config.Config.CLUSTER_SIZE['min'],
+                    config.Config.CLUSTER_SIZE['max'])),
             'cluster_code': pa.Column(str, nullable=True),
             'notes': pa.Column(str, nullable=True),
-            'observer_id': pa.Column(str, pa.Check.isin(Config.OBSERVERS))
+            'observer_id': pa.Column(
+                str, pa.Check.isin(config.Config.OBSERVERS))
         })
         return schema
 
@@ -79,13 +119,20 @@ class DataFrameValidator:
         if self.schema == 'point count':
             point_count_schema = self.point_count_schema()
             point_count_schema(self.df)
+            config.logger.info('[STATUS] Validated dataframe.')
         else:
-            raise KeyError(f'Invalid schema "{self.schema}"')
+            raise KeyError(f'Invalid schema "{self.schema}".')
 
 
-def validate_dataframe():
-    """Factory to validate the contents of a dataframe based on a pre-defined schema."""
-    pass
+def validate_dataframe(storage_adapter: Optional = None):
+    """Sandbox to test dataframe validation.
+
+    Args:
+        storage_adapter: Storage adapter used to read/write data.
+    """
+    storage_adapter = storage_adapter or storage.get_storage()
+    df = storage_adapter.read_file('data/source/point_counts_2020-06-21.csv')
+    DataFrameValidator(df=df, schema='point count')
 
 
 if __name__ == '__main__':

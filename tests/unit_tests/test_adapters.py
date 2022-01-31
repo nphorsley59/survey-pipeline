@@ -5,13 +5,13 @@ import pandas as pd
 
 
 from tests.unit_tests import BaseCase
-from app.adapters.storage import LocalFolder
+from app.adapters.storage import LocalDirectory
 
 
 class StorageCase(BaseCase):
     def test_read_write_local_csv(self):
         # Set storage option
-        local = LocalFolder()
+        local = LocalDirectory()
         # Paths
         read_path = './data/test_assets/read_file.csv'
         write_path = './data/test_assets/write_file.csv'

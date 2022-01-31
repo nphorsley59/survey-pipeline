@@ -1,12 +1,8 @@
 
 
 import numpy as np
-import os
 import pandas as pd
 import time
-
-
-from config import Config
 
 
 def number_in_range(x, minimum, maximum):
@@ -42,7 +38,6 @@ def change_dtype(df: pd.DataFrame, column: str, dtype: str) -> pd.DataFrame:
 
     Returns:
         df (pd.DataFrame)
-
     """
     if not valid_dtype(dtype):
         print("Invalid data type.")
@@ -69,7 +64,6 @@ def replace_substrings(df: pd.DataFrame,
 
     Returns:
         df (pd.DataFrame)
-
     """
     df[column] = df[column].apply(lambda x: x.replace(old, new))
     return df
@@ -90,7 +84,6 @@ def subset_by_substring(df: pd.DataFrame,
 
     Returns:
         df (pd.DataFrame)
-
     """
     if keep:
         return df[df[column].str.contains(substring)].copy()
@@ -110,7 +103,6 @@ def split_strings(df: pd.DataFrame,
 
     Returns:
         df (pd.DataFrame)
-
     """
     df[column] = df[column].apply(lambda x: x.split(on))
     return df
