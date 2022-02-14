@@ -1,3 +1,10 @@
+"""
+Raw point count data must be ingested and validated before transformation or analysis.
+
+This class ingests, standardizes, and validates a dataframe of point count data.
+Problems with the dataframe that cannot be coerced automatically will be raised and
+must be fixed manually.
+"""
 
 
 from typing import Optional
@@ -8,11 +15,12 @@ import pandas as pd
 
 from app.adapters import storage
 from app import validators
-import config
+from config import Config, logger
 
 
 class PointCountIngestor:
     """Class to ingest and standardize a point count dataframe."""
+
     def __init__(self, df: pd.DataFrame, write_storage=None):
         """Initiate PointCountIngestor instance.
 
@@ -27,22 +35,22 @@ class PointCountIngestor:
     def set_header(self):
         """Validate header against template and set column order."""
         # Validate
-        template = set(config.Config.POINT_COUNT_COLS_INGEST.keys())
+        template = set(Config.POINT_COUNT_COLS_INGEST.keys())
         df_columns = set(self.df.columns)
         if df_columns != template:
             raise ValueError('Header does not match template.')
         # Reorder
-        self.df = self.df[config.Config.POINT_COUNT_COLS_INGEST.keys()]
+        self.df = self.df[Config.POINT_COUNT_COLS_INGEST.keys()]
 
     def set_dtypes(self):
         """Set data types for each column."""
-        type_dict = config.Config.POINT_COUNT_COLS_INGEST
+        type_dict = Config.POINT_COUNT_COLS_INGEST
         for column, dtype in type_dict.items():
             try:
                 self.df[column] = self.df[column].astype(dtype)
             except ValueError:
-                config.logger.critical(f'Could not assign type "{dtype}" '
-                                       f'to column "{column}".')
+                logger.critical(f'Could not assign type "{dtype}" '
+                                f'to column "{column}".')
 
     @staticmethod
     def fill_most_common(df: pd.DataFrame = None) -> pd.DataFrame:
@@ -54,7 +62,7 @@ class PointCountIngestor:
         Returns:
             Point count data with nulls filled for certain categories.
         """
-        for column in config.Config.AUTO_FILL_CAT_COLS:
+        for column in Config.AUTO_FILL_CAT_COLS:
             df[column] = df[column].fillna(df[column].mode()[0])
         return df
 
@@ -63,10 +71,10 @@ class PointCountIngestor:
         # Most common value
         self.df = self.fill_most_common(self.df)
         # Default value
-        for column, value in config.Config.NULL_DEFAULTS.items():
+        for column, value in Config.NULL_DEFAULTS.items():
             self.df[column] = self.df[column].fillna(value, axis=0)
-            config.logger.info(f'[STATUS] Auto-filled "{column}" '
-                               f'nulls with "{value}".')
+            logger.info(f'[STATUS] Auto-filled "{column}" '
+                        f'nulls with "{value}".')
 
     def drop_missing(self):
         """Drop records with null values in required columns.
@@ -76,7 +84,7 @@ class PointCountIngestor:
             for reference.
         """
         # Get incomplete records
-        req_cols = config.Config.REQUIRED_COLS
+        req_cols = Config.REQUIRED_COLS
         missing_req = self.df[req_cols].isnull().any(axis='columns')
         self.incomplete_records = self.df[missing_req]
         ir_index = self.incomplete_records.index
@@ -85,8 +93,8 @@ class PointCountIngestor:
         self.df = self.df.drop(index=ir_index)
         # Log action
         if ir_count > 0:
-            config.logger.warning(f'Null values could not be coerced '
-                                  f'for {ir_count} records.')
+            logger.warning(f'Null values could not be coerced '
+                           f'for {ir_count} records.')
 
     def validate(self):
         """Validate dataframe against 'point count' schema."""
@@ -108,12 +116,12 @@ class PointCountIngestor:
         self.drop_missing()
         self.validate()
         self.export()
-        config.logger.info('[DONE] ingest_point_counts()')
+        logger.info('[DONE] ingest_point_counts()')
         return self.df
 
 
-def ingest_point_counts(storage_adapter: Optional = None,
-                        sources: Optional[list[pd.DataFrame]] = None):
+def factory_ingest_point_counts(storage_adapter: Optional = None,
+                                sources: Optional[list[pd.DataFrame]] = None):
     """Factory to ingest raw point count dataframes.
 
     Args:
@@ -124,19 +132,19 @@ def ingest_point_counts(storage_adapter: Optional = None,
         Defaults to read-only if adapter is not provided for storage.
         Pass data to df to run pipeline in memory.
     """
-    config.logger.info('[INIT] ingest_point_counts()')
+    logger.info('[INIT] ingest_point_counts()')
     read_storage = storage_adapter or storage.get_storage()
-    sources = sources or config.Config.POINT_COUNT_SOURCES
+    sources = sources or Config.POINT_COUNT_SOURCES
     ingested_sources = []
     for src in sources:
         if isinstance(src, str):
             src = read_storage.read_file(src)
         ingestor = PointCountIngestor(df=src, write_storage=storage_adapter)
         ingested_sources.append(ingestor)
-    config.logger.info('[PRIMED] ingest_point_counts()')
+    logger.info('[PRIMED] ingest_point_counts()')
     return ingested_sources
 
 
 if __name__ == '__main__':
-    for source in ingest_point_counts(storage_adapter=storage.get_storage()):
+    for source in factory_ingest_point_counts(storage_adapter=storage.get_storage()):
         source.ingest()

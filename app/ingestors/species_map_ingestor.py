@@ -1,3 +1,10 @@
+"""
+Raw point count data stores species as four-letter codes. To communicate survey
+results more clearly, these codes must be converted to other naming conventions.
+
+This class ingests a text map of species naming conventions and stores it as
+a JSON nested dictionary.
+"""
 
 
 from typing import Optional
@@ -6,13 +13,14 @@ from typing import Optional
 import pandas as pd
 
 
-from config import logger
-from app.adapters import storage
 from app import utils
+from app.adapters import storage
+from config import logger
 
 
-class SpeciesMappingIngestor:
+class SpeciesMapIngestor:
     """Ingest species naming conventions and return as a JSON dict."""
+
     def __init__(self, df: pd.DataFrame, storage_adapter):
         """Initiate SpeciesCodeIngestor instance.
 
@@ -113,8 +121,8 @@ class SpeciesMappingIngestor:
         return self.df
 
 
-def ingest_species_mapping(storage_adapter: Optional = None,
-                           df: Optional[pd.DataFrame] = None):
+def factory_ingest_species_map(storage_adapter: Optional = None,
+                               df: Optional[pd.DataFrame] = None):
     """Factory to ingest species naming conventions.
 
     Args:
@@ -129,10 +137,10 @@ def ingest_species_mapping(storage_adapter: Optional = None,
     read_storage = storage_adapter or storage.get_storage()
     df = df or read_storage.read_file(
         'data/source/species_codes.txt', header=['species'])
-    ingestor = SpeciesMappingIngestor(df=df, storage_adapter=storage_adapter)
+    ingestor = SpeciesMapIngestor(df=df, storage_adapter=storage_adapter)
     logger.info('[PRIMED] species_mapping_ingestor()')
     return ingestor
 
 
 if __name__ == '__main__':
-    ingest_species_mapping(storage_adapter=storage.get_storage()).ingest()
+    test = factory_ingest_species_map(storage_adapter=storage.get_storage()).ingest()
