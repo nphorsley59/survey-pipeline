@@ -7,13 +7,14 @@ must be fixed manually.
 """
 
 
+from itertools import zip_longest
 from typing import Optional
 
 
 import pandas as pd
 
 
-from app.adapters import storage
+from app.adapters.storage import get_storage
 from app import validators
 from config import Config, logger
 
@@ -21,15 +22,17 @@ from config import Config, logger
 class PointCountIngestor:
     """Class to ingest and standardize a point count dataframe."""
 
-    def __init__(self, df: pd.DataFrame, write_storage=None):
+    def __init__(self, df: pd.DataFrame, path: str, storage: Optional = None):
         """Initiate PointCountIngestor instance.
 
         Args:
             df (pd.DataFrame): Raw point count data.
-            write_storage: Storage adapter used to write data.
+            path (str): Read path; used to create write path.
+            storage: Storage adapter used to write data.
         """
         self.df = df
-        self.storage_adapter = write_storage
+        self.path = path
+        self.storage = storage
         self.incomplete_records = None
 
     def set_header(self):
@@ -104,9 +107,11 @@ class PointCountIngestor:
 
     def export(self):
         """Export dataframe."""
-        if self.storage_adapter:
-            self.storage_adapter.write_file(
-                self.df, 'data/ingested/point_counts_2021-07-02.pkl')
+        write_path = self.path \
+            .replace('/source/', '/ingested/') \
+            .replace('.csv', '.pkl')
+        if self.storage:
+            self.storage.write_file(self.df, write_path)
 
     def ingest(self):
         """Ingest dataframe."""
@@ -120,31 +125,35 @@ class PointCountIngestor:
         return self.df
 
 
-def factory_ingest_point_counts(storage_adapter: Optional = None,
-                                sources: Optional[list[pd.DataFrame]] = None):
+def factory_ingest_point_counts(dfs: Optional[list[pd.DataFrame]] = None,
+                                paths: Optional[list[str]] = None,
+                                storage: Optional = None):
     """Factory to ingest raw point count dataframes.
 
     Args:
-        storage_adapter: Storage adapter used to read/write data.
-        sources (pd.DataFrame): Raw point count data.
+        dfs (pd.DataFrame): Raw point count data.
+        paths (str): Read paths, required if sources are provided.
+        storage: Storage adapter used to read/write data.
 
     Notes:
         Defaults to read-only if adapter is not provided for storage.
         Pass data to df to run pipeline in memory.
     """
     logger.info('[INIT] ingest_point_counts()')
-    read_storage = storage_adapter or storage.get_storage()
-    sources = sources or Config.POINT_COUNT_SOURCES
+    read_storage = storage or get_storage()
+    paths = paths or Config.POINT_COUNT_SOURCES
+    dfs = dfs or [None]
+    sources = zip_longest(dfs, paths)
     ingested_sources = []
-    for src in sources:
-        if isinstance(src, str):
-            src = read_storage.read_file(src)
-        ingestor = PointCountIngestor(df=src, write_storage=storage_adapter)
+    for df, path in sources:
+        if df is None:
+            df = read_storage.read_file(path)
+        ingestor = PointCountIngestor(df=df, path=path, storage=storage)
         ingested_sources.append(ingestor)
     logger.info('[PRIMED] ingest_point_counts()')
     return ingested_sources
 
 
 if __name__ == '__main__':
-    for source in factory_ingest_point_counts(storage_adapter=storage.get_storage()):
+    for source in factory_ingest_point_counts(storage=get_storage()):
         source.ingest()

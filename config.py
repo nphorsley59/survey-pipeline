@@ -1,3 +1,4 @@
+"""Docstring"""
 
 
 import logging.config
@@ -24,27 +25,35 @@ pd.set_option('display.width', 500)
 # Configs
 class Config:
     PROJECT_DIR = os.path.dirname(__file__)
-    COLUMN_NAMES = ['observer_id', 'year', 'month', 'day', 'site_id',
-                    'start_time', 'point', 'minute', 'species_code',
-                    'distance', 'how', 'visual', 'sex', 'migrating',
-                    'cluster_size', 'cluster_code', 'notes']
-    POINT_COUNT_COLS_INGEST = {'observer_id': object,
-                               'year': float,
-                               'month': float,
-                               'day': float,
-                               'site_id': object,
-                               'start_time': object,
-                               'point': float,
-                               'minute': float,
-                               'species_code': object,
-                               'distance': float,
-                               'how': object,
-                               'visual': object,
-                               'sex': object,
-                               'migrating': object,
-                               'cluster_size': float,
-                               'cluster_code': object,
-                               'notes': object}
+    COLUMN_NAMES = [
+        'observer_id', 'year', 'month', 'day', 'site_id', 'start_time', 'point',
+        'minute', 'species_code', 'distance', 'how', 'visual', 'sex', 'migrating',
+        'cluster_size', 'cluster_code', 'notes'
+    ]
+    PROCESSED_POINT_COUNTS_COLUMNS = [
+        'observer_id', 'site_id', 'date', 'start_time', 'point', 'minute',
+        'species_code', 'distance', 'how', 'visual', 'sex', 'migrating',
+        'cluster_size', 'cluster_code', 'notes'
+    ]
+    POINT_COUNT_COLS_INGEST = {
+        'observer_id': object,
+        'year': float,
+        'month': float,
+        'day': float,
+        'site_id': object,
+        'start_time': object,
+        'point': float,
+        'minute': float,
+        'species_code': object,
+        'distance': float,
+        'how': object,
+        'visual': object,
+        'sex': object,
+        'migrating': object,
+        'cluster_size': float,
+        'cluster_code': object,
+        'notes': object
+    }
     POINT_COUNT_COLUMNS_OUT = {'site_id',
                                'date',
                                'start_time',
@@ -62,8 +71,8 @@ class Config:
                                'observer_id'}
     OBSERVERS = {'CKD'}
     SITES = {'CC', 'CT', 'RW', 'JW', 'DQ'}
-    HOW = {'V', 'S', 'C', 'O'}
-    SEX = {'M', 'F', 'J', 'U'}
+    HOW = {'V': 'Visual', 'S': 'Singing', 'C': 'Calling', 'O': 'Other'}
+    SEX = {'M': 'Male', 'F': 'Female', 'J': 'Juvenile', 'U': 'Unknown'}
     AUTO_FILL_CAT_COLS = {'observer_id'}
     CAT_COLS = {'observer_id', 'site_id', 'species_code', 'how', 'sex'}
     BOOL_COLS = {'visual', 'migrating'}
@@ -82,6 +91,8 @@ class Config:
                      'sex': 'U'}
     POINT_COUNT_SOURCES = ['data/source/point_counts_2021-07-02.csv',
                            'data/source/point_counts_2020-06-21.csv']
+    POINT_COUNTS_INGESTED = ['data/ingested/point_counts_2021-07-02.pkl',
+                             'data/ingested/point_counts_2020-06-21.pkl']
     DEFAULT_STORAGE = 'local'
 
     # SPECIES_CODE_PATH = './data/cleaned/species_codes.json'
