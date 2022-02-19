@@ -1,7 +1,5 @@
 """
-Raw point count data must be ingested and validated before transformation or analysis.
-
-This class ingests, standardizes, and validates a dataframe of point count data.
+This script ingests, standardizes, and validates a dataframe of point count data.
 Problems with the dataframe that cannot be coerced automatically will be raised and
 must be fixed manually.
 """
@@ -15,7 +13,7 @@ import pandas as pd
 
 
 from app.adapters.storage import get_storage
-from app import validators
+from app.validators import DataFrameValidator
 from config import Config, logger
 
 
@@ -37,72 +35,58 @@ class PointCountIngestor:
 
     def set_header(self):
         """Validate header against template and set column order."""
-        # Validate
-        template = set(Config.POINT_COUNT_COLS_INGEST.keys())
-        df_columns = set(self.df.columns)
-        if df_columns != template:
+        schema_columns = set(Config.SCHEMA_POINT_COUNT_INGEST.keys())
+        ingested_columns = set(self.df.columns)
+        if ingested_columns != schema_columns:
             raise ValueError('Header does not match template.')
-        # Reorder
-        self.df = self.df[Config.POINT_COUNT_COLS_INGEST.keys()]
+        self.df = self.df[Config.SCHEMA_POINT_COUNT_INGEST.keys()]
 
     def set_dtypes(self):
         """Set data types for each column."""
-        type_dict = Config.POINT_COUNT_COLS_INGEST
-        for column, dtype in type_dict.items():
+        for column, attrs in Config.SCHEMA_POINT_COUNT_INGEST.items():
             try:
-                self.df[column] = self.df[column].astype(dtype)
+                self.df[column] = self.df[column].astype(attrs['type'])
             except ValueError:
-                logger.critical(f'Could not assign type "{dtype}" '
-                                f'to column "{column}".')
-
-    @staticmethod
-    def fill_most_common(df: pd.DataFrame = None) -> pd.DataFrame:
-        """Fill null values with most common value, when applicable.
-
-        Args:
-            df (pd.DataFrame): Raw point count data.
-
-        Returns:
-            Point count data with nulls filled for certain categories.
-        """
-        for column in Config.AUTO_FILL_CAT_COLS:
-            df[column] = df[column].fillna(df[column].mode()[0])
-        return df
+                logger.critical(f"Could not assign type ({attrs['type']}) "
+                                f"to column ({column}).")
 
     def fill_nulls(self):
         """Fill null values with defaults or logic, when possible."""
-        # Most common value
-        self.df = self.fill_most_common(self.df)
-        # Default value
-        for column, value in Config.NULL_DEFAULTS.items():
-            self.df[column] = self.df[column].fillna(value, axis=0)
-            logger.info(f'[STATUS] Auto-filled "{column}" '
-                        f'nulls with "{value}".')
+        # With most common value
+        for column in ['observer_id']:
+            self.df[column] = self.df[column].fillna(self.df[column].mode()[0])
+        # With default value
+        for column, attrs in Config.SCHEMA_POINT_COUNT_INGEST.items():
+            if attrs['default'] is not None:
+                self.df[column] = self.df[column].fillna(attrs['default'], axis=0)
+                logger.info(f"[STATUS] Auto-filled column ({column}) "
+                            f"nulls with default ({attrs['default']}).")
 
-    def drop_missing(self):
+    def drop_incomplete_records(self):
         """Drop records with null values in required columns.
 
         Note:
-            Dropped records are stored in self.incomplete_records
-            for reference.
+            Dropped records are stored as self.incomplete_records.
         """
         # Get incomplete records
-        req_cols = Config.REQUIRED_COLS
-        missing_req = self.df[req_cols].isnull().any(axis='columns')
-        self.incomplete_records = self.df[missing_req]
+        required_columns = [column for column, attrs
+                            in Config.SCHEMA_POINT_COUNT_INGEST.items()
+                            if attrs['required']]
+        self.incomplete_records = self.df[self.df[required_columns]
+                                          .isnull().any(axis='columns')]
+        # Drop by index
         ir_index = self.incomplete_records.index
         ir_count = len(ir_index)
-        # Drop by index
         self.df = self.df.drop(index=ir_index)
-        # Log action
+        # Log results
         if ir_count > 0:
             logger.warning(f'Null values could not be coerced '
                            f'for {ir_count} records.')
 
     def validate(self):
         """Validate dataframe against 'point count' schema."""
-        validator = validators.DataFrameValidator(
-            df=self.df, schema='point count')
+        validator = DataFrameValidator(
+            df=self.df, schema='ingested point count')
         validator.validate()
 
     def export(self):
@@ -118,7 +102,7 @@ class PointCountIngestor:
         self.set_header()
         self.set_dtypes()
         self.fill_nulls()
-        self.drop_missing()
+        self.drop_incomplete_records()
         self.validate()
         self.export()
         logger.info('[DONE] ingest_point_counts()')
@@ -155,5 +139,5 @@ def factory_ingest_point_counts(dfs: Optional[list[pd.DataFrame]] = None,
 
 
 if __name__ == '__main__':
-    for source in factory_ingest_point_counts(storage=get_storage()):
+    for source in factory_ingest_point_counts(storage=None):
         source.ingest()

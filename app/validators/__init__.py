@@ -1,3 +1,3 @@
 
 
-from app.validators.point_count_validator import DataFrameValidator
+from app.validators.dataframe_validator import DataFrameValidator

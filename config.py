@@ -1,10 +1,15 @@
-"""Docstring"""
+"""
+Stores setup configurations for tools such as logging and pandas, as well as a
+Config class, which contains codebase-level constants.
+"""
 
 
-import logging.config
 import os
 import pandas as pd
 import yaml
+
+
+import logging.config
 
 
 # Logging setup
@@ -24,58 +29,38 @@ pd.set_option('display.width', 500)
 
 # Configs
 class Config:
+    # Settings
     PROJECT_DIR = os.path.dirname(__file__)
-    COLUMN_NAMES = [
-        'observer_id', 'year', 'month', 'day', 'site_id', 'start_time', 'point',
-        'minute', 'species_code', 'distance', 'how', 'visual', 'sex', 'migrating',
-        'cluster_size', 'cluster_code', 'notes'
-    ]
-    PROCESSED_POINT_COUNTS_COLUMNS = [
-        'observer_id', 'site_id', 'date', 'start_time', 'point', 'minute',
-        'species_code', 'distance', 'how', 'visual', 'sex', 'migrating',
-        'cluster_size', 'cluster_code', 'notes'
-    ]
-    POINT_COUNT_COLS_INGEST = {
-        'observer_id': object,
-        'year': float,
-        'month': float,
-        'day': float,
-        'site_id': object,
-        'start_time': object,
-        'point': float,
-        'minute': float,
-        'species_code': object,
-        'distance': float,
-        'how': object,
-        'visual': object,
-        'sex': object,
-        'migrating': object,
-        'cluster_size': float,
-        'cluster_code': object,
-        'notes': object
+    DEFAULT_STORAGE = 'local'
+    # Source file paths
+    POINT_COUNT_SOURCES = ['data/source/point_counts_2021-07-02.csv',
+                           'data/source/point_counts_2020-06-21.csv']
+    POINT_COUNTS_INGESTED = ['data/ingested/point_counts_2021-07-02.pkl',
+                             'data/ingested/point_counts_2020-06-21.pkl']
+    # Validation constants and mapping
+    OBSERVERS = {
+        'CKD': 'Colin Dobson',
+        'NPH': 'Noah Horsley'
     }
-    POINT_COUNT_COLUMNS_OUT = {'site_id',
-                               'date',
-                               'start_time',
-                               'point',
-                               'minute',
-                               'species_code',
-                               'distance',
-                               'how',
-                               'visual',
-                               'sex',
-                               'migrating',
-                               'cluster_size',
-                               'cluster_code',
-                               'notes',
-                               'observer_id'}
-    OBSERVERS = {'CKD'}
-    SITES = {'CC', 'CT', 'RW', 'JW', 'DQ'}
-    HOW = {'V': 'Visual', 'S': 'Singing', 'C': 'Calling', 'O': 'Other'}
-    SEX = {'M': 'Male', 'F': 'Female', 'J': 'Juvenile', 'U': 'Unknown'}
-    AUTO_FILL_CAT_COLS = {'observer_id'}
-    CAT_COLS = {'observer_id', 'site_id', 'species_code', 'how', 'sex'}
-    BOOL_COLS = {'visual', 'migrating'}
+    SITES = {
+        'CC': 'Cow Creek Ranch',
+        'CT': 'Craver Trust',
+        'RW': 'R Wildflower & Fields',
+        'JW': 'J&W Ranch',
+        'DQ': 'D&Q Ranch'
+    }
+    HOW = {
+        'V': 'Visual',
+        'S': 'Singing',
+        'C': 'Calling',
+        'O': 'Other'
+    }
+    SEX = {
+        'M': 'Male',
+        'F': 'Female',
+        'J': 'Juvenile',
+        'U': 'Unknown'
+    }
     YEAR_RANGE = {'min': 2020, 'max': 2022}
     MONTH_RANGE = {'min': 1, 'max': 12}
     DAY_RANGE = {'min': 1, 'max': 31}
@@ -83,22 +68,115 @@ class Config:
     MINUTES_RANGE = {'min': 1, 'max': 6}
     DISTANCE_RANGE = {'min': 0, 'max': 1000}
     CLUSTER_SIZE = {'min': 1, 'max': 1000}
-    NUM_COLS = ['point', 'minute', 'distance', 'cluster_size']
-    REQUIRED_COLS = ['year', 'month', 'day', 'site_id',
-                     'point', 'species_code']
-    NULL_DEFAULTS = {'cluster_size': 1,
-                     'start_time': '00:00',
-                     'sex': 'U'}
-    POINT_COUNT_SOURCES = ['data/source/point_counts_2021-07-02.csv',
-                           'data/source/point_counts_2020-06-21.csv']
-    POINT_COUNTS_INGESTED = ['data/ingested/point_counts_2021-07-02.pkl',
-                             'data/ingested/point_counts_2020-06-21.pkl']
-    DEFAULT_STORAGE = 'local'
-
-    # SPECIES_CODE_PATH = './data/cleaned/species_codes.json'
-    # SPECIES_CODES = list(pd.DataFrame \
-    #         .from_dict(load_json(SPECIES_CODE_PATH), orient='index') \
-    #         .reset_index()['index'].unique())
+    # Schemas
+    SCHEMA_POINT_COUNT_INGEST = {
+        'observer_id': {
+            'type': object,
+            'required': False,
+            'default': None},
+        'year': {
+            'type': float,
+            'required': True,
+            'default': None},
+        'month': {
+            'type': float,
+            'required': True,
+            'default': None},
+        'day': {
+            'type': float,
+            'required': True,
+            'default': None},
+        'site_id': {
+            'type': object,
+            'required': True,
+            'default': None},
+        'start_time': {
+            'type': object,
+            'required': False,
+            'default': '00:00'},
+        'point': {
+            'type': float,
+            'required': True,
+            'default': None},
+        'minute': {
+            'type': float,
+            'required': False,
+            'default': None},
+        'species_code': {
+            'type': object,
+            'required': True,
+            'default': None},
+        'distance': {
+            'type': float,
+            'required': False,
+            'default': None},
+        'how': {
+            'type': object,
+            'required': False,
+            'default': None},
+        'visual': {
+            'type': object,
+            'required': False,
+            'default': None},
+        'sex': {
+            'type': object,
+            'required': False,
+            'default': 'U'},
+        'migrating': {
+            'type': object,
+            'required': False,
+            'default': None},
+        'cluster_size': {
+            'type': float,
+            'required': False,
+            'default': 1},
+        'cluster_code': {
+            'type': object,
+            'required': False,
+            'default': None},
+        'notes': {
+            'type': object,
+            'required': False,
+            'default': None}
+    }
+    SCHEMA_POINT_COUNT_TRANSFORM = {
+        'observer_id': {
+            'type': object},
+        'observer': {
+            'type': object},
+        'site_id': {
+            'type': object},
+        'site': {
+            'type': object},
+        'date': {
+            'type': 'datetime64[ns]'},
+        'start_time': {
+            'type': float},
+        'point': {
+            'type': float},
+        'minute': {
+            'type': float},
+        'species_code': {
+            'type': object},
+        'species': {
+            'type': object},
+        'distance': {
+            'type': float},
+        'how': {
+            'type': object},
+        'visual': {
+            'type': bool},
+        'sex': {
+            'type': object},
+        'migrating': {
+            'type': bool},
+        'cluster_size': {
+            'type': float},
+        'cluster_code': {
+            'type': object},
+        'notes': {
+            'type': object}
+    }
 
 
 if __name__ == '__main__':

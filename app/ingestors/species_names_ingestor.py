@@ -1,9 +1,7 @@
 """
-Raw point count data stores species as four-letter codes. To communicate survey
-results more clearly, these codes must be converted to other naming conventions.
-
-This class ingests a text map of species naming conventions and stores it as
-a JSON nested dictionary.
+This script ingests a text map of species naming conventions and stores it as
+a JSON nested dictionary. The data is then easily accessible via the features class
+SpeciesNames.
 """
 
 
@@ -18,7 +16,7 @@ from app.adapters.storage import get_storage
 from config import logger
 
 
-class SpeciesMapIngestor:
+class SpeciesNamesIngestor:
     """Ingest species naming conventions and return as a JSON dict."""
 
     def __init__(self, df: pd.DataFrame, storage: Optional = None):
@@ -59,7 +57,7 @@ class SpeciesMapIngestor:
             Input dataframe with additional column, `code_position`.
         """
         df['code_position'] = df['species'].map(
-            lambda x: utils.index_all_caps(x))
+            lambda x: utils.get_index_for_upper_str(x))
         return df
 
     @staticmethod
@@ -121,8 +119,8 @@ class SpeciesMapIngestor:
         return self.df
 
 
-def factory_ingest_species_map(storage: Optional = None,
-                               df: Optional[pd.DataFrame] = None):
+def factory_ingest_species_names(storage: Optional = None,
+                                 df: Optional[pd.DataFrame] = None):
     """Factory to ingest species naming conventions.
 
     Args:
@@ -137,10 +135,10 @@ def factory_ingest_species_map(storage: Optional = None,
     read_storage = storage or get_storage()
     df = df or read_storage.read_file(
         'data/source/species_codes.txt', header=['species'])
-    ingestor = SpeciesMapIngestor(df=df, storage=storage)
+    ingestor = SpeciesNamesIngestor(df=df, storage=storage)
     logger.info('[PRIMED] species_mapping_ingestor()')
     return ingestor
 
 
 if __name__ == '__main__':
-    test = factory_ingest_species_map(storage=get_storage()).ingest()
+    test = factory_ingest_species_names(storage=get_storage()).ingest()

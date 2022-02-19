@@ -1,5 +1,6 @@
 """
-Ingested point count data needs to be compiled before transformation or analysis.
+This script compiles ingested source point count data into a single dataframe to
+reduce the complexity of working with many seasons or years of surveys.
 """
 
 
@@ -15,6 +16,7 @@ from config import Config, logger
 
 class PointCountCompiler:
     """Class to compile ingested point count data into a single dataframe."""
+
     def __init__(self, dfs: list[pd.DataFrame], storage: Optional = None):
         """Initialize PointCountCompiler instance.
 
@@ -50,6 +52,10 @@ def factory_compile_point_counts(dfs: Optional[list[pd.DataFrame]] = None,
     Args:
         dfs (pd.DataFrame): Standardized point count data.
         storage: Storage adapter used to write data.
+
+    Notes:
+        Defaults to read-only if adapter is not provided for storage.
+        Pass data to df to run pipeline in memory.
     """
     logger.info('[INIT] compile_point_counts()')
     read_storage = storage or get_storage()
@@ -62,4 +68,3 @@ def factory_compile_point_counts(dfs: Optional[list[pd.DataFrame]] = None,
 
 if __name__ == '__main__':
     test = factory_compile_point_counts().compile()
-    print(test.sample(5))
