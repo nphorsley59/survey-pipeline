@@ -7,20 +7,20 @@ import pandas as pd
 
 from app.ingestors.point_count_ingestor import (factory_ingest_point_counts,
                                                 PointCountIngestor)
-from app.ingestors.species_map_ingestor import (factory_ingest_species_map,
-                                                SpeciesMapIngestor)
+from app.ingestors.species_names_ingestor import (factory_ingest_species_names,
+                                                  SpeciesNamesIngestor)
 from tests.unit_tests import BaseCase
 
 
 class IngestorCase(BaseCase):
 
     def setUp(self):
-        self.species_map_ingestor = factory_ingest_species_map()
+        self.species_map_ingestor = factory_ingest_species_names()
         self.point_count_ingestor = factory_ingest_point_counts()
 
     def test_instance_of_ingest_species_map(self):
         self.assertIsNotNone(self.species_map_ingestor)
-        self.assertIsInstance(self.species_map_ingestor, SpeciesMapIngestor)
+        self.assertIsInstance(self.species_map_ingestor, SpeciesNamesIngestor)
 
     def test_df_from_ingest_species_map(self):
         df = self.species_map_ingestor.ingest()

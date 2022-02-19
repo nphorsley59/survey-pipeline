@@ -1,9 +1,7 @@
 """
-Raw point count data stores species as four-letter codes. To communicate survey
-results more clearly, these codes must be converted to other naming conventions.
-
-This class ingests a text map of species naming conventions and stores it as
-a JSON nested dictionary.
+This script ingests a text map of species naming conventions and stores it as
+a JSON nested dictionary. The data is then easily accessible via the features class
+SpeciesNames.
 """
 
 
@@ -14,22 +12,22 @@ import pandas as pd
 
 
 from app import utils
-from app.adapters import storage
+from app.adapters.storage import get_storage
 from config import logger
 
 
-class SpeciesMapIngestor:
+class SpeciesNamesIngestor:
     """Ingest species naming conventions and return as a JSON dict."""
 
-    def __init__(self, df: pd.DataFrame, storage_adapter):
+    def __init__(self, df: pd.DataFrame, storage: Optional = None):
         """Initiate SpeciesCodeIngestor instance.
 
         Args:
             df (pd.DataFrame): Raw species naming conventions data.
-            storage_adapter: Storage adapter used to write data.
+            storage: Storage adapter used to write data.
         """
         self.df = df
-        self.storage_adapter = storage_adapter
+        self.storage = storage
 
     def clean_raw_text(self):
         """Remove un-needed chars and non-species records from df."""
@@ -59,7 +57,7 @@ class SpeciesMapIngestor:
             Input dataframe with additional column, `code_position`.
         """
         df['code_position'] = df['species'].map(
-            lambda x: utils.index_all_caps(x))
+            lambda x: utils.get_index_for_upper_str(x))
         return df
 
     @staticmethod
@@ -104,8 +102,8 @@ class SpeciesMapIngestor:
 
     def export(self):
         """Export species mapping dataframe."""
-        if self.storage_adapter is not None:
-            self.storage_adapter.write_file(
+        if self.storage is not None:
+            self.storage.write_file(
                 self.df, 'data/reference/species_codes.json')
 
     def ingest(self) -> pd.DataFrame:
@@ -121,12 +119,12 @@ class SpeciesMapIngestor:
         return self.df
 
 
-def factory_ingest_species_map(storage_adapter: Optional = None,
-                               df: Optional[pd.DataFrame] = None):
+def factory_ingest_species_names(storage: Optional = None,
+                                 df: Optional[pd.DataFrame] = None):
     """Factory to ingest species naming conventions.
 
     Args:
-        storage_adapter: Storage adapter used to read/write data.
+        storage: Storage adapter used to read/write data.
         df (pd.DataFrame): Raw species naming conventions data.
 
     Notes:
@@ -134,13 +132,13 @@ def factory_ingest_species_map(storage_adapter: Optional = None,
         Pass data to df to run pipeline in memory.
     """
     logger.info('[INIT] species_mapping_ingestor()')
-    read_storage = storage_adapter or storage.get_storage()
+    read_storage = storage or get_storage()
     df = df or read_storage.read_file(
         'data/source/species_codes.txt', header=['species'])
-    ingestor = SpeciesMapIngestor(df=df, storage_adapter=storage_adapter)
+    ingestor = SpeciesNamesIngestor(df=df, storage=storage)
     logger.info('[PRIMED] species_mapping_ingestor()')
     return ingestor
 
 
 if __name__ == '__main__':
-    test = factory_ingest_species_map(storage_adapter=storage.get_storage()).ingest()
+    test = factory_ingest_species_names(storage=get_storage()).ingest()

@@ -1,5 +1,5 @@
-config.ini
 data/
 __pycache__/
 venv/
 .vscode/
+TODO.py
