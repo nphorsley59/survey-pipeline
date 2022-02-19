@@ -73,6 +73,12 @@ class PointCountTransformer:
         validator = DataFrameValidator(self.df, schema='transformed point count')
         validator.validate()
 
+    def export(self):
+        """Export dataframe."""
+        if self.storage is not None:
+            self.storage.write_file(self.df, 'data/transformed/point_counts.pkl')
+            self.storage.write_file(self.df, 'data/transformed/point_counts.csv')
+
     def transform(self):
         """Groups feature manipulation tasks into a single function."""
         self.x_to_bool()
@@ -80,6 +86,8 @@ class PointCountTransformer:
         self.start_time_to_seconds()
         self.abbr_to_full()
         self.clean()
+        self.validate()
+        self.export()
         logger.info('[DONE] preprocess_transform_point_counts()')
         return self.df
 

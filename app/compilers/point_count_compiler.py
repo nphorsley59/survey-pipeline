@@ -36,6 +36,7 @@ class PointCountCompiler:
         """Export dataframe."""
         if self.storage:
             self.storage.write_file(self.df, 'data/compiled/point_counts.pkl')
+            self.storage.write_file(self.df, 'data/compiled/point_counts.csv')
 
     def compile(self):
         """Compile ingested dataframes."""
