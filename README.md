@@ -1,9 +1,9 @@
-# <div align="center"> Organic Farm Avian Monitoring Program <div>
+# <div align="center"> Birds on the Farm Monitoring Program <div>
 
 ![alt_text](https://github.com/nphorsley59/avian_monitoring/blob/main/docs/images/birds-liner-wildlife-banner-marya-kutuzova.jpg "banner")  
   
 ## Project Overview
-The Organic Farm Avian Monitoring Program was launched in 2019 with the purpose of connecting sustainable land use practices with changes in native bird communities. Our team is particularly interested in species that provide ecosystem services or are of conservation concern. To date, we have completed four survey seasons at five organic farms in Ford County, Illinois. 
+The Birds on the Farm Monitoring Program was launched in 2019 with the purpose of connecting sustainable land use practices with changes in native bird communities. Our team is particularly interested in species that provide ecosystem services or are of conservation concern. To date, we have completed four survey seasons at five organic farms in Ford County, Illinois. 
 
 ## Enrolled Farms
 - Cow Creek (400 acres) <br />
