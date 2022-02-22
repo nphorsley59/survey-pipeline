@@ -8,9 +8,6 @@ import unittest
 import warnings
 
 
-from config import Config
-
-
 class BaseCase(unittest.TestCase):
     """Use this class to build fixtures for the setUp and tearDown of all tests."""
 
@@ -23,6 +20,6 @@ class BaseCase(unittest.TestCase):
 
 class SanityCheckCase(BaseCase):
     """Ensure that the OS is working correctly."""
-    def test_config(self):
-        self.assertIsNotNone(Config.PROJECT_DIR)
-        self.assertIsNotNone(Config.DEFAULT_STORAGE)
+
+    def test_init(self):
+        pass

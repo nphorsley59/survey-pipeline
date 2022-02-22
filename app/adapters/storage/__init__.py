@@ -7,7 +7,8 @@ get_storage() should always be used in place of calling adapter directly.
 """
 
 
-from app.adapters.storage.local_directory import LocalDirectory
+from app.adapters.storage.local_directory import (LocalDirectory,
+                                                  factory_local_directory)
 from config import Config, logger
 
 

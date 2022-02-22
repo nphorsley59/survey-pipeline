@@ -4,6 +4,9 @@ the codebase.
 """
 
 
+import os
+
+
 import numpy as np
 import pandas as pd
 
@@ -71,3 +74,8 @@ def get_index_for_upper_str(a_list: list[str]) -> list[int]:
     """Get indexes for list elements in all caps."""
     is_all_caps = [ele.isupper() for ele in a_list]
     return np.where(is_all_caps)[0]
+
+
+def delete_file(write_path):
+    if os.path.isfile(write_path):
+        os.remove(write_path)
