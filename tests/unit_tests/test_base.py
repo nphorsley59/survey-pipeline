@@ -4,6 +4,7 @@ unittest.TestCase or BaseCase will be run as a test.
 """
 
 
+from datetime import date
 import os
 import unittest
 import warnings
@@ -15,7 +16,8 @@ import pandas as pd
 
 from app.adapters.storage import get_storage
 from app.utils import (replace_substrings, subset_by_substring, split_strings,
-                       get_index_for_upper_str, delete_file)
+                       get_index_for_upper_str, delete_file, get_dated_fname,
+                       get_path_attrs)
 from config import Config
 
 
@@ -42,7 +44,6 @@ class UtilsTestCase(BaseCase):
         self.df = pd.DataFrame(
             np.array([['b**ir*d', 'bird'], [2, 3]]),
             columns=['a', 'b'])
-        self.test_list = ['a', 'Bb', 'CC']
 
     def test_replace_substrings(self):
         df = replace_substrings(self.df, 'a', '*', '')
@@ -57,16 +58,30 @@ class UtilsTestCase(BaseCase):
         self.assertIsInstance(df['a'][0], list)
 
     def test_get_index_for_upper_str(self):
+        self.test_list = ['a', 'Bb', 'CC']
         i = get_index_for_upper_str(self.test_list)
         self.assertTrue(i == 2)
 
-    def delete_file(self):
+    def test_delete_file(self):
         storage = get_storage()
         path = 'data/test_assets/test_delete_file.csv'
         storage.write_file(self.df, 'data/test_assets/test_delete_file.csv')
-        self.assertTrue(os.path.isfile(storage.get_path_attrs(path)[0]))
-        delete_file(path)
-        self.assertFalse(os.path.isfile(storage.get_path_attrs(path)[0]))
+        abs_path = get_path_attrs(path)[0]
+        self.assertTrue(os.path.isfile(abs_path))
+        delete_file(abs_path)
+        self.assertFalse(os.path.isfile(abs_path))
+
+    def test_get_dated_fname(self):
+        fname = 'example_file.txt'
+        today = date.today().strftime(Config.DATETIME_FORMAT)
+        dated_fname = get_dated_fname(fname)
+        self.assertTrue(dated_fname == f'example_file--{today}.txt')
+
+    def test_get_path_attrs(self):
+        fname = 'example_file.txt'
+        path_attrs = get_path_attrs(fname)
+        self.assertTrue(Config.PROJECT_DIR in path_attrs[0])
+        self.assertTrue(path_attrs[1] == '.txt')
 
 
 if __name__ == '__main__':
