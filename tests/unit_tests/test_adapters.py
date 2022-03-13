@@ -19,13 +19,9 @@ from tests.unit_tests import BaseCase
 class GetStorageTestCase(BaseCase):
     """File path being tested: app/adapters/storage/init.py."""
 
-    def setUp(self):
-        self.adapters = {'local': LocalDirectory}
-
-    def test_get_storage_returns_correct_adapter(self):
-        for key, adapter in self.adapters.items():
-            result = get_storage(storage_type=key)
-            self.assertIsInstance(result, adapter)
+    def test_get_storage_local_returns_local_directory_adapter(self):
+        result = get_storage(storage_type='local')
+        self.assertIsInstance(result, LocalDirectory)
 
     def test_invalid_storage_type(self):
         with self.assertRaises(ValueError):
@@ -36,36 +32,65 @@ class LocalDirectoryTestCase(BaseCase):
     """File path being tested: app/adapters/storage/local_directory.py."""
 
     def setUp(self):
-        self.storage = LocalDirectory()
         self.path = 'data/test_assets/test_read_write'
-        self.extensions = ['.csv', '.pkl', '.json', '.invalid']
         self.df = pd.DataFrame(np.array([[1, 2], [2, 3]]), columns=['a', 'b'])
 
     def test_create_instance(self):
-        self.assertIsInstance(self.storage, LocalDirectory)
+        storage = LocalDirectory()
+        self.assertIsInstance(storage, LocalDirectory)
 
-    def test_read_file_returns_a_df(self):
-        for extension in self.extensions:
-            path = self.path + extension
-            if extension == '.invalid':
-                with self.assertRaises(KeyError):
-                    self.storage.read_file(path)
-            else:
-                df = self.storage.read_file(path)
-                self.assertIsInstance(df, pd.DataFrame)
-                self.assertTrue(df.shape[0] > 0)
+    def read_file(self, storage, extension):
+        path = self.path + extension
+        if extension == '.invalid':
+            with self.assertRaises(KeyError):
+                storage.read_file(path)
+        else:
+            df = storage.read_file(path)
+            self.assertIsInstance(df, pd.DataFrame)
+            self.assertTrue(df.shape[0] > 0)
 
-    def test_write_file_writes_to_folder(self):
-        for extension in self.extensions:
-            path = self.path + extension
-            delete_file(path)
-            self.assertFalse(os.path.isfile(path))
-            if extension == '.invalid':
-                with self.assertRaises(KeyError):
-                    self.storage.write_file(self.df, path)
-            else:
-                self.storage.write_file(self.df, path)
-                self.assertTrue(os.path.isfile(self.storage.get_path_attrs(path)[0]))
+    def test_read_csv_returns_a_df(self):
+        storage = LocalDirectory()
+        self.read_file(storage=storage, extension='.csv')
+
+    def test_read_pkl_returns_a_df(self):
+        storage = LocalDirectory()
+        self.read_file(storage=storage, extension='.pkl')
+
+    def test_read_json_returns_a_df(self):
+        storage = LocalDirectory()
+        self.read_file(storage=storage, extension='.json')
+
+    def test_read_invalid_extension_raises_error(self):
+        storage = LocalDirectory()
+        self.read_file(storage=storage, extension='.invalid')
+
+    def write_file(self, storage, extension):
+        path = self.path + extension
+        delete_file(path)
+        self.assertFalse(os.path.isfile(path))
+        if extension == '.invalid':
+            with self.assertRaises(KeyError):
+                storage.write_file(self.df, path)
+        else:
+            storage.write_file(self.df, path)
+            self.assertTrue(os.path.isfile(storage.get_path_attrs(path)[0]))
+
+    def test_write_csv_writes_to_path(self):
+        storage = LocalDirectory()
+        self.read_file(storage=storage, extension='.csv')
+
+    def test_write_pkl_writes_to_path(self):
+        storage = LocalDirectory()
+        self.read_file(storage=storage, extension='.pkl')
+
+    def test_write_json_writes_to_path(self):
+        storage = LocalDirectory()
+        self.read_file(storage=storage, extension='.json')
+
+    def test_write_invalid_extension_raises_error(self):
+        storage = LocalDirectory()
+        self.read_file(storage=storage, extension='.invalid')
 
 
 if __name__ == '__main__':

@@ -27,7 +27,6 @@ class PointCountIngestorTestCase(BaseCase):
     def test_init_instance(self):
         self.assertIsInstance(self.all_point_count_ingestors, list)
         self.assertIsInstance(self.single_point_count_ingestor, PointCountIngestor)
-        self.assertIsInstance(self.single_point_count_ingestor.df, pd.DataFrame)
         self.assertTrue(
             self.single_point_count_ingestor.path in Config.POINT_COUNT_SOURCES)
         self.assertIsNone(self.single_point_count_ingestor.storage)
@@ -36,6 +35,8 @@ class PointCountIngestorTestCase(BaseCase):
         df = self.single_point_count_ingestor.ingest()
         self.assertIsInstance(df, pd.DataFrame)
         self.assertTrue(df.shape[0] > 0)
+
+    # check added columns were added
 
 
 class SpeciesNamesIngestorTestCase(BaseCase):
