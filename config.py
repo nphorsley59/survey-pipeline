@@ -32,6 +32,7 @@ class Config:
     # Settings
     PROJECT_DIR = os.path.dirname(__file__)
     DEFAULT_STORAGE = 'local'
+    DATETIME_FORMAT = '%Y-%m-%d'
     # Source files
     POINT_COUNT_SOURCES = ['data/source/point_counts_2021-07-02.csv',
                            'data/source/point_counts_2020-06-21.csv']

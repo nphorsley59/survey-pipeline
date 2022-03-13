@@ -4,11 +4,16 @@ the codebase.
 """
 
 
+from datetime import date
 import os
+import pathlib
 
 
 import numpy as np
 import pandas as pd
+
+
+from config import Config
 
 
 def replace_substrings(df: pd.DataFrame,
@@ -79,3 +84,30 @@ def get_index_for_upper_str(a_list: list[str]) -> list[int]:
 def delete_file(write_path):
     if os.path.isfile(write_path):
         os.remove(write_path)
+
+
+def get_dated_fname(fname):
+    """Change a regular filename into a filename with date added to it.
+
+    Args:
+        fname (): "example_file.txt"
+
+    Returns:
+        "example_file--2021-11-30.txt
+    """
+    today = date.today().strftime(Config.DATETIME_FORMAT)
+    return f"{os.path.splitext(fname)[0]}--{today}{os.path.splitext(fname)[-1]}"
+
+
+def get_path_attrs(relative_path: str) -> tuple:
+    """Convert relative path to an absolute path and extract extension.
+
+    Args:
+        relative_path (str): Relative path to read/write location.
+
+    Notes:
+        Helper method for read_file and write_file.
+    """
+    absolute_path = os.path.join(Config.PROJECT_DIR, relative_path)
+    extension = pathlib.Path(absolute_path).suffix
+    return absolute_path, extension

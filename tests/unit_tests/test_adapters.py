@@ -12,7 +12,7 @@ import pandas as pd
 
 
 from app.adapters.storage import get_storage, LocalDirectory
-from app.utils import delete_file
+from app.utils import delete_file, get_path_attrs
 from tests.unit_tests import BaseCase
 
 
@@ -74,23 +74,23 @@ class LocalDirectoryTestCase(BaseCase):
                 storage.write_file(self.df, path)
         else:
             storage.write_file(self.df, path)
-            self.assertTrue(os.path.isfile(storage.get_path_attrs(path)[0]))
+            self.assertTrue(os.path.isfile(get_path_attrs(path)[0]))
 
     def test_write_csv_writes_to_path(self):
         storage = LocalDirectory()
-        self.read_file(storage=storage, extension='.csv')
+        self.write_file(storage=storage, extension='.csv')
 
     def test_write_pkl_writes_to_path(self):
         storage = LocalDirectory()
-        self.read_file(storage=storage, extension='.pkl')
+        self.write_file(storage=storage, extension='.pkl')
 
     def test_write_json_writes_to_path(self):
         storage = LocalDirectory()
-        self.read_file(storage=storage, extension='.json')
+        self.write_file(storage=storage, extension='.json')
 
     def test_write_invalid_extension_raises_error(self):
         storage = LocalDirectory()
-        self.read_file(storage=storage, extension='.invalid')
+        self.write_file(storage=storage, extension='.invalid')
 
 
 if __name__ == '__main__':

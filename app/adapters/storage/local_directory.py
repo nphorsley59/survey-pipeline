@@ -13,38 +13,24 @@ to the PROJECT_DIR object defined in config.py.
 
 
 import json
-import os
-import pathlib
 from typing import Optional
 
 
 import pandas as pd
 
 
-from config import Config, logger
+from app.utils import get_dated_fname, get_path_attrs
+from config import logger
 
 
 class LocalDirectory:
     """Class to read and write data from the local directory."""
 
-    def __init__(self, directory: Optional[str] = None):
+    def __init__(self):
         """Initialize LocalDirectory instance."""
-        self.directory = directory or Config.PROJECT_DIR
 
-    def get_path_attrs(self, relative_path: str) -> tuple:
-        """Convert relative path to an absolute path and extract extension.
-
-        Args:
-            relative_path (str): Relative path to read/write location.
-
-        Notes:
-            Helper method for read_file and write_file.
-        """
-        absolute_path = os.path.join(self.directory, relative_path)
-        extension = pathlib.Path(absolute_path).suffix
-        return absolute_path, extension
-
-    def read_file(self, relative_path: str,
+    @staticmethod
+    def read_file(relative_path: str,
                   header: Optional[list] = None) -> pd.DataFrame:
         """Interpret relative path and read file type to pandas dataframe.
 
@@ -56,7 +42,7 @@ class LocalDirectory:
             Pandas dataframe or dictionary, depending on the file type.
         """
         logger.info(f'[READ] {relative_path}')
-        absolute_path, extension = self.get_path_attrs(relative_path=relative_path)
+        absolute_path, extension = get_path_attrs(relative_path=relative_path)
         # Infer file type from extension and read
         match extension:
             case ".csv":
@@ -77,25 +63,35 @@ class LocalDirectory:
             case _:
                 raise KeyError(f'Unsupported file type "{extension}"')
 
-    def write_file(self, df: pd.DataFrame, relative_path: str):
+    @staticmethod
+    def write_file(df: pd.DataFrame, relative_path: str, do_dated: bool = True):
         """Interpret relative path and write file type to location.
 
         Args:
             df (pd.DataFrame): Dataframe to write.
             relative_path (str): Relative path to write location.
+            do_dated (bool): Save a dated copy of the file.
         """
         logger.info(f'[WRITE] {relative_path}')
-        absolute_path, extension = self.get_path_attrs(relative_path=relative_path)
+        absolute_path, extension = get_path_attrs(relative_path=relative_path)
+        dated_absolute_path = get_dated_fname(absolute_path)
         # Infer file type from extension and write
         match extension:
             case ".csv":
-                return df.to_csv(absolute_path, index=False)
+                df.to_csv(absolute_path, index=False)
+                if do_dated:
+                    df.to_csv(dated_absolute_path, index=False)
             case ".pkl":
-                return df.to_pickle(absolute_path)
+                df.to_pickle(absolute_path)
+                if do_dated:
+                    df.to_pickle(dated_absolute_path)
             case ".json":
                 json_dict = json.dumps(df.T.to_dict())
                 with open(absolute_path, 'w') as f:
                     json.dump(json_dict, f)
+                if do_dated:
+                    with open(dated_absolute_path, 'w') as f:
+                        json.dump(json_dict, f)
             case _:
                 raise KeyError(f'Unsupported file type "{extension}"')
 
