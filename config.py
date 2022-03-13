@@ -32,12 +32,10 @@ class Config:
     # Settings
     PROJECT_DIR = os.path.dirname(__file__)
     DEFAULT_STORAGE = 'local'
-    # Source file paths
+    # Source files
     POINT_COUNT_SOURCES = ['data/source/point_counts_2021-07-02.csv',
                            'data/source/point_counts_2020-06-21.csv']
-    POINT_COUNTS_INGESTED = ['data/ingested/point_counts_2021-07-02.pkl',
-                             'data/ingested/point_counts_2020-06-21.pkl']
-    # Validation constants and mapping
+    # Mapping constants
     OBSERVERS = {
         'CKD': 'Colin Dobson',
         'NPH': 'Noah Horsley'
@@ -70,112 +68,43 @@ class Config:
     CLUSTER_SIZE = {'min': 1, 'max': 1000}
     # Schemas
     SCHEMA_POINT_COUNT_INGEST = {
-        'observer_id': {
-            'type': object,
-            'required': False,
-            'default': None},
-        'year': {
-            'type': float,
-            'required': True,
-            'default': None},
-        'month': {
-            'type': float,
-            'required': True,
-            'default': None},
-        'day': {
-            'type': float,
-            'required': True,
-            'default': None},
-        'site_id': {
-            'type': object,
-            'required': True,
-            'default': None},
-        'start_time': {
-            'type': object,
-            'required': False,
-            'default': '00:00'},
-        'point': {
-            'type': float,
-            'required': True,
-            'default': None},
-        'minute': {
-            'type': float,
-            'required': False,
-            'default': None},
-        'species_code': {
-            'type': object,
-            'required': True,
-            'default': None},
-        'distance': {
-            'type': float,
-            'required': False,
-            'default': None},
-        'how': {
-            'type': object,
-            'required': False,
-            'default': None},
-        'visual': {
-            'type': object,
-            'required': False,
-            'default': None},
-        'sex': {
-            'type': object,
-            'required': False,
-            'default': 'U'},
-        'migrating': {
-            'type': object,
-            'required': False,
-            'default': None},
-        'cluster_size': {
-            'type': float,
-            'required': False,
-            'default': 1},
-        'cluster_code': {
-            'type': object,
-            'required': False,
-            'default': None},
-        'notes': {
-            'type': object,
-            'required': False,
-            'default': None}
+        'observer_id': {'type': object, 'required': False, 'default': None},
+        'year': {'type': float, 'required': True, 'default': None},
+        'month': {'type': float, 'required': True, 'default': None},
+        'day': {'type': float, 'required': True, 'default': None},
+        'site_id': {'type': object, 'required': True, 'default': None},
+        'start_time': {'type': object, 'required': False, 'default': '00:00'},
+        'point': {'type': float, 'required': True, 'default': None},
+        'minute': {'type': float, 'required': False, 'default': None},
+        'species_code': {'type': object, 'required': True, 'default': None},
+        'distance': {'type': float, 'required': False, 'default': None},
+        'how': {'type': object, 'required': False, 'default': None},
+        'visual': {'type': object, 'required': False, 'default': None},
+        'sex': {'type': object, 'required': False, 'default': 'U'},
+        'migrating': {'type': object, 'required': False, 'default': None},
+        'cluster_size': {'type': float, 'required': False, 'default': 1},
+        'cluster_code': {'type': object, 'required': False, 'default': None},
+        'notes': {'type': object, 'required': False, 'default': None}
     }
     SCHEMA_POINT_COUNT_TRANSFORM = {
-        'observer_id': {
-            'type': object},
-        'observer': {
-            'type': object},
-        'site_id': {
-            'type': object},
-        'site': {
-            'type': object},
-        'date': {
-            'type': 'datetime64[ns]'},
-        'start_time': {
-            'type': float},
-        'point': {
-            'type': float},
-        'minute': {
-            'type': float},
-        'species_code': {
-            'type': object},
-        'species': {
-            'type': object},
-        'distance': {
-            'type': float},
-        'how': {
-            'type': object},
-        'visual': {
-            'type': bool},
-        'sex': {
-            'type': object},
-        'migrating': {
-            'type': bool},
-        'cluster_size': {
-            'type': float},
-        'cluster_code': {
-            'type': object},
-        'notes': {
-            'type': object}
+        'observer_id': {'type': object},
+        'observer': {'type': object},
+        'site_id': {'type': object},
+        'site': {'type': object},
+        'date': {'type': 'datetime64[ns]'},
+        'start_time': {'type': float},
+        'point': {'type': float},
+        'minute': {'type': float},
+        'species_code': {'type': object},
+        'species': {'type': object},
+        'distance': {'type': float},
+        'how': {'type': object},
+        'visual': {'type': bool},
+        'sex': {'type': object},
+        'migrating': {'type': bool},
+        'cluster_size': {'type': float},
+        'cluster_code': {'type': object},
+        'notes': {'type': object}
     }
 
 

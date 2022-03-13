@@ -36,6 +36,7 @@ class PointCountCompiler:
         """Export dataframe."""
         if self.storage:
             self.storage.write_file(self.df, 'data/compiled/point_counts.pkl')
+            self.storage.write_file(self.df, 'data/compiled/point_counts.csv')
 
     def compile(self):
         """Compile ingested dataframes."""
@@ -59,7 +60,8 @@ def factory_compile_point_counts(dfs: Optional[list[pd.DataFrame]] = None,
     """
     logger.info('[INIT] compile_point_counts()')
     read_storage = storage or get_storage()
-    paths = Config.POINT_COUNTS_INGESTED
+    paths = [path.replace('/source/', '/ingested/').replace('.csv', '.pkl')
+             for path in Config.POINT_COUNT_SOURCES]
     dfs = dfs or [read_storage.read_file(path) for path in paths]
     compiler = PointCountCompiler(dfs=dfs, storage=storage)
     logger.info('[PRIMED] compile_point_counts()')

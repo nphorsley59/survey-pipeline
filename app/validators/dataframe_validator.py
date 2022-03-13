@@ -109,9 +109,9 @@ class DataFrameValidator:
                     Config.DISTANCE_RANGE['max']),
                 nullable=True),
             'how': pa.Column(
-                str, pa.Check.isin(Config.HOW.keys()), nullable=True),
+                str, pa.Check.isin(Config.HOW.values()), nullable=True),
             'visual': pa.Column(bool),
-            'sex': pa.Column(str, pa.Check.isin(Config.SEX.keys())),
+            'sex': pa.Column(str, pa.Check.isin(Config.SEX.values())),
             'migrating': pa.Column(bool),
             'cluster_size': pa.Column(
                 float, pa.Check.in_range(
