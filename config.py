@@ -92,6 +92,7 @@ class Config:
         'observer': {'type': object},
         'site_id': {'type': object},
         'site': {'type': object},
+        'sampling_period': {'type': str},
         'date': {'type': 'datetime64[ns]'},
         'start_time': {'type': float},
         'point': {'type': float},
