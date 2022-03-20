@@ -20,6 +20,12 @@ from config import Config, logger
 
 class PointCountTransformer:
     """Class to prepare point count data for analysis."""
+    SEASONS = {
+        'Winter': [11, 12, 1],
+        'Spring': [2, 3, 4],
+        'Summer': [5, 6, 7],
+        'Fall': [8, 9, 10]
+    }
 
     def __init__(self, df: pd.DataFrame, species_map: dict,
                  storage: Optional = None):
@@ -42,6 +48,15 @@ class PointCountTransformer:
     def merge_date(self):
         """Merge year, month, and day into a single variable, date (YYYY-MM-DD)."""
         self.df['date'] = pd.to_datetime(self.df[['year', 'month', 'day']])
+
+    def add_sampling_period(self):
+        """Create column to identify the unique sampling period."""
+        self.df['season'] = self.df.apply(
+            lambda x: [k for k, i in self.SEASONS.items() if x['month'] in i][0],
+            axis=1)
+        self.df['sampling_period'] = self.df['season'] \
+            + ' ' \
+            + self.df['year'].astype(int).astype(str)
 
     def start_time_to_seconds(self):
         """Convert start time (HH:MM) to seconds elapsed since start of the day."""
@@ -83,6 +98,7 @@ class PointCountTransformer:
         """Groups feature manipulation tasks into a single function."""
         self.x_to_bool()
         self.merge_date()
+        self.add_sampling_period()
         self.start_time_to_seconds()
         self.abbr_to_full()
         self.clean()
@@ -117,4 +133,5 @@ def factory_transform_point_counts(df: Optional[pd.DataFrame] = None,
 
 
 if __name__ == '__main__':
-    test = factory_transform_point_counts().transform()
+    test = factory_transform_point_counts(storage=None).transform()
+    print(test.head(5))
