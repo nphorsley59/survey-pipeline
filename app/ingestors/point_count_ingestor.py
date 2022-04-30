@@ -37,6 +37,8 @@ class PointCountIngestor:
         """Validate header against template and set column order."""
         schema_columns = set(Config.SCHEMA_POINT_COUNT_INGEST.keys())
         ingested_columns = set(self.df.columns)
+        print(ingested_columns)
+        print(schema_columns)
         if ingested_columns != schema_columns:
             raise ValueError('Header does not match template.')
         self.df = self.df[Config.SCHEMA_POINT_COUNT_INGEST.keys()]

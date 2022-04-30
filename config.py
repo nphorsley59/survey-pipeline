@@ -34,8 +34,12 @@ class Config:
     DEFAULT_STORAGE = 'local'
     DATETIME_FORMAT = '%Y-%m-%d'
     # Source files
-    POINT_COUNT_SOURCES = ['data/source/point_counts_2021-07-02.csv',
-                           'data/source/point_counts_2020-06-21.csv']
+    POINT_COUNT_SOURCES = ['data/source/point_counts_2020_3_summer.csv',
+                           'data/source/point_counts_2021_2_spring.csv',
+                           'data/source/point_counts_2021_3_summer.csv',
+                           'data/source/point_counts_2021_4_fall.csv',
+                           'data/source/point_counts_2022_1_winter.csv',
+                           'data/source/point_counts_2022_2_spring.csv']
     # Mapping constants
     OBSERVERS = {
         'CKD': 'Colin Dobson',
@@ -66,7 +70,7 @@ class Config:
     POINTS_RANGE = {'min': 1, 'max': 88}
     MINUTES_RANGE = {'min': 1, 'max': 6}
     DISTANCE_RANGE = {'min': 0, 'max': 1000}
-    CLUSTER_SIZE = {'min': 1, 'max': 1000}
+    CLUSTER_SIZE = {'min': 1, 'max': 5000}
     # Schemas
     SCHEMA_POINT_COUNT_INGEST = {
         'observer_id': {'type': object, 'required': False, 'default': None},

@@ -21,10 +21,10 @@ from config import Config, logger
 class PointCountTransformer:
     """Class to prepare point count data for analysis."""
     SEASONS = {
-        'Winter': [11, 12, 1],
-        'Spring': [2, 3, 4],
-        'Summer': [5, 6, 7],
-        'Fall': [8, 9, 10]
+        'Winter': [1, 2, 3],
+        'Spring': [4],
+        'Summer': [5, 6, 7, 8],
+        'Fall': [10, 11, 12]
     }
 
     def __init__(self, df: pd.DataFrame, species_map: dict,
