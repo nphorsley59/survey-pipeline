@@ -3,11 +3,9 @@ Ingest and transform point count data. Use flags to control behavior; use -p for
 production run and -t for a test (read-only) run.
 """
 
-
 import sys
 import time
 from typing import Optional
-
 
 from app.adapters.storage import get_storage
 from app.compilers import factory_compile_point_counts
@@ -19,11 +17,11 @@ from config import logger
 class PointCountRunner:
     """Class to run ingestion and transformation for point count data."""
 
-    def __init__(self, mode: str, storage: Optional = None):
+    def __init__(self, write: bool, storage: Optional = None):
         """Initialize PointCountRunner instance.
 
         Args:
-            mode (str): Run mode; use -p for a production run and -t for a test
+            write (bool): Run mode; use -p for a production run and -t for a test
                 (read-only) run.
             storage: Storage adapter to write to.
         """
@@ -57,25 +55,25 @@ class PointCountRunner:
                     f'Runtime: {time.time() - start}s')
 
 
-def factory_point_count_runner(mode: str, storage: Optional = None):
-    """Factory to run ingestion and transformation for point count data.
+def factory(storage: str = None):
+    """Factory to ingest and process point count data.
 
     Args:
-        mode (str): Run mode; use -p for a production run and -t for a test
-            (read-only) run.
-        storage: Storage adapter to write to.
+        storage: Storage adapter to write results to; defaults to read-only.
     """
-    logger.info('[INIT] factory_point_count_runner()')
     storage = storage or get_storage()
-    runner = PointCountRunner(mode=mode, storage=storage)
-    logger.info('[PRIMED] factory_point_count_runner()')
+    runner = PointCountRunner(storage=storage)
     return runner
 
 
 if __name__ == '__main__':
-    if len(sys.argv) > 1:
-        run_mode = sys.argv[1]
-    else:
-        run_mode = '-t'
-    factory_runner = factory_point_count_runner(mode=run_mode)
-    factory_runner.run()
+    import argparse
+    parser = argparse.ArgumentParser(description="Ingest and process point count data")
+    required = parser.add_argument_group('required_arguments')
+    required.add_argument('-s', '--storage',
+                          required=False, type=str,
+                          help="String representation of storage adapter to use to write "
+                               "results to file. Options -> 'local'; defaults to read-only.")
+    parser._action_groups.reverse()
+    args = parser.parse_args()
+    factory(storage=args.storage).run()
