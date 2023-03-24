@@ -4,5 +4,5 @@ __pycache__/
 venv/
 .env
 .vscode/
-.DS_Store
+**.DS_Store
 TODO.py
