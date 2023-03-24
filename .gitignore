@@ -2,6 +2,7 @@ docs/
 .idea/
 __pycache__/
 venv/
+.env
 .vscode/
 .DS_Store
 TODO.py
