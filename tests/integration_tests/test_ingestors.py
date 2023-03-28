@@ -9,9 +9,9 @@ import unittest
 import pandas as pd
 
 
-from app.ingestors.point_count_ingestor import (
+from src.ingestors.point_count_ingestor import (
     factory_ingest_point_counts, PointCountIngestor)
-from app.ingestors.species_names_ingestor import (
+from src.ingestors.species_names_ingestor import (
     factory_ingest_species_names, SpeciesNamesIngestor)
 from config import Config
 from tests.integration_tests import BaseCase

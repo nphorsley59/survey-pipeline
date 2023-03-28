@@ -12,9 +12,9 @@ import numpy as np
 import pandas as pd
 
 
-from app.adapters.storage import get_storage
-from app.features import species_names_factory
-from app.validators import DataFrameValidator
+from src.adapters.storage import get_storage
+from src.features import species_names_factory
+from src.validators import DataFrameValidator
 from config import Config, logger
 
 

@@ -11,8 +11,8 @@ from typing import Optional
 import pandas as pd
 
 
-from app import utils
-from app.adapters.storage import get_storage
+from src import utils
+from src.adapters.storage import get_storage
 from config import logger
 
 

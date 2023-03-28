@@ -9,7 +9,7 @@ import unittest
 import pandas as pd
 
 
-from app.transformers import factory_transform_point_counts, PointCountTransformer
+from src.transformers import factory_transform_point_counts, PointCountTransformer
 from tests.integration_tests import BaseCase
 
 

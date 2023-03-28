@@ -12,8 +12,8 @@ from typing import Optional
 import pandas as pd
 
 
-from app.adapters.storage import get_storage
-from app.validators import DataFrameValidator
+from src.adapters.storage import get_storage
+from src.validators import DataFrameValidator
 from config import Config, logger
 
 

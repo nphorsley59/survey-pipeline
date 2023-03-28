@@ -11,7 +11,7 @@ import warnings
 import pandas as pd
 
 
-from app.run import run
+from src.run import run
 
 
 class BaseCase(unittest.TestCase):

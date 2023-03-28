@@ -6,7 +6,7 @@ Test compilers integration.
 import unittest
 
 
-from app.compilers import factory_compile_point_counts, PointCountCompiler
+from src.compilers import factory_compile_point_counts, PointCountCompiler
 from tests.integration_tests import BaseCase
 
 

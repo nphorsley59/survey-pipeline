@@ -14,8 +14,8 @@ import numpy as np
 import pandas as pd
 
 
-from app.adapters.storage import get_storage
-from app.utils import (replace_substrings, subset_by_substring, split_strings,
+from src.adapters.storage import get_storage
+from src.utils import (replace_substrings, subset_by_substring, split_strings,
                        get_index_for_upper_str, delete_file, get_dated_fname,
                        get_path_attrs)
 from config import Config

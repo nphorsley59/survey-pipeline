@@ -1,3 +1,3 @@
 
 
-from app.validators.dataframe_validator import DataFrameValidator
+from src.validators.dataframe_validator import DataFrameValidator

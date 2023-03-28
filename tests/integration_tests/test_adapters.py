@@ -6,7 +6,7 @@ Test adapters integration.
 import unittest
 
 
-from app.adapters.storage import factory_local_directory, LocalDirectory
+from src.adapters.storage import factory_local_directory, LocalDirectory
 from tests.unit_tests import BaseCase
 
 

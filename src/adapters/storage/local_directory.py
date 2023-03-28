@@ -19,7 +19,7 @@ from typing import Optional
 import pandas as pd
 
 
-from app.utils import get_dated_fname, get_path_attrs
+from src.utils import get_dated_fname, get_path_attrs
 from config import logger
 
 

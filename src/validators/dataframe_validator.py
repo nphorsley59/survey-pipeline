@@ -12,8 +12,8 @@ import pandas as pd
 import pandera as pa
 
 
-from app.adapters.storage import get_storage
-from app.features import species_names_factory
+from src.adapters.storage import get_storage
+from src.features import species_names_factory
 from config import Config, logger
 
 

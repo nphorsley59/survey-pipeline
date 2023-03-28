@@ -8,7 +8,8 @@ formatters:
 handlers:
     console:
         class: logging.StreamHandler
-        formatter: console
+        level: DEBUG
+        formatter: default
         stream: ext://sys.stdout
 
 loggers:

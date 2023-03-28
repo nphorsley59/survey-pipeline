@@ -1,4 +1,4 @@
 
 
-from app.ingestors.point_count_ingestor import factory_ingest_point_counts
-from app.ingestors.species_names_ingestor import factory_ingest_species_names
+from src.ingestors.point_count_ingestor import factory_ingest_point_counts
+from src.ingestors.species_names_ingestor import factory_ingest_species_names

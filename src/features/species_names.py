@@ -9,7 +9,7 @@ from typing import Optional
 import pandas as pd
 
 
-from app.adapters.storage import get_storage
+from src.adapters.storage import get_storage
 from config import logger
 
 
