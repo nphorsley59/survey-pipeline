@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 
 
-from app.compilers import PointCountCompiler
+from src.compilers import PointCountCompiler
 from tests.integration_tests import BaseCase
 
 

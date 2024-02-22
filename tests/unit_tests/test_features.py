@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 
 
-from app.features import SpeciesNames
+from src.features import SpeciesNames
 from tests.unit_tests import BaseCase
 
 

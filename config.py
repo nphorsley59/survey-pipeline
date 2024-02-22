@@ -1,23 +1,38 @@
 """
-Stores setup configurations for tools such as logging and pandas, as well as a
-Config class, which contains codebase-level constants.
+Project-level configurations; logging, environmental variables, pandas, etc.
 """
 
-
+import logging
+import logging.config
 import os
+
+from dotenv import load_dotenv
 import pandas as pd
 import yaml
 
 
-import logging.config
+# .env setup
+load_dotenv()
+
+
+def set_logger(logger_type: str = None) -> logging.Logger:
+    """Set up logger object from configs in logging.yaml.
+
+    Args:
+        logger_type (str): Name of logger config to use; defaults to root. 
+    """
+    logger_path = os.path.join(os.path.dirname(__file__), './logging.yaml')
+    with open(logger_path, 'r', encoding='utf-8') as f:
+        logger_config = yaml.safe_load(f.read())
+        logging.config.dictConfig(logger_config)
+    if logger_type is None:
+        return logging.getLogger(__name__)
+    return logging.getLogger(logger_type)
 
 
 # Logging setup
-with open(os.path.join(
-        os.path.dirname(__file__), './logging.yaml'), 'r') as stream:
-    logging_config = yaml.load(stream, Loader=yaml.FullLoader)
-logging.config.dictConfig(logging_config)
-logger = logging.getLogger('MAIN')
+LOGGING_MODE = os.getenv('LOGGING_MODE', 'info')
+logger = set_logger()
 
 
 # Pandas setup
@@ -27,6 +42,7 @@ pd.options.mode.chained_assignment = None
 pd.set_option('display.width', 500)
 
 
+# TODO - These items should be moved to a settings file.
 # Configs
 class Config:
     # Settings
@@ -34,12 +50,17 @@ class Config:
     DEFAULT_STORAGE = 'local'
     DATETIME_FORMAT = '%Y-%m-%d'
     # Source files
-    POINT_COUNT_SOURCES = ['data/source/point_counts_2020_3_summer.csv',
-                           'data/source/point_counts_2021_2_spring.csv',
-                           'data/source/point_counts_2021_3_summer.csv',
-                           'data/source/point_counts_2021_4_fall.csv',
-                           'data/source/point_counts_2022_1_winter.csv',
-                           'data/source/point_counts_2022_2_spring.csv']
+    POINT_COUNT_SOURCES = [
+        'data/source/point_counts_2020_3_summer.csv',
+        # 'data/source/point_counts_2021_2_spring.csv',
+        # 'data/source/point_counts_2021_3_summer.csv',
+        # 'data/source/point_counts_2021_4_fall.csv',
+        # 'data/source/point_counts_2022_1_winter.csv',
+        # 'data/source/point_counts_2022_2_spring.csv',
+        # 'data/source/point_counts_2022_3_summer.csv',
+        # 'data/source/point_counts_2022_4_fall.csv',
+        # 'data/source/point_counts_2023_1_winter.csv',
+    ]
     # Mapping constants
     OBSERVERS = {
         'CKD': 'Colin Dobson',

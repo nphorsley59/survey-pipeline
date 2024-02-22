@@ -9,7 +9,7 @@ import unittest
 import pandas as pd
 
 
-from app.features import species_names_factory, SpeciesNames
+from src.features import species_names_factory, SpeciesNames
 from tests.integration_tests import BaseCase
 
 

@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 
 
-from app.transformers import PointCountTransformer
+from src.transformers import PointCountTransformer
 from tests.unit_tests import BaseCase
 
 

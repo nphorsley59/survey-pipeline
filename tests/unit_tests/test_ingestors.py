@@ -10,8 +10,8 @@ import numpy as np
 import pandas as pd
 
 
-from app.ingestors.point_count_ingestor import PointCountIngestor
-from app.ingestors.species_names_ingestor import SpeciesNamesIngestor
+from src.ingestors.point_count_ingestor import PointCountIngestor
+from src.ingestors.species_names_ingestor import SpeciesNamesIngestor
 from tests.unit_tests import BaseCase
 
 

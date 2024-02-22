@@ -11,8 +11,8 @@ import numpy as np
 import pandas as pd
 
 
-from app.adapters.storage import get_storage, LocalDirectory
-from app.utils import delete_file, get_path_attrs
+from src.adapters.storage import get_storage, LocalDirectory
+from src.utils import delete_file, get_path_attrs
 from tests.unit_tests import BaseCase
 
 
