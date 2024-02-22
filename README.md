@@ -1,4 +1,4 @@
-# <div align="center"> Birds on the Farm Monitoring Program <div>
+# <div align="center"> Farmland Avian Monitoring Program <div>
 
 ![alt_text](https://github.com/nphorsley59/avian_monitoring/blob/main/docs/images/birds-liner-wildlife-banner-marya-kutuzova.jpg "banner")  
   
